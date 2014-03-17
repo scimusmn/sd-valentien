@@ -1,0 +1,1 @@
+SdValentien.ApplicationAdapter = DS.FixtureAdapter;
