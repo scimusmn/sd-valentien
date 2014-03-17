@@ -5,3 +5,42 @@ $icon-font-path: "../styles/fonts/"; // Change the path to the fonts
 html, body {
     margin: 30px 0;
 }
+
+li > div {
+  background: #DDD;
+  height: 40px;
+  padding: 10px;
+}
+
+ul.block-grid {
+  margin-left: -12px;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+ul.block-grid > li {
+  float: left;
+  padding: 0 12px 12px;
+  display: block;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul.block-grid.three-up > li {
+  width: 33.33333%;
+}
+ul.block-grid.three-up > li:nth-of-type(3n+1) {
+  clear: left;
+}
+
+ul.block-grid.five-up > li {
+  width: 20%;
+}
+ul.block-grid.five-up > li:nth-of-type(5n+1) {
+  clear: left;
+}

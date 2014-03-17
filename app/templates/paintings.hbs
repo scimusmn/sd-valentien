@@ -1,8 +1,8 @@
 <h1>Paintings</h1>
 
-<ul>
+<ul class="block-grid five-up">
  {{#each model}}
- <li>{{#link-to 'painting' this}}{{this.id}}{{/link-to}}</li>
+ <li><div>{{#link-to 'painting' this}}{{this.id}}{{/link-to}}</div></li>
   {{/each}}
 </ul>
 

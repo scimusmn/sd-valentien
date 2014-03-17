@@ -15,19 +15,11 @@ SdValentien.Painting.reopen({
 
 // delete below here if you do not want fixtures
 SdValentien.Painting.FIXTURES = [
-  
-  {
-    id: 0,
-    
-    name: 'foo'
-    
-  },
-  
-  {
-    id: 1,
-    
-    name: 'foo'
-    
-  }
-  
+    { id: 0, name: 'foo' },
+    { id: 1, name: 'foo' },
+    { id: 2, name: 'foo' },
+    { id: 3, name: 'foo' },
+    { id: 4, name: 'foo' },
+    { id: 5, name: 'foo' },
+    { id: 6, name: 'foo' },
 ];
