@@ -1,0 +1,9 @@
+<h1>Paintings</h1>
+
+<ul>
+ {{#each model}}
+ <li>{{#link-to 'painting' this}}{{this.id}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
