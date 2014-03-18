@@ -2,7 +2,12 @@
 
 <ul class="block-grid five-up">
  {{#each model}}
- <li><div>{{#link-to 'painting' this}}{{this.id}}{{/link-to}}</div></li>
+ <li>
+   <div>
+     <img {{bind-attr src=thumbURL}} width="100" height="100" alt="Logo"><br>
+     {{#link-to 'painting' this}}{{this.name}}{{/link-to}}
+   </div>
+ </li>
   {{/each}}
 </ul>
 
