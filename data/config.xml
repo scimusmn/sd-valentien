@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<config>
+
+	<!-- ======== -->
+	<!-- SETTINGS -->
+	<!-- ======== -->
+	<settings>
+		<setting id="developerMode" value="true" />
+		<setting id="timeout_delay" value="30" />
+		<setting id="example_setting" value="example_value" />
+	</settings>
+
+	<!-- ======================== -->
+	<!-- LANGUAGE / CONFIGURATION -->
+	<!-- ======================== -->
+	<component id="valentien_paintings">
+		
+		<text id="main_screen_title">				
+			<en>Plants of the coastal sage scrub</en>
+			<es>Lorem ipsum dolor sit amet</es>
+		</text>
+		
+		<text id="main_screen_subtitle">				
+			<en>Select a detail to see the painting and the plant</en>
+			<es>Nullam dapibus sit amet massa non tincidunt.</es>
+		</text>
+		
+		<text id="main_screen_description">				
+			<en>All of these plants painted by A.R. Valentien can be found at Torrey Pines State Natural Reserve and other places where coastal sage scrub habitat grows.</en>
+			<es>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue.</es>
+		</text>
+		
+		<!-- ============== -->
+		<!-- FLORA MANIFEST -->
+		<!-- ============== -->
+		<plants>
+			
+			<!-- Chamise -->	
+			<plant id="01_chamise">
+			
+				<images>
+					<image id="thumb">img/chamise_thumb.png</image>
+					<image id="painting">img/chamise_painting.png</image>
+					<image id="collections">img/chamise_collections.png</image>
+					<image id="nature">img/chamise_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Chamise</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Adenostoma fasciculatum</en>
+					<es>Lorem ipsum</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+			
+			<!-- Mariposa Lily -->	
+			<plant id="02_mariposa_lily">
+			
+				<images>
+					<image id="thumb">img/mariposa_lily_thumb.png</image>
+					<image id="painting">img/mariposa_lily_painting.png</image>
+					<image id="collections">img/mariposa_lily_collections.png</image>
+					<image id="nature">img/mariposa_lily_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Mariposa Lily</en>
+					<es>Lorem Ipsum Dolor</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Calochortus</en>
+					<es>Lorem ipsum</es>
+				</text>
+				
+				<text id="description">				
+					<en>English In lectus enim, efficitur vel risus vitae, facilisis pharetra purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</en>
+					<es>Spanish Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+			
+			<!-- Chalk Dudleya -->	
+			<plant id="15_chalk_dudleya">
+			
+				<images>
+					<image id="thumb">img/dudleya_thumb.png</image>
+					<image id="painting">img/dudleya_painting.png</image>
+					<image id="collections">img/dudleya_collections.png</image>
+					<image id="nature">img/dudleya_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Chalk Dudleya</en>
+					<es>Lorem Dolor</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Dudleya pulverulenta</en>
+					<es>Lorem ipsum</es>
+				</text>
+				
+				<text id="description">				
+					<en>English Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. </en>
+					<es>Spanish Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+		</plants>
+
+	</component>
+
+</config>
