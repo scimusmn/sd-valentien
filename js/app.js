@@ -12,7 +12,7 @@ require.config({
 });
 
 
-require(['jquery', 'net/AppData', 'net/Language' ], function( $, AppData, Language ) {
+require(['jquery', 'net/AppData', 'net/Language', 'net/ui/ScreenManager', 'net/ui/MainScreen', 'net/ui/ViewerScreen' ], function( $, AppData, Language, ScreenManager, MainScreen, ViewerScreen ) {
 
 	/*--------------*/
 	/* Initial Load */
@@ -36,16 +36,21 @@ require(['jquery', 'net/AppData', 'net/Language' ], function( $, AppData, Langua
     });
     
     function initialize() {
-    	
-		setupLanguage();	
-				
+
+    	ScreenManager.init();
+        ScreenManager.addScreen( new MainScreen( $('#screen_main') ) ); // Add Main Screen
+        ScreenManager.addScreen( new ViewerScreen( $('#screen_viewer') ) ); // Add Viewer Screen
+    	ScreenManager.showScreen( ScreenManager.SCREEN_MAIN );
+
+		setupLanguage();
+
     }
 
-    
     function setupLanguage() {
     
     	Language.setupTranslations( $(AppData.configXML).find("component").first() );
     	
+    	//use language button to switch between english and spandish
     	$( "#language_btn" ).on( "click", function(){
     		    		
     		if ( Language.getCurrentLanguage() == Language.ENGLISH ) {

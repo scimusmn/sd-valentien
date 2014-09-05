@@ -26,22 +26,28 @@ define(['net/AppData'], function(AppData){
 
 	/* setLanguage() | Find and replace all text by translation ids */
 	Language.setLanguage = function( languageId ){
-	
+		
+		Language.currentLanguage = languageId;
 		
 		//Find all swappable language
 		$("#wrapper").find("p,h1,h2,h3,span").each(function(){
 			
 			//Retrieve translation text from translation xml
-			var translationId = $(this).attr('id');
-			var translationText = $( Language.translationXML ).find('text[id="'+translationId+'"]').children( languageId ).first().text(); 
+			var translationText = Language.getTranslation( $(this).attr('id'), Language.translationXML );
 			
 			//Apply to html
 			if (translationText != '') $(this).html( translationText );
-		
+			
 		});
+	
+	}
+	
+	/* getTranslationById() | Find specific translation text in XML. */
+	Language.getTranslation = function( translationId, fromConfig ){
 		
-		Language.currentLanguage = languageId;
-				
+		var translationText = $( fromConfig ).find('text[id="'+translationId+'"]').children( Language.currentLanguage ).first().text();
+		return translationText;
+		
 	}
 	
 	/* getCurrentLanguage() | Return the current displayed language key. */

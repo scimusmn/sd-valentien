@@ -116,9 +116,9 @@ body {
 	height: 1920px;
 	
 	/* - uncomment to test responsive */
-	width: 100%;
+	/*width: 100%;
 	height: 100%;
-	
+	*/
 }
 
 .container {
@@ -146,13 +146,82 @@ p {
 }
 
 [data-role="button"] {
-
 	cursor: pointer;
+}
+
+/* Language */
+#language_btn {
+
+	position: fixed;
+	text-align: center;
 	
+	width: 150px;
+	height: 50px;
+	
+	bottom: 30px;
+	right: 40px;
+	
+	z-index: 2;
 }
 
 
+/* Main Screen */
+#main_nav_grid {
+	position:absolute;
+	top: 7px;
+}
 
+.thumb,
+.thumb p,
+.thumb img,
+.thumb div {
+	position: absolute;
+}
+
+.thumb {
+	
+}
+
+.thumb.row_1 {
+	top: 0px;
+}
+.thumb.row_2 {
+	top: 230px;
+}
+.thumb.row_3 {
+	top: 460px;
+}
+.thumb.row_4 {
+	top: 690px;
+}
+.thumb.row_5 {
+	top: 920px;
+}
+.thumb.row_6 {
+	top: 1150px;
+}
+
+.thumb.col_1 {
+	left: 0px;
+}
+.thumb.col_2 {
+	left: 220px;
+}
+.thumb.col_3 {
+	left: 440px;
+}
+.thumb.col_4 {
+	left: 660px;
+}
+.thumb.col_5 {
+	left: 880px;
+}
+
+
+#screen_main .content-left{
+	position: absolute;
+	top: 1400px;
+}
 
 
 

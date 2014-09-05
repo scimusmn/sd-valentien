@@ -18,9 +18,15 @@ define([], function(){
     	
     };
     
-    AppData.setCurrentState = function(stateId){
+    AppData.setCurrentScreen = function(screenId){
     
-    	this.currentStateId = stateId;
+    	this.currentScreenId = screenId;
+    	
+    };
+    
+    AppData.setFeaturePlant = function(plantId){
+    
+    	this.featuredPlant = plantId;
     	
     };
 
