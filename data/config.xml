@@ -15,6 +15,7 @@
 	<!-- ======================== -->
 	<component id="valentien_paintings">
 		
+		<!-- Main Screen -->
 		<text id="main_screen_title">				
 			<en>Plants of the coastal sage scrub</en>
 			<es>Lorem ipsum dolor sit amet</es>
@@ -30,6 +31,27 @@
 			<es>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue.</es>
 		</text>
 		
+		<!-- Viewer Screen -->
+		<text id="viewer_screen_instructions">				
+			<en>Click to examine this plant</en>
+			<es>Lorem ipsum dolor sit amet</es>
+		</text>
+		
+		<text id="viewer_screen_painting">				
+			<en>Painting</en>
+			<es>Lorem</es>
+		</text>
+		
+		<text id="viewer_screen_collections">				
+			<en>Collections</en>
+			<es>Ipsum</es>
+		</text>
+		
+		<text id="viewer_screen_nature">				
+			<en>Nature</en>
+			<es>Lorem</es>
+		</text>
+				
 		<!-- ============== -->
 		<!-- FLORA MANIFEST -->
 		<!-- ============== -->

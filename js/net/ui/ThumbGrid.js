@@ -1,4 +1,4 @@
-define(['net/Language'], function( Language ){
+define(['net/Language', 'tween'], function( Language ){
 
 	function ThumbGrid( containerDiv, thumbCloneDiv, configList, numCols, numRows ){
     
@@ -26,22 +26,42 @@ define(['net/Language'], function( Language ){
     			//add positioning styles to new thumb
     			newThumb.addClass('row_'+r+' col_'+c);
     			
-    			// Set id, image and text
     			$(newThumb).show();
     			thumbIndex++;    			
     			
     			var thumbConfig = $(this.configList).eq(thumbIndex %3); //TEMP ( %3 for prototype )
     			
+                // Set id, image and text
     			var thumbId = 'thumb_'+$(thumbConfig).attr('id');
     			var thumbTxt = Language.getTranslation( 'common_name', $(thumbConfig) ); 
     			var imgSrc = $(thumbConfig).find('images image[id="thumb"]').text();
-    			
     			$(newThumb).attr('id', thumbId);
-    			$(newThumb).children('#name').html(thumbTxt);
+    			$(newThumb).children('#common_name').html(thumbTxt);
     			$(newThumb).children('img').attr('src', imgSrc);
     			
+    			//Add filter attribute so translations are specific to this thumb
+    			$(newThumb).children('#common_name').attr("data-filter-id", $(thumbConfig).attr('id'));
+
     		}
     	}
+    	
+    	//Attach rollover listeners to all thumbs
+    	$(document).on("mouseenter", "#screen_main .thumb", function() {
+    	
+    		$( this ).children("#overlay").stop().fadeIn('fast');
+    		$( this ).children("p").stop().fadeIn('slow');
+    		
+    		TweenLite.to( $(this).children("p"), 0.4, { delay:0.1, css: { bottom: -10 }, ease:Power2.easeOut } );
+    	
+    	});
+    	$(document).on("mouseleave", "#screen_main .thumb", function() {
+    	
+    		$( this ).children("#overlay").stop().fadeOut('fast');
+    		$( this ).children("p").stop().fadeOut('fast');
+    		
+    		TweenLite.to( $(this).children("p"), 0.25, { css: { bottom: -20 }, ease:Power2.easeOut } );
+    	
+    	});
    	
     };
    

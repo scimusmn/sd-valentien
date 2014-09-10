@@ -13,8 +13,9 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/fonts/stylesheet.css">
-        
+
         <script src="js/vendor/requirejs/require.js" data-main="js/app.js"></script>
+                
         
     </head>
     <body>
@@ -27,10 +28,11 @@
         			<!-- populate thumb grid here -->
         			<div id="thumb_clone" class="thumb" data-role="button">
         				<img src="" alt="" />
-        				<div id="overlay" class="overlay"></div>
-        				<p id="name">+</p>
+        				<div id="overlay" class="overlay" style="display: none;"></div>
+        				<p id="common_name" style="display: none;">+</p>
         			</div>
         		</div>
+        		<div class="h-shadow-overlay"></div>
         		
         		<div class="content-left">
         			<h1 id="main_screen_title">+</h1>
@@ -41,13 +43,51 @@
         	</div>
 	    	
 	    	<div id="screen_viewer" class="screen">
-	    		<h1 id="">Viewer Screen</h1>
-                <h2 id="plantname">lorem</h2>
+	    	
+	    		<div id="viewer" class="viewer">
+	    		    <img id="painting" src="">
+	    		    <img id="collections" src="">
+	    		    <img id="nature" src="">
+	    		    <img id="temp" style="width: 1080px;" src="img/chamise_painting.png">
+	    		</div>
+
+                <div id="info_container" class="content-left">
+                	<h1 id="common_name">+</h1>
+                	<h3 id="scientific_name">+</h3>
+                	<p id="description">+</p>
+                </div>
+                
+                <div id="controls_bar" class="h-bar">
+                	
+                	<div id="view_selection" class="h-bar">
+                		<p id="viewer_screen_instructions">+</p>
+                		<div id="btn_view_painting" data-role="button"><p id="viewer_screen_painting">+</p></div>
+                		<div id="btn_view_collections" data-role="button"><p id="viewer_screen_collections">+</p></div>
+                		<div id="btn_view_nature" data-role="button"><p id="viewer_screen_nature">+</p></div>
+                	</div>
+                	
+                	<div id="home_bar" class="h-bar" data-role="button">
+                		<span class="glyphicon glyphicon-home"></span>
+                	</div>
+                	
+                	<div id="photo_controls">
+	                	<button id="zoom_in" data-role="button"> + </button>
+	                	<button id="zoom_out" data-role="button"> – </button>
+	                	</br>
+	                	<button id="pan_left" data-role="button">Left</button>
+	                	<button id="pan_right" data-role="button">Right</button>
+	                	<button id="pan_up" data-role="button">Up</button>
+	                	<button id="pan_down" data-role="button">Down</button>
+	                	</br>
+	                	<button id="snap_to_1" data-role="button">Snap To Point</button>
+                	</div>
+                	
+                </div>
+                
 	    	</div>
 	    	
-	    	
 	    	<div id="language_btn" data-role="button">
-	    		<p>Espanol</p>
+	    		<h3>Espanol</h3>
 	    	</div>
 	    	
     	</div>

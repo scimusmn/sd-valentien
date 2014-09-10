@@ -31,10 +31,25 @@ define(['net/AppData'], function(AppData){
 		
 		//Find all swappable language
 		$("#wrapper").find("p,h1,h2,h3,span").each(function(){
-			
+		
+			var translationText = "";
+		
+			//Filter-id (optional) used to narrow translation search
+			var filterId = $(this).attr('data-filter-id'); 	
+
 			//Retrieve translation text from translation xml
-			var translationText = Language.getTranslation( $(this).attr('id'), Language.translationXML );
+			if (filterId != undefined && filterId != '') {
+				
+				//filtered
+				translationText = Language.getTranslation( $(this).attr('id'), $(Language.translationXML).find("[id='"+filterId+"']") );
 			
+			} else {
+				
+				//unfiltered (search entire xml)
+				translationText = Language.getTranslation( $(this).attr('id'), Language.translationXML );
+				
+			} 
+						
 			//Apply to html
 			if (translationText != '') $(this).html( translationText );
 			

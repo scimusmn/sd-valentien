@@ -6,7 +6,8 @@ require.config({
     //setup up shortcuts for commonly used libraries and components
     paths: {
 	      'jquery'      	: 'vendor/jquery/dist/jquery.min',
-	      'tween'      		: 'vendor/gsap/src/minified/TweenMax.min'
+	      'tween'      		: 'vendor/gsap/src/minified/TweenMax.min',
+	      'Zoomer'			: 'vendor/Zoomer/jquery.fs.zoomer.min'
     }
     
 });
