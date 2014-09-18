@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="css/fonts/stylesheet.css">
 
         <script src="js/vendor/requirejs/require.js" data-main="js/app.js"></script>
-                
         
     </head>
     <body>
@@ -31,9 +30,7 @@
         				<div id="overlay" class="overlay" style="display: none;"></div>
         				<p id="common_name" style="display: none;">+</p>
         			</div>
-        		</div>
-        		<div class="h-shadow-overlay"></div>
-        		
+        		</div>        		
         		<div class="content-left">
         			<h1 id="main_screen_title">+</h1>
         			<h3 id="main_screen_subtitle">+</h3>
@@ -43,12 +40,11 @@
         	</div>
 	    	
 	    	<div id="screen_viewer" class="screen">
-	    	
+
+                <img id="loader" src="img/loader.gif">
+
 	    		<div id="viewer" class="viewer">
-	    		    <img id="painting" src="">
-	    		    <img id="collections" src="">
-	    		    <img id="nature" src="">
-	    		    <img id="temp" style="width: 1080px;" src="img/chamise_painting.png">
+                    <img id="img_loader" src="">
 	    		</div>
 
                 <div id="info_container" class="content-left">
@@ -61,9 +57,9 @@
                 	
                 	<div id="view_selection" class="h-bar">
                 		<p id="viewer_screen_instructions">+</p>
-                		<div id="btn_view_painting" data-role="button"><p id="viewer_screen_painting">+</p></div>
-                		<div id="btn_view_collections" data-role="button"><p id="viewer_screen_collections">+</p></div>
-                		<div id="btn_view_nature" data-role="button"><p id="viewer_screen_nature">+</p></div>
+                		<div id="btn_view_painting" data-role="button"><h3 id="viewer_screen_painting">+</h3></div>
+                		<div id="btn_view_collections" data-role="button"><h3 id="viewer_screen_collections">+</h3></div>
+                		<div id="btn_view_nature" data-role="button"><h3 id="viewer_screen_nature">+</h3></div>
                 	</div>
                 	
                 	<div id="home_bar" class="h-bar" data-role="button">
@@ -71,19 +67,52 @@
                 	</div>
                 	
                 	<div id="photo_controls">
-	                	<button id="zoom_in" data-role="button"> + </button>
-	                	<button id="zoom_out" data-role="button"> – </button>
-	                	</br>
-	                	<button id="pan_left" data-role="button">Left</button>
-	                	<button id="pan_right" data-role="button">Right</button>
-	                	<button id="pan_up" data-role="button">Up</button>
-	                	<button id="pan_down" data-role="button">Down</button>
-	                	</br>
-	                	<button id="snap_to_1" data-role="button">Snap To Point</button>
-                	</div>
-                	
+                        <div id="pan_zoom">
+                            <!-- Zoom Control | Pan Compass  -->
+                            <svg version="1.1" id="controls_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 69.75 105.5">
+                                <g id="zoom_in" data-role="button">
+                                    <rect x="3.831" y="77.825" class="bg" width="29.833" height="25.354"/>
+                                    <path class="icon" d="M11.959,91.786v-3.565h4.756v-4.758h3.566v4.758h4.756v3.565h-4.756v4.756h-3.566v-4.756H11.959z"/>
+                                </g>
+                                <g id="zoom_out" data-role="button">
+                                    <rect x="35.914" y="77.825" class="bg" width="29.834" height="25.354"/>
+                                    <path class="icon" d="M45.481,91.785h10.699V88.22H45.481V91.785z"/>
+                                </g>
+                                <g id="pan_right" data-role="button">
+                                    <path class="bg" d="M58.491,13.623L44.8,27.313c1.923,2.279,3.088,5.222,3.088,8.438c0,3.216-1.165,6.159-3.09,8.438
+                                        l13.688,13.691c5.42-5.8,8.762-13.566,8.762-22.131C67.248,27.188,63.908,19.424,58.491,13.623z"/>
+                                    <path class="icon" d="M53.047,42.292l10.702-6.538l-10.702-6.541V42.292L53.047,42.292z"/>
+                                </g>
+                                <g id="pan_left" data-role="button">
+                                    <path class="bg" d="M24.782,44.188c-1.924-2.279-3.088-5.22-3.088-8.437c0-3.218,1.164-6.161,3.089-8.44L11.094,13.618
+                                        c-5.42,5.801-8.762,13.566-8.762,22.131c0,8.562,3.342,16.328,8.758,22.128L24.782,44.188z"/>
+                                    <path class="icon" d="M16.271,29.213L5.569,35.751l10.702,6.541V29.213L16.271,29.213z"/>
+                                </g>
+                                <g id="pan_up" data-role="button">
+                                    <path class="bg" d="M26.354,25.742c2.278-1.923,5.222-3.088,8.438-3.088c3.216,0,6.159,1.165,8.438,3.089l13.693-13.69
+                                        C51.121,6.635,43.354,3.292,34.79,3.292c-8.563,0-16.327,3.34-22.127,8.758L26.354,25.742z"/>
+                                    <path class="icon" d="M41.327,17.365L34.789,6.663l-6.541,10.702H41.327L41.327,17.365z"/>
+                                </g>
+                                <g id="pan_down" data-role="button">
+                                    <path class="bg" d="M43.229,45.759c-2.281,1.922-5.221,3.086-8.437,3.086c-3.219,0-6.16-1.165-8.44-3.09L12.66,59.446
+                                        c5.799,5.42,13.566,8.762,22.13,8.762s16.327-3.34,22.126-8.759L43.229,45.759z"/>
+                                    <path class="icon" d="M28.248,54.141l6.538,10.701l6.541-10.701H28.248L28.248,54.141z"/>
+                                </g>
+                            </svg>
+                         </div>
+
+                          <!-- TEMP -->
+                     <div id="snaptobtns">
+                        <button id="snap_to_1" data-role="button"><span class="glyphicon glyphicon-map-marker"></span></button>
+                        <button id="snap_to_2" data-role="button"><span class="glyphicon glyphicon-map-marker"></span></button>
+                        <button id="snap_to_3" data-role="button"><span class="glyphicon glyphicon-map-marker"></span></button>
+                        <button id="snap_to_4" data-role="button"><span class="glyphicon glyphicon-map-marker"></span></button>
+                        <p>Snap-To</p>
+                    </div> 
+
+                    </div>
+                    
                 </div>
-                
 	    	</div>
 	    	
 	    	<div id="language_btn" data-role="button">

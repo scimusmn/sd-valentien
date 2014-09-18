@@ -1,4 +1,4 @@
-define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager' ], function( AppData, ThumbGrid, ScreenManager, MainScreen, ViewerScreen ){
+define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], function( AppData, ThumbGrid, ScreenManager, MainScreen, ViewerScreen ){
 
 	function MainScreen( containerDiv ){
     
@@ -21,16 +21,48 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager' ], function( 
     
     // refresh() | Refresh displays as needed before showing
     MainScreen.prototype.refresh = function() {
-    	
+
+    	this.resetGrid ();
+
     };
+
+    // resetGrid() | Reset visual states of thumb grid
+    MainScreen.prototype.resetGrid = function() {
+    	
+    	$("#main_nav_grid .thumb").each( function() {
+			TweenLite.set( $(this), { css: { zIndex: 0, opacity:1, scale:1, boxShadow:"0px 0px 0px 0px rgba(0,0,0,0)" } } );
+    	});  
+
+    };
+
+    // transitionIn() | Tween in display elements
+    MainScreen.prototype.transitionIn = function( ){
+
+    	TweenLite.delayedCall(1.5, function(){
+
+    		TweenLite.to( $( "#main_nav_grid" ), 1, { css: { left:0 }, ease:Power2.easeOut } );
+			TweenLite.to( $( "#screen_main .content-left" ), 1, { css: { left:0 }, delay:0.2, ease:Power2.easeOut } );
+
+    	});
+
+    }
+
+    // transitionOut() | Tween out display elements
+    MainScreen.prototype.transitionOut = function( ){
+        
+        TweenLite.to( $( "#main_nav_grid" ), 1, { css: { left:-1080 }, ease:Power2.easeIn } );
+		TweenLite.to( $( "#screen_main .content-left" ), 1, { css: { left:-1080 }, delay:0.2, ease:Power2.easeIn } );
+
+    }
     
     // featurePlant() | Transition to viewer screen with selected plant
-    MainScreen.prototype.featurePlant = function( plantId ){
-    	
-    	AppData.setFeaturePlant( plantId );
+    MainScreen.prototype.featurePlant = function( plantId, plantThumbBtn ){
+
+       	//Tell Viewer screen to setting up plant info
+       	AppData.setFeaturePlant( plantId );
 
        	ScreenManager.showScreen( ScreenManager.SCREEN_VIEWER );
-    	
+
     };
     
 	// refreshButtonListeners() | Listen to all buttons on this screen
@@ -45,7 +77,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager' ], function( 
 		$(this.containerDiv).find("[data-role='button']").on("click", function(event) {
 		
 			thisRef.buttonClicked( $(this).attr('id'), $(this) );
-			
+
 		});
 		
 	};
@@ -70,7 +102,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager' ], function( 
 		if (btnId.substring(0, 6) == "thumb_") {
 		
 			var plantId = btnId.substring(6);
-			this.featurePlant(plantId);
+			this.featurePlant(plantId, btnRef);
 			return;
 			
 		}

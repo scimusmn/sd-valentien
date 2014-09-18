@@ -41,6 +41,7 @@ require(['jquery', 'net/AppData', 'net/Language', 'net/ui/ScreenManager', 'net/u
     	ScreenManager.init();
         ScreenManager.addScreen( new MainScreen( $('#screen_main') ) ); // Add Main Screen
         ScreenManager.addScreen( new ViewerScreen( $('#screen_viewer') ) ); // Add Viewer Screen
+        
     	ScreenManager.showScreen( ScreenManager.SCREEN_MAIN );
 
 		setupLanguage();

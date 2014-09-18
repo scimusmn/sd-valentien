@@ -1,18 +1,15 @@
-define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoViewer' ], function( AppData, ScreenManager, Language, PhotoViewer ){
+define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoViewer', 'tween' ], function( AppData, ScreenManager, Language, PhotoViewer ){
 
 function ViewerScreen( containerDiv ){
     
 		this.containerDiv = containerDiv; 
 		
-		this.photoViewer = new PhotoViewer ( $(containerDiv).find('.viewer').first() );
-		
-		/*		
-		var preloadImgList = [];
-		$(AppData.configXML).find('plants plant images image[id!="thumb"]').each(function() { preloadImgList.push($(this).text()) });
-		this.photoViewer.preloadImgList( preloadImgList );
-		*/
-				
 		this.init();
+
+        //must be after init so mouse listeners aren't removed.
+        this.photoViewer = new PhotoViewer ( $(containerDiv).find('.viewer').first() );
+        this.photoViewer.setPanControls( $(this.containerDiv).find("#photo_controls").first() );
+        this.photoSources = [];
 				     	
     }
 
@@ -39,10 +36,7 @@ function ViewerScreen( containerDiv ){
         var paintingSrc = $(plantConfig).find("images image[id='painting']").first().text();
         var collectionsSrc = $(plantConfig).find("images image[id='collections']").first().text();
         var natureSrc = $(plantConfig).find("images image[id='nature']").first().text();
-        
-        //Update PhotoViewer with new images
-        this.photoViewer.updateImages([paintingSrc, collectionsSrc, natureSrc]);
-        
+
         //Set info text for this plant
         var common = Language.getTranslation( 'common_name', $(plantConfig) ); 
         var scientific = Language.getTranslation( 'scientific_name', $(plantConfig) ); 
@@ -57,7 +51,66 @@ function ViewerScreen( containerDiv ){
         $("#info_container #scientific_name").attr("data-filter-id", plantId);
         $("#info_container #description").attr("data-filter-id", plantId);
 
+        this.photoSources = [paintingSrc, collectionsSrc, natureSrc];
+        this.photoViewer.updateSourceImage( this.photoSources[0] );
+
+        //TODO - Pre-loading photos?
+
+        this.hidePhotoDisplay();
+
     };
+
+    // showPhotoDisplay() | Reset and show current plant photos
+    ViewerScreen.prototype.showPhotoDisplay = function( plantId ){
+
+        $('#viewer').show();
+
+    };
+
+    // hidePhotoDisplay() | Hide current plant photos
+    ViewerScreen.prototype.hidePhotoDisplay = function( plantId ){
+
+         //TODO - Unload photo viewer
+
+        $('#viewer').hide();
+
+    };
+
+    // transitionIn() | Tween in display elements
+    ViewerScreen.prototype.transitionIn = function( ){
+        
+        //screen
+        TweenLite.to( $( this.containerDiv ), 1, { css: { left:0 }, delay:0.5, ease:Power2.easeIn } );
+
+        //home bar
+        TweenLite.set( $("#home_bar"), { css: { bottom: -70 } } );
+        TweenLite.to( $("#home_bar"), 1, { css: { bottom:0 }, delay:1.5, ease:Power2.easeOut } );
+
+        //Fade in plant info
+        TweenLite.set( $("#info_container"), { css: { opacity: 0 }, ease:Power2.easeOut } );
+        TweenLite.delayedCall(3, function() {
+                
+            TweenLite.to( $("#info_container"), 1.75, { css: { opacity: 1 }, ease:Power2.easeInOut } );
+            
+        }); 
+
+        //Wait for transition to complete before displaying photo
+        var thisRef = this;
+        TweenLite.delayedCall(2.5, function() {
+                
+            thisRef.showPhotoDisplay();
+            
+        }); 
+
+    }
+
+    // transitionOut() | Tween out display elements
+    ViewerScreen.prototype.transitionOut = function( ){
+
+        TweenLite.to( $("#home_bar"), 0.4, { css: { bottom:-70 }, ease:Power2.easeIn } );
+        TweenLite.to( $( this.containerDiv ), 1, { css: { left:1080 }, delay:0.4, ease:Power2.easeIn } );
+
+    }
     
     // refreshButtonListeners() | Listen to all buttons on this screen
     ViewerScreen.prototype.refreshButtonListeners = function(){
@@ -103,32 +156,29 @@ function ViewerScreen( containerDiv ){
     	
     	//other btns...
     	switch (btnId) {
-    		case "pan_left":
-    			this.photoViewer.panLeft();
-    		break;
-    		case "pan_right":
-    			this.photoViewer.panRight();
-    		break;
-    		case "pan_up":
-    			this.photoViewer.panUp();
-    		break;
-    		case "pan_down":
-    			this.photoViewer.panDown();
-    		break;
     		case "snap_to_1":
-    			this.photoViewer.snapToView(50, 70, 15);
+    			this.photoViewer.snapToView(50, 70, 15);//zoom,x,y
     		break;
+            case "snap_to_2":
+                this.photoViewer.snapToView(77, 44, 32);
+            break;
+            case "snap_to_3":
+                this.photoViewer.snapToView(50, 10, 88);//zoom,x,y
+            break;
+            case "snap_to_4":
+                this.photoViewer.snapToView(77, 88, 88);
+            break;
     		case "home_bar":
-    			ScreenManager.showScreen( ScreenManager.SCREEN_MAIN );
+                ScreenManager.showScreen( ScreenManager.SCREEN_MAIN ); 
     		break;
     		case "btn_view_painting":
-    			this.photoViewer.jumpToPhoto(0);
+                this.photoViewer.updateSourceImage( this.photoSources[0] );
     		break;
     		case "btn_view_collections":
-    			this.photoViewer.jumpToPhoto(1);
+    			this.photoViewer.updateSourceImage( this.photoSources[1] );
     		break;
     		case "btn_view_nature":
-    			this.photoViewer.jumpToPhoto(2);
+    			this.photoViewer.updateSourceImage( this.photoSources[2] );
     		break;
     		default:
     		

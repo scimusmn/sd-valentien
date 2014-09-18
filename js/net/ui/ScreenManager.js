@@ -8,8 +8,6 @@ define([ 'net/AppData'], function( AppData ){
     //Constants
     ScreenManager.SCREEN_MAIN = 'main';
     ScreenManager.SCREEN_VIEWER = 'viewer';
-
-     ScreenManager.ddddd = "ddd";
     
     ScreenManager.init = function(){
 
@@ -24,15 +22,17 @@ define([ 'net/AppData'], function( AppData ){
     
     ScreenManager.showScreen = function( screenContainerId ) {
         	
-        console.log("ScreenManager.showScreen: " + screenContainerId);
-        			
-		//hide current screen
+        // console.log("ScreenManager.showScreen: " + screenContainerId);
+
+        if (screenContainerId == AppData.currentScreenId) return; 
+
+        //transition out current screen 
+        var isFirstScreen = false;
 		if(this.currentScreen) {
-			$(this.currentScreen.containerDiv).hide();
+			this.currentScreen.transitionOut();
+			$(this.currentScreen.containerDiv).css("z-index", "0");
 		} else {
-			$("#screen_"+screenContainerId).parent().children("div[id^='screen_']").each( function () {
-				$(this).hide();
-			});
+			isFirstScreen = true;
 		}
 						
 		switch (screenContainerId) {
@@ -54,7 +54,11 @@ define([ 'net/AppData'], function( AppData ){
 		
 		//show new screen
 		$(this.currentScreen.containerDiv).show();
-					
+
+		//transition new current screen
+		$(this.currentScreen.containerDiv).css("z-index", "1");
+		if (isFirstScreen==false) this.currentScreen.transitionIn();
+		
     }
 
     return ScreenManager;

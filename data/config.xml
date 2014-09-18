@@ -62,9 +62,9 @@
 			
 				<images>
 					<image id="thumb">img/chamise_thumb.png</image>
-					<image id="painting">img/chamise_painting.png</image>
-					<image id="collections">img/chamise_collections.png</image>
-					<image id="nature">img/chamise_nature.png</image>
+					<image id="painting">img/chamise_painting.jpg</image>
+					<image id="collections">img/chamise_collections.jpg</image>
+					<image id="nature">img/chamise_nature.jpg</image>
 				</images>
 							
 				<text id="common_name">				
@@ -89,9 +89,9 @@
 			
 				<images>
 					<image id="thumb">img/mariposa_lily_thumb.png</image>
-					<image id="painting">img/mariposa_lily_painting.png</image>
-					<image id="collections">img/mariposa_lily_collections.png</image>
-					<image id="nature">img/mariposa_lily_nature.png</image>
+					<image id="painting">img/mariposa_lily_painting.jpg</image>
+					<image id="collections">img/mariposa_lily_collections.jpg</image>
+					<image id="nature">img/mariposa_lily_nature.jpg</image>
 				</images>
 							
 				<text id="common_name">				
@@ -116,9 +116,9 @@
 			
 				<images>
 					<image id="thumb">img/dudleya_thumb.png</image>
-					<image id="painting">img/dudleya_painting.png</image>
-					<image id="collections">img/dudleya_collections.png</image>
-					<image id="nature">img/dudleya_nature.png</image>
+					<image id="painting">img/dudleya_painting.jpg</image>
+					<image id="collections">img/dudleya_collections.jpg</image>
+					<image id="nature">img/dudleya_nature.jpg</image>
 				</images>
 							
 				<text id="common_name">				
