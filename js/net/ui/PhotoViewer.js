@@ -62,6 +62,17 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
     };
 
+    // hidePhoto() | Fade out current photo
+    PhotoViewer.prototype.hidePhoto = function(  ) {
+      
+      // $( this.containerDiv ).zoomer("unload");
+
+        $(this.containerDiv).zoomer("load", ''); //Give blank src to take advantage of atuo-fade
+
+    };
+
+    
+
     // setPanControls() | Pass a container div to search for pan buttons
     PhotoViewer.prototype.setPanControls = function( panBtnsContainerDiv ) {
 

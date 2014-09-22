@@ -38,7 +38,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], f
     // transitionIn() | Tween in display elements
     MainScreen.prototype.transitionIn = function( ){
 
-    	TweenLite.delayedCall(1.5, function(){
+    	TweenLite.delayedCall(0.75, function(){
 
     		TweenLite.to( $( "#main_nav_grid" ), 1, { css: { left:0 }, ease:Power2.easeOut } );
 			TweenLite.to( $( "#screen_main .content-left" ), 1, { css: { left:0 }, delay:0.2, ease:Power2.easeOut } );

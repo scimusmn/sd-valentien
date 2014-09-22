@@ -80,15 +80,23 @@ function ViewerScreen( containerDiv ){
     ViewerScreen.prototype.transitionIn = function( ){
         
         //screen
-        TweenLite.to( $( this.containerDiv ), 1, { css: { left:0 }, delay:0.5, ease:Power2.easeIn } );
+        TweenLite.to( $( this.containerDiv ), 1, { css: { left:0 }, delay:0, ease:Power2.easeIn } );
+
+        //controls bar
+        TweenLite.set( $("#controls_bar"), { css: { bottom: -170, opacity:0 } } );
+        TweenLite.to( $("#controls_bar"), 1, { css: { bottom:0, opacity:1 }, delay:1.1, ease:Power2.easeOut } );
 
         //home bar
         TweenLite.set( $("#home_bar"), { css: { bottom: -70 } } );
-        TweenLite.to( $("#home_bar"), 1, { css: { bottom:0 }, delay:1.5, ease:Power2.easeOut } );
+        TweenLite.to( $("#home_bar"), 1, { css: { bottom:0 }, delay:1.2, ease:Power2.easeOut } );
+
+        //Fade in loader
+        TweenLite.set( $("#loader"), { css: { opacity: 0 } } );
+        TweenLite.to( $("#loader"), 0.75, { css: { opacity: 1 }, delay:0.8, ease:Power2.easeIn } );
 
         //Fade in plant info
-        TweenLite.set( $("#info_container"), { css: { opacity: 0 }, ease:Power2.easeOut } );
-        TweenLite.delayedCall(3, function() {
+        TweenLite.set( $("#info_container"), { css: { opacity: 0 }} );
+        TweenLite.delayedCall( 3, function() {
                 
             TweenLite.to( $("#info_container"), 1.75, { css: { opacity: 1 }, ease:Power2.easeInOut } );
             
@@ -107,8 +115,22 @@ function ViewerScreen( containerDiv ){
     // transitionOut() | Tween out display elements
     ViewerScreen.prototype.transitionOut = function( ){
 
-        TweenLite.to( $("#home_bar"), 0.4, { css: { bottom:-70 }, ease:Power2.easeIn } );
         TweenLite.to( $( this.containerDiv ), 1, { css: { left:1080 }, delay:0.4, ease:Power2.easeIn } );
+
+        //controls bar
+        TweenLite.to( $("#controls_bar"), 0.5, { css: { bottom:-170, opacity:0 }, ease:Power2.easeIn } );
+
+        //home bar
+        TweenLite.to( $("#home_bar"), 0.5, { css: { bottom:-70 }, delay:0.1, ease:Power2.easeIn } );
+
+        //Hide loader
+        TweenLite.set( $("#loader"), { css: { opacity: 0 } } );
+
+        //Plant info
+        TweenLite.to( $("#info_container"), .25, { css: { opacity: 0 }, ease:Power2.easeInOut } );
+
+        //fade out photo
+        this.photoViewer.hidePhoto();
 
     }
     

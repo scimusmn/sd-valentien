@@ -29,7 +29,8 @@ define(['net/Language', 'tween'], function( Language ){
     			$(newThumb).show();
     			thumbIndex++;    			
     			
-    			var thumbConfig = $(this.configList).eq(thumbIndex %3); //TEMP ( %3 for prototype )
+                var numConfigs = $(this.configList).length;
+    			var thumbConfig = $(this.configList).eq(thumbIndex%numConfigs); //TEMP ( %numConfigs for prototype )
     			
                 // Set id, image and text
     			var thumbId = 'thumb_'+$(thumbConfig).attr('id');
