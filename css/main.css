@@ -217,6 +217,9 @@ font-family: 'Glyphicons Halflings';
 .glyphicon-map-marker:before {
   content: "\e062";
 }
+.glyphicon-remove:before {
+  content: "\e014";
+}
 .rotate-90-cw {
   /* Safari */
   -webkit-transform: rotate(90deg);
@@ -274,11 +277,11 @@ font-family: 'Glyphicons Halflings';
 	position: fixed;
 	text-align: center;
 	
-	width: 150px;
-	height: 50px;
+	width: 175px;
+	height: 77px;
 	
-	bottom: 26px;
-	right: 10px;
+	bottom: 0px;
+	right: 0px;
 	
 	z-index: 2;
 
@@ -366,7 +369,6 @@ font-family: 'Glyphicons Halflings';
 	width: 490px;
 	margin-top: 93px;
 	font-size: 20px;
-	
 }
 
 
@@ -392,6 +394,22 @@ font-family: 'Glyphicons Halflings';
 	padding: 50px 75px 100px 75px;
 	background: rgba(68,68,68,0.7);
 
+}
+
+#screen_viewer #info_container #hide_btn,
+#screen_viewer #info_container #show_btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 18px;
+  color: rgba(240,232,232,0.8);
+  font-size: 26px;
+
+}
+
+#screen_viewer #info_container #hide_btn:active,
+#screen_viewer #info_container #show_btn:active {
+   color: rgba(240,232,232,0.95);
 }
 
 #screen_viewer #controls_bar {
@@ -425,8 +443,14 @@ font-family: 'Glyphicons Halflings';
   background: #4a4a4a;
 
 }
-#screen_viewer #view_selection [data-role="button"]:hover h3 {
-  
+#screen_viewer #view_selection [data-role="button"] {
+
+}
+#screen_viewer #view_selection [data-role="button"].onView {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border: 1px solid #fffdf3;
 }
 #screen_viewer #view_selection p {
   color: #dfded9;
@@ -488,8 +512,16 @@ font-family: 'Glyphicons Halflings';
 #photo_controls{
 
   position: absolute;
+
+  /* - On Control bar - */
+  left: 928px;
+  top: 20px;
+
+  /* - On Photo - */
+  /*
   left: 930px;
   top: -186px;
+  */
 
 }
 
@@ -517,10 +549,11 @@ font-family: 'Glyphicons Halflings';
 
 }
 
+ /* - On Photo - */
+/*
 #pan_zoom {
   width: 100px;
 }
-
 #pan_zoom g {
   fill: rgba(48,48,48,0.7);
   transition: .3s fill;
@@ -534,10 +567,32 @@ font-family: 'Glyphicons Halflings';
 #pan_zoom g:active {
   fill: rgba(0,0,0,.9);
 }
-
 #pan_zoom button {
   margin: 5px
 }
+ */
+
+/* - On Control Bar - */
+#pan_zoom {
+  width: 77px;
+}
+#pan_zoom g {
+  fill: rgba(111,111,111,0.7);
+  transition: .3s fill;
+}
+#pan_zoom .icon{
+  fill: #333;
+}
+#pan_zoom g:hover {
+  fill: rgba(144,144,144,0.65);
+}
+#pan_zoom g:active {
+  fill: rgba(144,144,144,.9);
+}
+#pan_zoom button {
+  margin: 5px
+}
+
 
 
 

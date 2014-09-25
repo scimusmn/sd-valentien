@@ -53,10 +53,15 @@ function ViewerScreen( containerDiv ){
 
         this.photoSources = [paintingSrc, collectionsSrc, natureSrc];
         this.photoViewer.updateSourceImage( this.photoSources[0] );
-
-        //TODO - Pre-loading photos?
+        this.photoViewer.enableInitialControlStates();
 
         this.hidePhotoDisplay();
+
+        //reset view btns
+        $("#btn_view_painting").parent().children("[data-role='button']").removeClass('onView');
+        $("#btn_view_painting").addClass('onView');
+
+        this.toggleInfoContainer(true);
 
     };
 
@@ -70,11 +75,56 @@ function ViewerScreen( containerDiv ){
     // hidePhotoDisplay() | Hide current plant photos
     ViewerScreen.prototype.hidePhotoDisplay = function( plantId ){
 
-         //TODO - Unload photo viewer
-
         $('#viewer').hide();
 
     };
+
+    // toggleInfoContainer() | show/hide info container
+    ViewerScreen.prototype.toggleInfoContainer = function( show ){
+
+        if (show == true){
+
+            TweenLite.set( $("#info_container #show_btn"), { css: { opacity:0, zIndex:0 } } );
+            TweenLite.set( $("#info_container #hide_btn"), { css: { opacity:1, zIndex:1 } } );
+
+            TweenLite.to( $("#info_container"), 0.75, { css: { left:0, bottom:220 }, ease:Power2.easeInOut} );
+
+            //cancel any delayed resets
+            TweenLite.killTweensOf(this.resetInfoContainer);
+
+        } else {
+
+            TweenLite.set( $("#info_container #hide_btn"), { css: { opacity:0, zIndex:0 } } );
+            TweenLite.set( $("#info_container #show_btn"), { css: { opacity:1, zIndex:1 } } );
+
+            TweenLite.to( $("#info_container"), 0.75, { css: { left:-537, bottom:-170 }, ease:Power2.easeInOut } );
+
+            //Auto re-open info after a delay
+            TweenLite.delayedCall(AppData.infoHideTimeout, this.resetInfoContainer, [], this );
+
+        }
+    }
+
+   // resetInfoContainer() | Reset info container after delay
+    ViewerScreen.prototype.resetInfoContainer = function(  ){
+        console.log( " dd "+this.isInfoContainerShowing() );
+        if (this.isInfoContainerShowing()==false) this.toggleInfoContainer(true); 
+    }
+
+    // isInfoContainerShowing() | Checks state of info container 
+    ViewerScreen.prototype.isInfoContainerShowing = function(  ){
+
+        if( parseInt($("#info_container").css('left')) < -1 ) {
+
+            return false;
+
+        } else {
+
+            return true;
+
+        }
+
+    }
 
     // transitionIn() | Tween in display elements
     ViewerScreen.prototype.transitionIn = function( ){
@@ -175,6 +225,12 @@ function ViewerScreen( containerDiv ){
     		return;
     		
     	}
+
+        // Set current viewed btn
+        if (btnId.substring(0, 8) == "btn_view") {
+            $(btnRef).parent().children("[data-role='button']").removeClass('onView');
+            $(btnRef).addClass('onView');
+        }        
     	
     	//other btns...
     	switch (btnId) {
@@ -193,14 +249,24 @@ function ViewerScreen( containerDiv ){
     		case "home_bar":
                 ScreenManager.showScreen( ScreenManager.SCREEN_MAIN ); 
     		break;
+            case "hide_btn":
+                this.toggleInfoContainer(false);
+            break;
+            case "show_btn":
+                this.toggleInfoContainer(true);
+            break;
     		case "btn_view_painting":
                 this.photoViewer.updateSourceImage( this.photoSources[0] );
+                this.photoViewer.enableInitialControlStates();
     		break;
     		case "btn_view_collections":
     			this.photoViewer.updateSourceImage( this.photoSources[1] );
+                this.photoViewer.enableInitialControlStates();
     		break;
     		case "btn_view_nature":
     			this.photoViewer.updateSourceImage( this.photoSources[2] );
+                this.photoViewer.toggleControls( false );
+                this.photoViewer.toggleDoubleClickZoom( false );
     		break;
     		default:
     		

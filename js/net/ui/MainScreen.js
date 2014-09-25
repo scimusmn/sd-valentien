@@ -102,7 +102,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], f
 		if (btnId.substring(0, 6) == "thumb_") {
 		
 			var plantId = btnId.substring(6);
-			this.featurePlant(plantId, btnRef);
+			this.featurePlant(plantId, btnRef);			
 			return;
 			
 		}

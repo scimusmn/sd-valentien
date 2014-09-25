@@ -7,6 +7,7 @@
 	<settings>
 		<setting id="developerMode" value="true" />
 		<setting id="timeout_delay" value="30" />
+		<setting id="infoHideTimeout" value="5" />
 		<setting id="example_setting" value="example_value" />
 	</settings>
 
@@ -143,9 +144,9 @@
 			
 				<images>
 					<image id="thumb">img/04-Ropevine/04-Ropevine_thumb.png</image>
-					<image id="painting">img/04-Ropevine/04-Ropevine_painting.jpg</image>
-					<image id="collections">img/04-Ropevine/04-Ropevine_collections.jpg</image>
-					<image id="nature">img/04-Ropevine/04-Ropevine_nature.jpg</image>
+					<image id="painting">img/04-Ropevine/04-Ropevine_painting.png</image>
+					<image id="collections">img/04-Ropevine/04-Ropevine_collections.png</image>
+					<image id="nature">img/04-Ropevine/04-Ropevine_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -170,9 +171,9 @@
 			
 				<images>
 					<image id="thumb">img/05-Sea_Dahlia/05-Sea_Dahlia_thumb.png</image>
-					<image id="painting">img/05-Sea_Dahlia/05-Sea_Dahlia_painting.jpg</image>
-					<image id="collections">img/05-Sea_Dahlia/05-Sea_Dahlia_collections.jpg</image>
-					<image id="nature">img/05-Sea_Dahlia/05-Sea_Dahlia_nature.jpg</image>
+					<image id="painting">img/05-Sea_Dahlia/05-Sea_Dahlia_painting.png</image>
+					<image id="collections">img/05-Sea_Dahlia/05-Sea_Dahlia_collections.png</image>
+					<image id="nature">img/05-Sea_Dahlia/05-Sea_Dahlia_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -197,9 +198,9 @@
 			
 				<images>
 					<image id="thumb">img/06-California_Poppy/06-California_Poppy_thumb.png</image>
-					<image id="painting">img/06-California_Poppy/06-California_Poppy_painting.jpg</image>
-					<image id="collections">img/06-California_Poppy/06-California_Poppy_collections.jpg</image>
-					<image id="nature">img/06-California_Poppy/06-California_Poppy_nature.jpg</image>
+					<image id="painting">img/06-California_Poppy/06-California_Poppy_painting.png</image>
+					<image id="collections">img/06-California_Poppy/06-California_Poppy_collections.png</image>
+					<image id="nature">img/06-California_Poppy/06-California_Poppy_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -224,9 +225,9 @@
 			
 				<images>
 					<image id="thumb">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_thumb.png</image>
-					<image id="painting">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_painting.jpg</image>
-					<image id="collections">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_collections.jpg</image>
-					<image id="nature">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_nature.jpg</image>
+					<image id="painting">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_painting.png</image>
+					<image id="collections">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_collections.png</image>
+					<image id="nature">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -251,9 +252,9 @@
 			
 				<images>
 					<image id="thumb">img/08-Wild_Pea/08-Wild_Pea_thumb.png</image>
-					<image id="painting">img/08-Wild_Pea/08-Wild_Pea_painting.jpg</image>
-					<image id="collections">img/08-Wild_Pea/08-Wild_Pea_collections.jpg</image>
-					<image id="nature">img/08-Wild_Pea/08-Wild_Pea_nature.jpg</image>
+					<image id="painting">img/08-Wild_Pea/08-Wild_Pea_painting.png</image>
+					<image id="collections">img/08-Wild_Pea/08-Wild_Pea_collections.png</image>
+					<image id="nature">img/08-Wild_Pea/08-Wild_Pea_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -278,9 +279,9 @@
 			
 				<images>
 					<image id="thumb">img/09-Chaparral_Mallow/09-Chaparral_Mallow_thumb.png</image>
-					<image id="painting">img/09-Chaparral_Mallow/09-Chaparral_Mallow_painting.jpg</image>
-					<image id="collections">img/09-Chaparral_Mallow/09-Chaparral_Mallow_collections.jpg</image>
-					<image id="nature">img/09-Chaparral_Mallow/09-Chaparral_Mallow_nature.jpg</image>
+					<image id="painting">img/09-Chaparral_Mallow/09-Chaparral_Mallow_painting.png</image>
+					<image id="collections">img/09-Chaparral_Mallow/09-Chaparral_Mallow_collections.png</image>
+					<image id="nature">img/09-Chaparral_Mallow/09-Chaparral_Mallow_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -305,9 +306,9 @@
 			
 				<images>
 					<image id="thumb">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_thumb.png</image>
-					<image id="painting">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_painting.jpg</image>
-					<image id="collections">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_collections.jpg</image>
-					<image id="nature">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_nature.jpg</image>
+					<image id="painting">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_painting.png</image>
+					<image id="collections">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_collections.png</image>
+					<image id="nature">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -332,9 +333,9 @@
 			
 				<images>
 					<image id="thumb">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_thumb.png</image>
-					<image id="painting">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_painting.jpg</image>
-					<image id="collections">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_collections.jpg</image>
-					<image id="nature">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_nature.jpg</image>
+					<image id="painting">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_painting.png</image>
+					<image id="collections">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_collections.png</image>
+					<image id="nature">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -359,9 +360,9 @@
 			
 				<images>
 					<image id="thumb">img/12-Lemonadeberry/12-Lemonadeberry_thumb.png</image>
-					<image id="painting">img/12-Lemonadeberry/12-Lemonadeberry_painting.jpg</image>
-					<image id="collections">img/12-Lemonadeberry/12-Lemonadeberry_collections.jpg</image>
-					<image id="nature">img/12-Lemonadeberry/12-Lemonadeberry_nature.jpg</image>
+					<image id="painting">img/12-Lemonadeberry/12-Lemonadeberry_painting.png</image>
+					<image id="collections">img/12-Lemonadeberry/12-Lemonadeberry_collections.png</image>
+					<image id="nature">img/12-Lemonadeberry/12-Lemonadeberry_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -386,9 +387,9 @@
 			
 				<images>
 					<image id="thumb">img/13-Blue_Elderberry/13-Blue_Elderberry_thumb.png</image>
-					<image id="painting">img/13-Blue_Elderberry/13-Blue_Elderberry_painting.jpg</image>
-					<image id="collections">img/13-Blue_Elderberry/13-Blue_Elderberry_collections.jpg</image>
-					<image id="nature">img/13-Blue_Elderberry/13-Blue_Elderberry_nature.jpg</image>
+					<image id="painting">img/13-Blue_Elderberry/13-Blue_Elderberry_painting.png</image>
+					<image id="collections">img/13-Blue_Elderberry/13-Blue_Elderberry_collections.png</image>
+					<image id="nature">img/13-Blue_Elderberry/13-Blue_Elderberry_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -413,9 +414,9 @@
 			
 				<images>
 					<image id="thumb">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_thumb.png</image>
-					<image id="painting">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_painting.jpg</image>
-					<image id="collections">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_collections.jpg</image>
-					<image id="nature">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_nature.jpg</image>
+					<image id="painting">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_painting.png</image>
+					<image id="collections">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_collections.png</image>
+					<image id="nature">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -424,8 +425,8 @@
 				</text>
 				
 				<text id="scientific_name">				
-					<en>Adenostoma fasciculatum</en>
-					<es>Spanish_Scientific</es>
+					<en>Dichelostemma capitatum ssp. capitatum</en>
+					<es>Dichelostemma capitatum ssp. capitatum</es>
 				</text>
 				
 				<text id="description">				
@@ -440,9 +441,9 @@
 			
 				<images>
 					<image id="thumb">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_thumb.png</image>
-					<image id="painting">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_painting.jpg</image>
-					<image id="collections">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_collections.jpg</image>
-					<image id="nature">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_nature.jpg</image>
+					<image id="painting">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_painting.png</image>
+					<image id="collections">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_collections.png</image>
+					<image id="nature">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -467,9 +468,9 @@
 			
 				<images>
 					<image id="thumb">img/16-Purple_Needlegrass/16-Purple_Needlegrass_thumb.png</image>
-					<image id="painting">img/16-Purple_Needlegrass/16-Purple_Needlegrass_painting.jpg</image>
-					<image id="collections">img/16-Purple_Needlegrass/16-Purple_Needlegrass_collections.jpg</image>
-					<image id="nature">img/16-Purple_Needlegrass/16-Purple_Needlegrass_nature.jpg</image>
+					<image id="painting">img/16-Purple_Needlegrass/16-Purple_Needlegrass_painting.png</image>
+					<image id="collections">img/16-Purple_Needlegrass/16-Purple_Needlegrass_collections.png</image>
+					<image id="nature">img/16-Purple_Needlegrass/16-Purple_Needlegrass_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -494,9 +495,9 @@
 			
 				<images>
 					<image id="thumb">img/17-Black_Sage/17-Black_Sage_thumb.png</image>
-					<image id="painting">img/17-Black_Sage/17-Black_Sage_painting.jpg</image>
-					<image id="collections">img/17-Black_Sage/17-Black_Sage_collections.jpg</image>
-					<image id="nature">img/17-Black_Sage/17-Black_Sage_nature.jpg</image>
+					<image id="painting">img/17-Black_Sage/17-Black_Sage_painting.png</image>
+					<image id="collections">img/17-Black_Sage/17-Black_Sage_collections.png</image>
+					<image id="nature">img/17-Black_Sage/17-Black_Sage_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -521,9 +522,9 @@
 			
 				<images>
 					<image id="thumb">img/18-Chia/18-Chia_thumb.png</image>
-					<image id="painting">img/18-Chia/18-Chia_painting.jpg</image>
-					<image id="collections">img/18-Chia/18-Chia_collections.jpg</image>
-					<image id="nature">img/18-Chia/18-Chia_nature.jpg</image>
+					<image id="painting">img/18-Chia/18-Chia_painting.png</image>
+					<image id="collections">img/18-Chia/18-Chia_collections.png</image>
+					<image id="nature">img/18-Chia/18-Chia_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -548,9 +549,9 @@
 			
 				<images>
 					<image id="thumb">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_thumb.png</image>
-					<image id="painting">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_painting.jpg</image>
-					<image id="collections">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_collections.jpg</image>
-					<image id="nature">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_nature.jpg</image>
+					<image id="painting">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_painting.png</image>
+					<image id="collections">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_collections.png</image>
+					<image id="nature">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -575,9 +576,9 @@
 			
 				<images>
 					<image id="thumb">img/20-Miniature_Lupine/20-Miniature_Lupine_thumb.png</image>
-					<image id="painting">img/20-Miniature_Lupine/20-Miniature_Lupine_painting.jpg</image>
-					<image id="collections">img/20-Miniature_Lupine/20-Miniature_Lupine_collections.jpg</image>
-					<image id="nature">img/20-Miniature_Lupine/20-Miniature_Lupine_nature.jpg</image>
+					<image id="painting">img/20-Miniature_Lupine/20-Miniature_Lupine_painting.png</image>
+					<image id="collections">img/20-Miniature_Lupine/20-Miniature_Lupine_collections.png</image>
+					<image id="nature">img/20-Miniature_Lupine/20-Miniature_Lupine_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -602,9 +603,9 @@
 			
 				<images>
 					<image id="thumb">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_thumb.png</image>
-					<image id="painting">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_painting.jpg</image>
-					<image id="collections">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_collections.jpg</image>
-					<image id="nature">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_nature.jpg</image>
+					<image id="painting">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_painting.png</image>
+					<image id="collections">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_collections.png</image>
+					<image id="nature">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -629,9 +630,9 @@
 			
 				<images>
 					<image id="thumb">img/22-Our_Lords_Candle/22-Our_Lords_Candle_thumb.png</image>
-					<image id="painting">img/22-Our_Lords_Candle/22-Our_Lords_Candle_painting.jpg</image>
-					<image id="collections">img/22-Our_Lords_Candle/22-Our_Lords_Candle_collections.jpg</image>
-					<image id="nature">img/22-Our_Lords_Candle/22-Our_Lords_Candle_nature.jpg</image>
+					<image id="painting">img/22-Our_Lords_Candle/22-Our_Lords_Candle_painting.png</image>
+					<image id="collections">img/22-Our_Lords_Candle/22-Our_Lords_Candle_collections.png</image>
+					<image id="nature">img/22-Our_Lords_Candle/22-Our_Lords_Candle_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -656,9 +657,9 @@
 			
 				<images>
 					<image id="thumb">img/23-Saltgrass/23-Saltgrass_thumb.png</image>
-					<image id="painting">img/23-Saltgrass/23-Saltgrass_painting.jpg</image>
-					<image id="collections">img/23-Saltgrass/23-Saltgrass_collections.jpg</image>
-					<image id="nature">img/23-Saltgrass/23-Saltgrass_nature.jpg</image>
+					<image id="painting">img/23-Saltgrass/23-Saltgrass_painting.png</image>
+					<image id="collections">img/23-Saltgrass/23-Saltgrass_collections.png</image>
+					<image id="nature">img/23-Saltgrass/23-Saltgrass_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -683,9 +684,9 @@
 			
 				<images>
 					<image id="thumb">img/24-California_Buckwheat/24-California_Buckwheat_thumb.png</image>
-					<image id="painting">img/24-California_Buckwheat/24-California_Buckwheat_painting.jpg</image>
-					<image id="collections">img/24-California_Buckwheat/24-California_Buckwheat_collections.jpg</image>
-					<image id="nature">img/24-California_Buckwheat/24-California_Buckwheat_nature.jpg</image>
+					<image id="painting">img/24-California_Buckwheat/24-California_Buckwheat_painting.png</image>
+					<image id="collections">img/24-California_Buckwheat/24-California_Buckwheat_collections.png</image>
+					<image id="nature">img/24-California_Buckwheat/24-California_Buckwheat_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -710,9 +711,9 @@
 			
 				<images>
 					<image id="thumb">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_thumb.png</image>
-					<image id="painting">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_painting.jpg</image>
-					<image id="collections">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_collections.jpg</image>
-					<image id="nature">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_nature.jpg</image>
+					<image id="painting">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_painting.png</image>
+					<image id="collections">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_collections.png</image>
+					<image id="nature">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -737,9 +738,9 @@
 			
 				<images>
 					<image id="thumb">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_thumb.png</image>
-					<image id="painting">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_painting.jpg</image>
-					<image id="collections">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_collections.jpg</image>
-					<image id="nature">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_nature.jpg</image>
+					<image id="painting">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_painting.png</image>
+					<image id="collections">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_collections.png</image>
+					<image id="nature">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -764,9 +765,9 @@
 			
 				<images>
 					<image id="thumb">img/27-Bladderpod/27-Bladderpod_thumb.png</image>
-					<image id="painting">img/27-Bladderpod/27-Bladderpod_painting.jpg</image>
-					<image id="collections">img/27-Bladderpod/27-Bladderpod_collections.jpg</image>
-					<image id="nature">img/27-Bladderpod/27-Bladderpod_nature.jpg</image>
+					<image id="painting">img/27-Bladderpod/27-Bladderpod_painting.png</image>
+					<image id="collections">img/27-Bladderpod/27-Bladderpod_collections.png</image>
+					<image id="nature">img/27-Bladderpod/27-Bladderpod_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -791,9 +792,9 @@
 			
 				<images>
 					<image id="thumb">img/28-Western_Poison_Oak/28-Western_Poison_Oak_thumb.png</image>
-					<image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.jpg</image>
-					<image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.jpg</image>
-					<image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.jpg</image>
+					<image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.png</image>
+					<image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.png</image>
+					<image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -818,9 +819,9 @@
 			
 				<images>
 					<image id="thumb">img/29-California_Thistle/29-California_Thistle_thumb.png</image>
-					<image id="painting">img/29-California_Thistle/29-California_Thistle_painting.jpg</image>
-					<image id="collections">img/29-California_Thistle/29-California_Thistle_collections.jpg</image>
-					<image id="nature">img/29-California_Thistle/29-California_Thistle_nature.jpg</image>
+					<image id="painting">img/29-California_Thistle/29-California_Thistle_painting.png</image>
+					<image id="collections">img/29-California_Thistle/29-California_Thistle_collections.png</image>
+					<image id="nature">img/29-California_Thistle/29-California_Thistle_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -845,9 +846,9 @@
 			
 				<images>
 					<image id="thumb">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_thumb.png</image>
-					<image id="painting">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_painting.jpg</image>
-					<image id="collections">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_collections.jpg</image>
-					<image id="nature">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_nature.jpg</image>
+					<image id="painting">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_painting.png</image>
+					<image id="collections">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_collections.png</image>
+					<image id="nature">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
@@ -874,9 +875,9 @@
 			
 				<images>
 					<image id="thumb">img/XXXX/XXXX_thumb.png</image>
-					<image id="painting">img/XXXX/XXXX_painting.jpg</image>
-					<image id="collections">img/XXXX/XXXX_collections.jpg</image>
-					<image id="nature">img/XXXX/XXXX_nature.jpg</image>
+					<image id="painting">img/XXXX/XXXX_painting.png</image>
+					<image id="collections">img/XXXX/XXXX_collections.png</image>
+					<image id="nature">img/XXXX/XXXX_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
