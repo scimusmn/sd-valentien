@@ -7,7 +7,7 @@
 	<settings>
 		<setting id="developerMode" value="true" />
 		<setting id="timeout_delay" value="30" />
-		<setting id="infoHideTimeout" value="5" />
+		<setting id="infoHideTimeout" value="10" />
 		<setting id="example_setting" value="example_value" />
 	</settings>
 
@@ -58,299 +58,29 @@
 		<!-- ============== -->
 		<plants>
 
-			<!-- 01-Chamise -->	
-			<plant id="01-Chamise">
+			<!-- 22-Our_Lords_Candle -->	
+			<plant id="22-Our_Lords_Candle">
 			
 				<images>
-					<image id="thumb">img/01-Chamise/01-Chamise_thumb.png</image>
-					<image id="painting">img/01-Chamise/01-Chamise_painting.png</image>
-					<image id="collections">img/01-Chamise/01-Chamise_collections.png</image>
-					<image id="nature">img/01-Chamise/01-Chamise_nature.png</image>
+					<image id="thumb">img/22-Our_Lords_Candle/22-Our_Lords_Candle_thumb.png</image>
+					<image id="painting">img/22-Our_Lords_Candle/22-Our_Lords_Candle_painting.png</image>
+					<image id="collections">img/22-Our_Lords_Candle/22-Our_Lords_Candle_collections.png</image>
+					<image id="nature">img/22-Our_Lords_Candle/22-Our_Lords_Candle_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
-					<en>Chamise</en>
+					<en>Chaparral Candle</en>
 					<es>Lorem</es>
 				</text>
 				
 				<text id="scientific_name">				
-					<en>Adenostoma fasciculatum</en>
-					<es>Adenostoma fasciculatum</es>
+					<en>Hesperoyucca whipplei</en>
+					<es>Hesperoyucca whipplei</es>
 				</text>
 				
 				<text id="description">				
 					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 01-Chamise here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 02-Splendid_Mariposa_Lily -->	
-			<plant id="02-Splendid_Mariposa_Lily">
-			
-				<images>
-					<image id="thumb">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_thumb.png</image>
-					<image id="painting">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_painting.png</image>
-					<image id="collections">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_collections.png</image>
-					<image id="nature">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Splendid Mariposa Lily</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Calochortus splendens</en>
-					<es>Calochortus splendens</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 02-Splendid_Mariposa_Lily here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 03-Ramona-Lilac -->	
-			<plant id="03-Ramona-Lilac">
-			
-				<images>
-					<image id="thumb">img/03-Ramona-Lilac/03-Ramona-Lilac_thumb.png</image>
-					<image id="painting">img/03-Ramona-Lilac/03-Ramona-Lilac_painting.png</image>
-					<image id="collections">img/03-Ramona-Lilac/03-Ramona-Lilac_collections.png</image>
-					<image id="nature">img/03-Ramona-Lilac/03-Ramona-Lilac_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Ramona Lilac</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Ceanothus tomentosus</en>
-					<es>Ceanothus tomentosus</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 03-Ramona-Lilac here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 04-Ropevine -->	
-			<plant id="04-Ropevine">
-			
-				<images>
-					<image id="thumb">img/04-Ropevine/04-Ropevine_thumb.png</image>
-					<image id="painting">img/04-Ropevine/04-Ropevine_painting.png</image>
-					<image id="collections">img/04-Ropevine/04-Ropevine_collections.png</image>
-					<image id="nature">img/04-Ropevine/04-Ropevine_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Ropevine Clematis</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Clematis pauciflora</en>
-					<es>Clematis pauciflora</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 04-Ropevine here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 05-Sea_Dahlia -->	
-			<plant id="05-Sea_Dahlia">
-			
-				<images>
-					<image id="thumb">img/05-Sea_Dahlia/05-Sea_Dahlia_thumb.png</image>
-					<image id="painting">img/05-Sea_Dahlia/05-Sea_Dahlia_painting.png</image>
-					<image id="collections">img/05-Sea_Dahlia/05-Sea_Dahlia_collections.png</image>
-					<image id="nature">img/05-Sea_Dahlia/05-Sea_Dahlia_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>San Diego Sea Dahlia</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Leptosyne maritima</en>
-					<es>Leptosyne maritima</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 05-Sea_Dahlia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 06-California_Poppy -->	
-			<plant id="06-California_Poppy">
-			
-				<images>
-					<image id="thumb">img/06-California_Poppy/06-California_Poppy_thumb.png</image>
-					<image id="painting">img/06-California_Poppy/06-California_Poppy_painting.png</image>
-					<image id="collections">img/06-California_Poppy/06-California_Poppy_collections.png</image>
-					<image id="nature">img/06-California_Poppy/06-California_Poppy_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>California Poppy</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Eschscholzia californica</en>
-					<es>Eschscholzia californica</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 06-California_Poppy here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 07-Christmas_Berry_Toyon -->	
-			<plant id="07-Christmas_Berry_Toyon">
-			
-				<images>
-					<image id="thumb">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_thumb.png</image>
-					<image id="painting">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_painting.png</image>
-					<image id="collections">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_collections.png</image>
-					<image id="nature">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Toyon</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Heteromeles arbutifolia</en>
-					<es>Heteromeles arbutifolia</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 07-Christmas_Berry_Toyon here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 08-Wild_Pea -->	
-			<plant id="08-Wild_Pea">
-			
-				<images>
-					<image id="thumb">img/08-Wild_Pea/08-Wild_Pea_thumb.png</image>
-					<image id="painting">img/08-Wild_Pea/08-Wild_Pea_painting.png</image>
-					<image id="collections">img/08-Wild_Pea/08-Wild_Pea_collections.png</image>
-					<image id="nature">img/08-Wild_Pea/08-Wild_Pea_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>San Diego Sweet Pea</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Lathyrus vestitus var. alefeldii</en>
-					<es>Lathyrus vestitus var. alefeldii</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 08-Wild_Pea here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 09-Chaparral_Mallow -->	
-			<plant id="09-Chaparral_Mallow">
-			
-				<images>
-					<image id="thumb">img/09-Chaparral_Mallow/09-Chaparral_Mallow_thumb.png</image>
-					<image id="painting">img/09-Chaparral_Mallow/09-Chaparral_Mallow_painting.png</image>
-					<image id="collections">img/09-Chaparral_Mallow/09-Chaparral_Mallow_collections.png</image>
-					<image id="nature">img/09-Chaparral_Mallow/09-Chaparral_Mallow_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Chaparral Mallow</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Malacothamnus fasciculatus</en>
-					<es>Malacothamnus fasciculatus</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 09-Chaparral_Mallow here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 10-Coast_Prickly_Pear -->	
-			<plant id="10-Coast_Prickly_Pear">
-			
-				<images>
-					<image id="thumb">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_thumb.png</image>
-					<image id="painting">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_painting.png</image>
-					<image id="collections">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_collections.png</image>
-					<image id="nature">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Coast Prickly Pear</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Opuntia littoralis</en>
-					<es>Opuntia littoralis</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 10-Coast_Prickly_Pear here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 11-Large-flowered_Phacelia -->	
-			<plant id="11-Large-flowered_Phacelia">
-			
-				<images>
-					<image id="thumb">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_thumb.png</image>
-					<image id="painting">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_painting.png</image>
-					<image id="collections">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_collections.png</image>
-					<image id="nature">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Large-flowered Phacelia</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Phacelia grandiflora</en>
-					<es>Phacelia grandiflora</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 11-Large-flowered_Phacelia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+					<es>Spanish description of 22-Our_Lords_Candle here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
 				</text>
 				
 			</plant>
@@ -382,6 +112,222 @@
 				
 			</plant>
 
+			<!-- 28-Western_Poison_Oak -->	
+			<plant id="28-Western_Poison_Oak">
+			
+				<images>
+					<image id="thumb">img/28-Western_Poison_Oak/28-Western_Poison_Oak_thumb.png</image>
+					<image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.png</image>
+					<image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.png</image>
+					<image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Western Poison Oak</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Toxicodendron diversilobum</en>
+					<es>Toxicodendron diversilobum</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 28-Western_Poison_Oak here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 08-Wild_Pea -->	
+			<plant id="08-Wild_Pea">
+			
+				<images>
+					<image id="thumb">img/08-Wild_Pea/08-Wild_Pea_thumb.png</image>
+					<image id="painting">img/08-Wild_Pea/08-Wild_Pea_painting.png</image>
+					<image id="collections">img/08-Wild_Pea/08-Wild_Pea_collections.png</image>
+					<image id="nature">img/08-Wild_Pea/08-Wild_Pea_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>San Diego Sweet Pea</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Lathyrus vestitus var. alefeldii</en>
+					<es>Lathyrus vestitus var. alefeldii</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 08-Wild_Pea here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 30-Woolly_Indian_Paintbrush -->	
+			<plant id="30-Woolly_Indian_Paintbrush">
+			
+				<images>
+					<image id="thumb">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_thumb.png</image>
+					<image id="painting">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_painting.png</image>
+					<image id="collections">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_collections.png</image>
+					<image id="nature">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Woolly Indian Paintbrush</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Castilleja foliolosa</en>
+					<es>Castilleja foliolosa</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 30-Woolly_Indian_Paintbrush here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 07-Christmas_Berry_Toyon -->	
+			<plant id="07-Christmas_Berry_Toyon">
+			
+				<images>
+					<image id="thumb">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_thumb.png</image>
+					<image id="painting">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_painting.png</image>
+					<image id="collections">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_collections.png</image>
+					<image id="nature">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Toyon</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Heteromeles arbutifolia</en>
+					<es>Heteromeles arbutifolia</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 07-Christmas_Berry_Toyon here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 10-Coast_Prickly_Pear -->	
+			<plant id="10-Coast_Prickly_Pear">
+			
+				<images>
+					<image id="thumb">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_thumb.png</image>
+					<image id="painting">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_painting.png</image>
+					<image id="collections">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_collections.png</image>
+					<image id="nature">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Coast Prickly Pear</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Opuntia littoralis</en>
+					<es>Opuntia littoralis</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 10-Coast_Prickly_Pear here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 05-Sea_Dahlia -->	
+			<plant id="05-Sea_Dahlia">
+			
+				<images>
+					<image id="thumb">img/05-Sea_Dahlia/05-Sea_Dahlia_thumb.png</image>
+					<image id="painting">img/05-Sea_Dahlia/05-Sea_Dahlia_painting.png</image>
+					<image id="collections">img/05-Sea_Dahlia/05-Sea_Dahlia_collections.png</image>
+					<image id="nature">img/05-Sea_Dahlia/05-Sea_Dahlia_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>San Diego Sea Dahlia</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Leptosyne maritima</en>
+					<es>Leptosyne maritima</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 05-Sea_Dahlia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 11-Large-flowered_Phacelia -->	
+			<plant id="11-Large-flowered_Phacelia">
+			
+				<images>
+					<image id="thumb">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_thumb.png</image>
+					<image id="painting">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_painting.png</image>
+					<image id="collections">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_collections.png</image>
+					<image id="nature">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Large-flowered Phacelia</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Phacelia grandiflora</en>
+					<es>Phacelia grandiflora</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 11-Large-flowered_Phacelia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 03-Ramona-Lilac -->	
+			<plant id="03-Ramona-Lilac">
+			
+				<images>
+					<image id="thumb">img/03-Ramona-Lilac/03-Ramona-Lilac_thumb.png</image>
+					<image id="painting">img/03-Ramona-Lilac/03-Ramona-Lilac_painting.png</image>
+					<image id="collections">img/03-Ramona-Lilac/03-Ramona-Lilac_collections.png</image>
+					<image id="nature">img/03-Ramona-Lilac/03-Ramona-Lilac_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Ramona Lilac</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Ceanothus tomentosus</en>
+					<es>Ceanothus tomentosus</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 03-Ramona-Lilac here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
 			<!-- 13-Blue_Elderberry -->	
 			<plant id="13-Blue_Elderberry">
 			
@@ -409,29 +355,191 @@
 				
 			</plant>
 
-			<!-- 14-Blue_Dicks_Wild_Hyacinth -->	
-			<plant id="14-Blue_Dicks_Wild_Hyacinth">
+			<!-- 21-Coast_Manzanita_Mission_Manzanita -->	
+			<plant id="21-Coast_Manzanita_Mission_Manzanita">
 			
 				<images>
-					<image id="thumb">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_thumb.png</image>
-					<image id="painting">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_painting.png</image>
-					<image id="collections">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_collections.png</image>
-					<image id="nature">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_nature.png</image>
+					<image id="thumb">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_thumb.png</image>
+					<image id="painting">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_painting.png</image>
+					<image id="collections">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_collections.png</image>
+					<image id="nature">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
-					<en>Wild Hyacinth</en>
+					<en>Mission Manzanita</en>
 					<es>Lorem</es>
 				</text>
 				
 				<text id="scientific_name">				
-					<en>Dichelostemma capitatum ssp. capitatum</en>
-					<es>Dichelostemma capitatum ssp. capitatum</es>
+					<en>Xylococcus bicolor</en>
+					<es>Xylococcus bicolor</es>
 				</text>
 				
 				<text id="description">				
 					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 14-Blue_Dicks_Wild_Hyacinth here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+					<es>Spanish description of 21-Coast_Manzanita_Mission_Manzanita here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 17-Black_Sage -->	
+			<plant id="17-Black_Sage">
+			
+				<images>
+					<image id="thumb">img/17-Black_Sage/17-Black_Sage_thumb.png</image>
+					<image id="painting">img/17-Black_Sage/17-Black_Sage_painting.png</image>
+					<image id="collections">img/17-Black_Sage/17-Black_Sage_collections.png</image>
+					<image id="nature">img/17-Black_Sage/17-Black_Sage_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Black Sage</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Salvia mellifera</en>
+					<es>Salvia mellifera</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 17-Black_Sage here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 19-Cleveland_Sage_Fragrant_Sage -->	
+			<plant id="19-Cleveland_Sage_Fragrant_Sage">
+			
+				<images>
+					<image id="thumb">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_thumb.png</image>
+					<image id="painting">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_painting.png</image>
+					<image id="collections">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_collections.png</image>
+					<image id="nature">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Cleveland Sage</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Salvia clevelandii</en>
+					<es>Salvia clevelandii</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 19-Cleveland_Sage_Fragrant_Sage here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 01-Chamise -->	
+			<plant id="01-Chamise">
+			
+				<images>
+					<image id="thumb">img/01-Chamise/01-Chamise_thumb.png</image>
+					<image id="painting">img/01-Chamise/01-Chamise_painting.png</image>
+					<image id="collections">img/01-Chamise/01-Chamise_collections.png</image>
+					<image id="nature">img/01-Chamise/01-Chamise_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Chamise</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Adenostoma fasciculatum</en>
+					<es>Adenostoma fasciculatum</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 01-Chamise here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 20-Miniature_Lupine -->	
+			<plant id="20-Miniature_Lupine">
+			
+				<images>
+					<image id="thumb">img/20-Miniature_Lupine/20-Miniature_Lupine_thumb.png</image>
+					<image id="painting">img/20-Miniature_Lupine/20-Miniature_Lupine_painting.png</image>
+					<image id="collections">img/20-Miniature_Lupine/20-Miniature_Lupine_collections.png</image>
+					<image id="nature">img/20-Miniature_Lupine/20-Miniature_Lupine_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Miniature Lupine</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Lupinus bicolor</en>
+					<es>Lupinus bicolor</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 20-Miniature_Lupine here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 26-Climbing_Bush_Penstemon -->	
+			<plant id="26-Climbing_Bush_Penstemon">
+			
+				<images>
+					<image id="thumb">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_thumb.png</image>
+					<image id="painting">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_painting.png</image>
+					<image id="collections">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_collections.png</image>
+					<image id="nature">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Climbing Bush Penstemon</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Keckiella cordifolia</en>
+					<es>Keckiella cordifolia</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 26-Climbing_Bush_Penstemon here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 18-Chia -->	
+			<plant id="18-Chia">
+			
+				<images>
+					<image id="thumb">img/18-Chia/18-Chia_thumb.png</image>
+					<image id="painting">img/18-Chia/18-Chia_painting.png</image>
+					<image id="collections">img/18-Chia/18-Chia_collections.png</image>
+					<image id="nature">img/18-Chia/18-Chia_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Chia</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Salvia columbariae</en>
+					<es>Salvia columbariae</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 18-Chia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
 				</text>
 				
 			</plant>
@@ -490,195 +598,6 @@
 				
 			</plant>
 
-			<!-- 17-Black_Sage -->	
-			<plant id="17-Black_Sage">
-			
-				<images>
-					<image id="thumb">img/17-Black_Sage/17-Black_Sage_thumb.png</image>
-					<image id="painting">img/17-Black_Sage/17-Black_Sage_painting.png</image>
-					<image id="collections">img/17-Black_Sage/17-Black_Sage_collections.png</image>
-					<image id="nature">img/17-Black_Sage/17-Black_Sage_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Black Sage</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Salvia mellifera</en>
-					<es>Salvia mellifera</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 17-Black_Sage here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 18-Chia -->	
-			<plant id="18-Chia">
-			
-				<images>
-					<image id="thumb">img/18-Chia/18-Chia_thumb.png</image>
-					<image id="painting">img/18-Chia/18-Chia_painting.png</image>
-					<image id="collections">img/18-Chia/18-Chia_collections.png</image>
-					<image id="nature">img/18-Chia/18-Chia_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Chia</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Salvia columbariae</en>
-					<es>Salvia columbariae</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 18-Chia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 19-Cleveland_Sage_Fragrant_Sage -->	
-			<plant id="19-Cleveland_Sage_Fragrant_Sage">
-			
-				<images>
-					<image id="thumb">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_thumb.png</image>
-					<image id="painting">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_painting.png</image>
-					<image id="collections">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_collections.png</image>
-					<image id="nature">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Cleveland Sage</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Salvia clevelandii</en>
-					<es>Salvia clevelandii</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 19-Cleveland_Sage_Fragrant_Sage here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 20-Miniature_Lupine -->	
-			<plant id="20-Miniature_Lupine">
-			
-				<images>
-					<image id="thumb">img/20-Miniature_Lupine/20-Miniature_Lupine_thumb.png</image>
-					<image id="painting">img/20-Miniature_Lupine/20-Miniature_Lupine_painting.png</image>
-					<image id="collections">img/20-Miniature_Lupine/20-Miniature_Lupine_collections.png</image>
-					<image id="nature">img/20-Miniature_Lupine/20-Miniature_Lupine_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Miniature Lupine</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Lupinus bicolor</en>
-					<es>Lupinus bicolor</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 20-Miniature_Lupine here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 21-Coast_Manzanita_Mission_Manzanita -->	
-			<plant id="21-Coast_Manzanita_Mission_Manzanita">
-			
-				<images>
-					<image id="thumb">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_thumb.png</image>
-					<image id="painting">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_painting.png</image>
-					<image id="collections">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_collections.png</image>
-					<image id="nature">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Mission Manzanita</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Xylococcus bicolor</en>
-					<es>Xylococcus bicolor</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 21-Coast_Manzanita_Mission_Manzanita here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 22-Our_Lords_Candle -->	
-			<plant id="22-Our_Lords_Candle">
-			
-				<images>
-					<image id="thumb">img/22-Our_Lords_Candle/22-Our_Lords_Candle_thumb.png</image>
-					<image id="painting">img/22-Our_Lords_Candle/22-Our_Lords_Candle_painting.png</image>
-					<image id="collections">img/22-Our_Lords_Candle/22-Our_Lords_Candle_collections.png</image>
-					<image id="nature">img/22-Our_Lords_Candle/22-Our_Lords_Candle_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Chaparral Candle</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Hesperoyucca whipplei</en>
-					<es>Hesperoyucca whipplei</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 22-Our_Lords_Candle here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
-			<!-- 23-Saltgrass -->	
-			<plant id="23-Saltgrass">
-			
-				<images>
-					<image id="thumb">img/23-Saltgrass/23-Saltgrass_thumb.png</image>
-					<image id="painting">img/23-Saltgrass/23-Saltgrass_painting.png</image>
-					<image id="collections">img/23-Saltgrass/23-Saltgrass_collections.png</image>
-					<image id="nature">img/23-Saltgrass/23-Saltgrass_nature.png</image>
-				</images>
-							
-				<text id="common_name">				
-					<en>Salt Grass</en>
-					<es>Lorem</es>
-				</text>
-				
-				<text id="scientific_name">				
-					<en>Distichlis spicata</en>
-					<es>Distichlis spicata</es>
-				</text>
-				
-				<text id="description">				
-					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 23-Saltgrass here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-				</text>
-				
-			</plant>
-
 			<!-- 24-California_Buckwheat -->	
 			<plant id="24-California_Buckwheat">
 			
@@ -733,29 +652,29 @@
 				
 			</plant>
 
-			<!-- 26-Climbing_Bush_Penstemon -->	
-			<plant id="26-Climbing_Bush_Penstemon">
+			<!-- 04-Ropevine -->	
+			<plant id="04-Ropevine">
 			
 				<images>
-					<image id="thumb">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_thumb.png</image>
-					<image id="painting">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_painting.png</image>
-					<image id="collections">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_collections.png</image>
-					<image id="nature">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_nature.png</image>
+					<image id="thumb">img/04-Ropevine/04-Ropevine_thumb.png</image>
+					<image id="painting">img/04-Ropevine/04-Ropevine_painting.png</image>
+					<image id="collections">img/04-Ropevine/04-Ropevine_collections.png</image>
+					<image id="nature">img/04-Ropevine/04-Ropevine_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
-					<en>Climbing Bush Penstemon</en>
+					<en>Ropevine Clematis</en>
 					<es>Lorem</es>
 				</text>
 				
 				<text id="scientific_name">				
-					<en>Keckiella cordifolia</en>
-					<es>Keckiella cordifolia</es>
+					<en>Clematis pauciflora</en>
+					<es>Clematis pauciflora</es>
 				</text>
 				
 				<text id="description">				
 					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 26-Climbing_Bush_Penstemon here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+					<es>Spanish description of 04-Ropevine here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
 				</text>
 				
 			</plant>
@@ -787,29 +706,56 @@
 				
 			</plant>
 
-			<!-- 28-Western_Poison_Oak -->	
-			<plant id="28-Western_Poison_Oak">
+			<!-- 14-Blue_Dicks_Wild_Hyacinth -->	
+			<plant id="14-Blue_Dicks_Wild_Hyacinth">
 			
 				<images>
-					<image id="thumb">img/28-Western_Poison_Oak/28-Western_Poison_Oak_thumb.png</image>
-					<image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.png</image>
-					<image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.png</image>
-					<image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.png</image>
+					<image id="thumb">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_thumb.png</image>
+					<image id="painting">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_painting.png</image>
+					<image id="collections">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_collections.png</image>
+					<image id="nature">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
-					<en>Western Poison Oak</en>
+					<en>Wild Hyacinth</en>
 					<es>Lorem</es>
 				</text>
 				
 				<text id="scientific_name">				
-					<en>Toxicodendron diversilobum</en>
-					<es>Toxicodendron diversilobum</es>
+					<en>Dichelostemma capitatum ssp. capitatum</en>
+					<es>Dichelostemma capitatum ssp. capitatum</es>
 				</text>
 				
 				<text id="description">				
 					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 28-Western_Poison_Oak here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+					<es>Spanish description of 14-Blue_Dicks_Wild_Hyacinth here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 06-California_Poppy -->	
+			<plant id="06-California_Poppy">
+			
+				<images>
+					<image id="thumb">img/06-California_Poppy/06-California_Poppy_thumb.png</image>
+					<image id="painting">img/06-California_Poppy/06-California_Poppy_painting.png</image>
+					<image id="collections">img/06-California_Poppy/06-California_Poppy_collections.png</image>
+					<image id="nature">img/06-California_Poppy/06-California_Poppy_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>California Poppy</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Eschscholzia californica</en>
+					<es>Eschscholzia californica</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 06-California_Poppy here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
 				</text>
 				
 			</plant>
@@ -841,29 +787,83 @@
 				
 			</plant>
 
-			<!-- 30-Woolly_Indian_Paintbrush -->	
-			<plant id="30-Woolly_Indian_Paintbrush">
+			<!-- 23-Saltgrass -->	
+			<plant id="23-Saltgrass">
 			
 				<images>
-					<image id="thumb">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_thumb.png</image>
-					<image id="painting">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_painting.png</image>
-					<image id="collections">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_collections.png</image>
-					<image id="nature">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_nature.png</image>
+					<image id="thumb">img/23-Saltgrass/23-Saltgrass_thumb.png</image>
+					<image id="painting">img/23-Saltgrass/23-Saltgrass_painting.png</image>
+					<image id="collections">img/23-Saltgrass/23-Saltgrass_collections.png</image>
+					<image id="nature">img/23-Saltgrass/23-Saltgrass_nature.png</image>
 				</images>
 							
 				<text id="common_name">				
-					<en>Woolly Indian Paintbrush</en>
+					<en>Salt Grass</en>
 					<es>Lorem</es>
 				</text>
 				
 				<text id="scientific_name">				
-					<en>Castilleja foliolosa</en>
-					<es>Castilleja foliolosa</es>
+					<en>Distichlis spicata</en>
+					<es>Distichlis spicata</es>
 				</text>
 				
 				<text id="description">				
 					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-					<es>Spanish description of 30-Woolly_Indian_Paintbrush here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+					<es>Spanish description of 23-Saltgrass here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 02-Splendid_Mariposa_Lily -->	
+			<plant id="02-Splendid_Mariposa_Lily" >
+			
+				<images>
+					<image id="thumb">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_thumb.png</image>
+					<image id="painting">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_painting.png</image>
+					<image id="collections">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_collections.png</image>
+					<image id="nature">img/02-Splendid_Mariposa_Lily/02-Splendid_Mariposa_Lily_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Splendid Mariposa Lily</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Calochortus splendens</en>
+					<es>Calochortus splendens</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 02-Splendid_Mariposa_Lily here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+				</text>
+				
+			</plant>
+
+			<!-- 09-Chaparral_Mallow -->	
+			<plant id="09-Chaparral_Mallow">
+			
+				<images>
+					<image id="thumb">img/09-Chaparral_Mallow/09-Chaparral_Mallow_thumb.png</image>
+					<image id="painting">img/09-Chaparral_Mallow/09-Chaparral_Mallow_painting.png</image>
+					<image id="collections">img/09-Chaparral_Mallow/09-Chaparral_Mallow_collections.png</image>
+					<image id="nature">img/09-Chaparral_Mallow/09-Chaparral_Mallow_nature.png</image>
+				</images>
+							
+				<text id="common_name">				
+					<en>Chaparral Mallow</en>
+					<es>Lorem</es>
+				</text>
+				
+				<text id="scientific_name">				
+					<en>Malacothamnus fasciculatus</en>
+					<es>Malacothamnus fasciculatus</es>
+				</text>
+				
+				<text id="description">				
+					<en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
+					<es>Spanish description of 09-Chaparral_Mallow here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
 				</text>
 				
 			</plant>
