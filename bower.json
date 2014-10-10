@@ -4,10 +4,10 @@
 
   "dependencies": {
 
-    "gsap": 			"latest",
-    "jquery": 			"latest",
-    "requirejs": 		"latest"
-    
+    "gsap": "latest",
+    "jquery": "latest",
+    "requirejs": "latest"
+
   }
 
 }
