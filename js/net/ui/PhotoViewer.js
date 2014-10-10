@@ -44,10 +44,10 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       //Listen for enabling/disabling zoom buttons
       var thisRef = this;
-      $( this.zoomerData.controls.$zoomIn ).on("click", function() { thisRef.checkControlsNecessity() } );
-      $( this.zoomerData.controls.$zoomOut ).on("click", function() { thisRef.checkControlsNecessity() } );
+      $( this.zoomerData.controls.$zoomIn ).on("click", function() { thisRef.checkControlsNecessity(); } );
+      $( this.zoomerData.controls.$zoomOut ).on("click", function() { thisRef.checkControlsNecessity(); } );
 
-    }
+    };
 
      // updateImage() | Unload current instance and re-init w new image
     PhotoViewer.prototype.updateSourceImage = function( imgSrc ) {
@@ -69,7 +69,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
       TweenLite.set( $(this.downPanBtn), { css: { opacity:0.3 } } );
       TweenLite.set( $(this.upPanBtn), { css: { opacity:0.3 } } );
 
-    }
+    };
 
     // checkControlsNecessity() | Disable various controls based on current state
     PhotoViewer.prototype.checkControlsNecessity = function( ) {
@@ -149,7 +149,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       }
 
-    }
+    };
 
     // toggleControls() | Show/Hide active state of all controls
     PhotoViewer.prototype.toggleControls = function( enable ) {
@@ -176,7 +176,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       }
 
-    }
+    };
 
 
     // setPanControls() | Pass a container div to search for pan buttons
@@ -214,7 +214,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
       var scaleY = this.zoomerData.imageHeight / this.zoomerData.naturalHeight;
       return [scaleX, scaleY];
 
-     }
+     };
 
 
     // - ZOOM CONTROL - //
@@ -231,7 +231,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
         thisRef.checkControlsNecessity();
       }, 250);
 
-    }
+    };
 
 
     // - PAN CONTROL - //
@@ -248,7 +248,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       this.checkControlsNecessity();
 
-    }
+    };
 
     // panRight() |
     PhotoViewer.prototype.panRight = function(  ) {
@@ -262,7 +262,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       this.checkControlsNecessity();
 
-    }
+    };
 
     // panUp() |
     PhotoViewer.prototype.panUp = function(  ) {
@@ -276,7 +276,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       this.checkControlsNecessity();
 
-    }
+    };
 
     // panDown() |
     PhotoViewer.prototype.panDown = function(  ) {
@@ -290,14 +290,14 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
       this.checkControlsNecessity();
 
-    }
+    };
 
     // panStop() |
     PhotoViewer.prototype.panStop = function(  ) {
 
       this.allowPan = false;
 
-    }
+    };
 
     // snapToView() | Provide zoom and pan levels (0-100%) to jump to a predetermined view
     PhotoViewer.prototype.snapToView = function( zoom, panLeft, panTop) {
@@ -306,7 +306,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
         $( this.containerDiv ).zoomer("pan", panLeft, panTop);
 
-    }
+    };
 
 
     return PhotoViewer;

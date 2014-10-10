@@ -18,7 +18,7 @@ define([ 'net/AppData'], function( AppData ){
 
     ScreenManager.addScreen = function(screen){
         this.screens.push(screen);
-    }
+    };
 
     ScreenManager.showScreen = function( screenContainerId ) {
 
@@ -59,7 +59,7 @@ define([ 'net/AppData'], function( AppData ){
         $(this.currentScreen.containerDiv).css("z-index", "1");
         if (isFirstScreen==false) this.currentScreen.transitionIn();
 
-    }
+    };
 
     return ScreenManager;
 

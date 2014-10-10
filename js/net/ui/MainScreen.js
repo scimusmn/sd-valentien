@@ -45,7 +45,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], f
 
         });
 
-    }
+    };
 
     // transitionOut() | Tween out display elements
     MainScreen.prototype.transitionOut = function( ){
@@ -53,7 +53,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], f
         TweenLite.to( $( "#main_nav_grid" ), 1, { css: { left:-1080 }, ease:Power2.easeIn } );
         TweenLite.to( $( "#screen_main .content-left" ), 1, { css: { left:-1080 }, delay:0.2, ease:Power2.easeIn } );
 
-    }
+    };
 
     // featurePlant() | Transition to viewer screen with selected plant
     MainScreen.prototype.featurePlant = function( plantId, plantThumbBtn ){
@@ -91,7 +91,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], f
 
         });
 
-    }
+    };
 
     // buttonClicked() | All click events for this screen shall pass through here
     MainScreen.prototype.buttonClicked = function(btnId, btnRef) {

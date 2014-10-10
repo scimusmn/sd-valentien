@@ -22,7 +22,7 @@ define(['net/AppData'], function(AppData){
         //default to english
         Language.setLanguage(Language.ENGLISH);
 
-    }
+    };
 
     /* setLanguage() | Find and replace all text by translation ids */
     Language.setLanguage = function( languageId ){
@@ -55,7 +55,7 @@ define(['net/AppData'], function(AppData){
 
         });
 
-    }
+    };
 
     /* getTranslationById() | Find specific translation text in XML. */
     Language.getTranslation = function( translationId, fromConfig ){
@@ -63,14 +63,14 @@ define(['net/AppData'], function(AppData){
         var translationText = $( fromConfig ).find('text[id="'+translationId+'"]').children( Language.currentLanguage ).first().text();
         return translationText;
 
-    }
+    };
 
     /* getCurrentLanguage() | Return the current displayed language key. */
     Language.getCurrentLanguage = function(){
 
         return Language.currentLanguage;
 
-    }
+    };
 
     return Language;
 

@@ -103,13 +103,13 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
             TweenLite.delayedCall(AppData.infoHideTimeout, this.resetInfoContainer, [], this );
 
         }
-    }
+    };
 
     // resetInfoContainer() | Reset info container after delay
     ViewerScreen.prototype.resetInfoContainer = function(  ){
         console.log( " dd "+this.isInfoContainerShowing() );
         if (this.isInfoContainerShowing()==false) this.toggleInfoContainer(true);
-    }
+    };
 
     // isInfoContainerShowing() | Checks state of info container
     ViewerScreen.prototype.isInfoContainerShowing = function(  ){
@@ -124,7 +124,7 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
 
         }
 
-    }
+    };
 
     // transitionIn() | Tween in display elements
     ViewerScreen.prototype.transitionIn = function( ){
@@ -160,7 +160,7 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
 
         });
 
-    }
+    };
 
     // transitionOut() | Tween out display elements
     ViewerScreen.prototype.transitionOut = function( ){
@@ -182,7 +182,7 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
         //fade out photo
         this.photoViewer.hidePhoto();
 
-    }
+    };
 
     // refreshButtonListeners() | Listen to all buttons on this screen
     ViewerScreen.prototype.refreshButtonListeners = function(){
@@ -210,7 +210,7 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
 
         });
 
-    }
+    };
 
     // buttonClicked() | All click events for this screen shall pass through here
     ViewerScreen.prototype.buttonClicked = function(btnId, btnRef) {
