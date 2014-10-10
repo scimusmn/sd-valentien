@@ -1,5 +1,5 @@
 /* ========================================================================================
-   PhotoViewer is a wrapper for the Zoomer js component (http://formstone.it/components/Zoomer/) 
+   PhotoViewer is a wrapper for the Zoomer js component (http://formstone.it/components/Zoomer/)
    It adds extra functionality and controls that work well with a kiosk trackball.
    ===================================================================================== */
 
@@ -7,7 +7,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
     function PhotoViewer( containerDiv ){
 
-      this.containerDiv = containerDiv; 
+      this.containerDiv = containerDiv;
       this.imgSrcArray = [];
 
       this.zoomerData = {};//data binding to zoomer object
@@ -22,7 +22,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
       this.allowPan = true;
 
       this.initZoomer();
-	
+
     }
 
     // initZoomer() | Create instance of zoomer using the containerIdv
@@ -35,7 +35,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
           zoomIn: "#photo_controls #zoom_in",
           zoomOut: "#photo_controls #zoom_out"
         },
-        marginMin: 0, // Min bounds 
+        marginMin: 0, // Min bounds
         marginMax: 0 // Max bounds // (Setting to 0 allows larger side of image butt up to edge)
       });
 
@@ -124,7 +124,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
     // hidePhoto() | Fade out current photo
     PhotoViewer.prototype.hidePhoto = function(  ) {
-      
+
       // $( this.containerDiv ).zoomer("unload");
 
         $(this.containerDiv).zoomer("load", ''); //Give blank src to take advantage of atuo-fade
@@ -177,7 +177,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
       }
 
     }
-    
+
 
     // setPanControls() | Pass a container div to search for pan buttons
     PhotoViewer.prototype.setPanControls = function( panBtnsContainerDiv ) {
@@ -215,33 +215,33 @@ define(['Zoomer', 'tween'], function( zoomer ){
       return [scaleX, scaleY];
 
      }
-    
+
 
     // - ZOOM CONTROL - //
 
-    // snapZoom() | 
+    // snapZoom() |
     PhotoViewer.prototype.snapZoom = function( top, left ) {
 
       //Animate 250 ms zoom
       var thisRef = this;
 
       this.zoomerData.controls.$zoomIn.trigger("mousedown");
-      setTimeout(function(){ 
+      setTimeout(function(){
         thisRef.zoomerData.controls.$zoomIn.trigger("mouseup");
         thisRef.checkControlsNecessity();
       }, 250);
 
     }
-   
+
 
     // - PAN CONTROL - //
 
-    // panLeft() | 
+    // panLeft() |
     PhotoViewer.prototype.panLeft = function(  ) {
 
       if ( this.allowPan == false ) return;
 
-    	this.zoomerData.targetPositionerLeft += this.panIncrement;
+        this.zoomerData.targetPositionerLeft += this.panIncrement;
 
       var thisRef = this;
       this.panTimer = TweenLite.delayedCall(this.panSpeed, function(){ thisRef.panLeft(); });
@@ -249,13 +249,13 @@ define(['Zoomer', 'tween'], function( zoomer ){
       this.checkControlsNecessity();
 
     }
-    
-    // panRight() | 
+
+    // panRight() |
     PhotoViewer.prototype.panRight = function(  ) {
 
       if ( this.allowPan == false ) return;
 
-    	this.zoomerData.targetPositionerLeft -= this.panIncrement;
+        this.zoomerData.targetPositionerLeft -= this.panIncrement;
 
       var thisRef = this;
       this.panTimer = TweenLite.delayedCall(this.panSpeed, function(){ thisRef.panRight(); });
@@ -263,13 +263,13 @@ define(['Zoomer', 'tween'], function( zoomer ){
       this.checkControlsNecessity();
 
     }
-    
-    // panUp() | 
+
+    // panUp() |
     PhotoViewer.prototype.panUp = function(  ) {
 
       if ( this.allowPan == false ) return;
 
-    	this.zoomerData.targetPositionerTop += this.panIncrement;
+        this.zoomerData.targetPositionerTop += this.panIncrement;
 
       var thisRef = this;
       this.panTimer = TweenLite.delayedCall(this.panSpeed, function(){ thisRef.panUp(); });
@@ -277,13 +277,13 @@ define(['Zoomer', 'tween'], function( zoomer ){
       this.checkControlsNecessity();
 
     }
-    
-    // panDown() | 
+
+    // panDown() |
     PhotoViewer.prototype.panDown = function(  ) {
 
       if ( this.allowPan == false ) return;
 
-    	this.zoomerData.targetPositionerTop -= this.panIncrement;
+        this.zoomerData.targetPositionerTop -= this.panIncrement;
 
       var thisRef = this;
       this.panTimer = TweenLite.delayedCall(this.panSpeed, function(){ thisRef.panDown(); });
@@ -292,23 +292,23 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
     }
 
-    // panStop() | 
+    // panStop() |
     PhotoViewer.prototype.panStop = function(  ) {
 
       this.allowPan = false;
 
     }
-    
-    // snapToView() | Provide zoom and pan levels (0-100%) to jump to a predetermined view 
-    PhotoViewer.prototype.snapToView = function( zoom, panLeft, panTop) {
-    	
-    	//TODO - also set zoom value
 
-    	$( this.containerDiv ).zoomer("pan", panLeft, panTop);
-    	
+    // snapToView() | Provide zoom and pan levels (0-100%) to jump to a predetermined view
+    PhotoViewer.prototype.snapToView = function( zoom, panLeft, panTop) {
+
+        //TODO - also set zoom value
+
+        $( this.containerDiv ).zoomer("pan", panLeft, panTop);
+
     }
-    
-   
+
+
     return PhotoViewer;
-    
+
 });
