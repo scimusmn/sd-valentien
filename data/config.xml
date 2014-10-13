@@ -7,7 +7,7 @@
   <settings>
     <setting id="developerMode" value="true" />
     <setting id="timeout_delay" value="30" />
-    <setting id="infoHideTimeout" value="10" />
+    <setting id="infoHideTimeout" value="20" />
     <setting id="example_setting" value="example_value" />
   </settings>
 
