@@ -6,8 +6,9 @@
 
     "gsap": 			"latest",
     "jquery": 			"latest",
+    "Zoomer":           "latest",
     "requirejs": 		"latest"
-    
+
   }
 
 }
