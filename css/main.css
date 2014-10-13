@@ -104,7 +104,7 @@ textarea {
  * Global
  */
 body {
-	background: #000;
+  background: #000;
 
   /* disable text highlighting */
   -webkit-touch-callout: none;
@@ -125,57 +125,57 @@ body {
 
 #wrapper {
 
-	width: 1080px;
+  width: 1080px;
   height: 1920px;
   overflow: hidden;
 
-	background: #303030;
+  background: #303030;
 
 }
 
 .screen {
-	
-	width: 1080px;
-	height: 1920px;
+
+  width: 1080px;
+  height: 1920px;
   overflow: hidden;
-	
+
 }
 
 .container {
-	position: absolute;
+  position: absolute;
 }
 
 .content-left h1{
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 .content-left h3{
-	padding: 0px;
-	margin: 5px 0px;
+  padding: 0px;
+  margin: 5px 0px;
 }
 
 
 /*Fonts*/
 
 p, h3, h2, h1, span {
-	color: #fffdf3;
-	font-weight: 200;
-	font-family: 'futurats-lightregular', Helvetica, sans-serif;
+  color: #fffdf3;
+  font-weight: 200;
+  font-family: 'futurats-lightregular', Helvetica, sans-serif;
 }
 
 h1 {
-	font-size:  57px;
+  font-size:  57px;
 }
 h2 {
-	
+
 }
 h3 {
-	font-size:  25px;
-	
+  font-size:  25px;
+
 }
 p {
-	font-size:  28px;
-	line-height: 32px;
+  font-size:  28px;
+  line-height: 32px;
 }
 
 
@@ -184,8 +184,8 @@ p {
 @font-face {
 font-family: 'Glyphicons Halflings';
 
-	src: url('../css/fonts/glyphicons-halflings-regular.eot');
-	src: url('../css/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../css/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../css/fonts/glyphicons-halflings-regular.eot');
+  src: url('../css/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../css/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -248,42 +248,42 @@ font-family: 'Glyphicons Halflings';
 
 /*Other*/
 [data-role="button"] {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .h-bar {
-	width: 100%;
+  width: 100%;
 }
 
 .overlay {
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.65);
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.65);
 }
 
 .h-shadow-overlay{
-	
-	position: absolute;
-	background: url("../img/h_shadow_bar.png") repeat-y ;
-	height: 1372px;
-	width:100%;
-	pointer-events: none;	
-	
+
+  position: absolute;
+  background: url("../img/h_shadow_bar.png") repeat-y ;
+  height: 1372px;
+  width:100%;
+  pointer-events: none;
+
 }
 
 /* Language */
 #language_btn {
 
-	position: fixed;
-	text-align: center;
-	
-	width: 175px;
-	height: 77px;
-	
-	bottom: 0px;
-	right: 0px;
-	
-	z-index: 2;
+  position: fixed;
+  text-align: center;
+
+  width: 175px;
+  height: 77px;
+
+  bottom: 0px;
+  right: 0px;
+
+  z-index: 2;
 
 }
 
@@ -294,8 +294,8 @@ font-family: 'Glyphicons Halflings';
 }
 
 #main_nav_grid {
-	position:absolute;
-	top: 7px;
+  position:absolute;
+  top: 7px;
   height: 1365px;
   width: 1080px;
 
@@ -308,67 +308,67 @@ font-family: 'Glyphicons Halflings';
 .thumb p,
 .thumb img,
 .thumb div {
-	position: absolute;
+  position: absolute;
 }
 
 .thumb {
-	width: 200px;
-	height: 215px;
-	background: gray;
+  width: 200px;
+  height: 215px;
+  background: gray;
 }
 
 .thumb p {
-	text-align: center;
-	bottom: -20px;
-	width: 100%;
+  text-align: center;
+  bottom: -20px;
+  width: 100%;
 }
 
 .thumb.row_1 {
-	top: 0px;
+  top: 0px;
 }
 .thumb.row_2 {
-	top: 230px;
+  top: 230px;
 }
 .thumb.row_3 {
-	top: 460px;
+  top: 460px;
 }
 .thumb.row_4 {
-	top: 690px;
+  top: 690px;
 }
 .thumb.row_5 {
-	top: 920px;
+  top: 920px;
 }
 .thumb.row_6 {
-	top: 1150px;
+  top: 1150px;
 }
 
 .thumb.col_1 {
-	left: 0px;
+  left: 0px;
 }
 .thumb.col_2 {
-	left: 220px;
+  left: 220px;
 }
 .thumb.col_3 {
-	left: 440px;
+  left: 440px;
 }
 .thumb.col_4 {
-	left: 660px;
+  left: 660px;
 }
 .thumb.col_5 {
-	left: 880px;
+  left: 880px;
 }
 
 
 #screen_main .content-left{
-	position: absolute;
-	top: 1400px;
-	padding: 50px 50px;
+  position: absolute;
+  top: 1400px;
+  padding: 50px 50px;
 }
 
 #screen_main .content-left p{
-	width: 490px;
-	margin-top: 93px;
-	font-size: 20px;
+  width: 490px;
+  margin-top: 93px;
+  font-size: 20px;
 }
 
 
@@ -379,20 +379,20 @@ font-family: 'Glyphicons Halflings';
 }
 
 .viewer {
-	width: 1080px;
-	height: 1700px;
+  width: 1080px;
+  height: 1700px;
 }
 
 #screen_viewer #info_container {
 
-	position: fixed;
-	height: 320px;
-	bottom: 220px;
-	
-	width: 450px;
-	
-	padding: 50px 75px 100px 75px;
-	background: rgba(68,68,68,0.7);
+  position: fixed;
+  height: 320px;
+  bottom: 220px;
+
+  width: 450px;
+
+  padding: 50px 75px 100px 75px;
+  background: rgba(68,68,68,0.7);
 
 }
 
@@ -414,23 +414,23 @@ font-family: 'Glyphicons Halflings';
 
 #screen_viewer #controls_bar {
 
-	bottom: 0px;
-	position: fixed;
-	background: #333;
-	height: 170px;
-	bottom: 0px;
+  bottom: 0px;
+  position: fixed;
+  background: #333;
+  height: 170px;
+  bottom: 0px;
   padding-bottom: 70px;
 
   box-shadow: 0px -3px 4px rgba(44,44,44,0.4);
-	
+
 }
 
 #screen_viewer #view_selection {
-	
-	margin: 20px;
+
+  margin: 20px;
   margin-top: 0px;
   position: absolute;
-	
+
 }
 
 #screen_viewer #view_selection [data-role="button"]:active {
@@ -457,14 +457,14 @@ font-family: 'Glyphicons Halflings';
 }
 
 #screen_viewer #view_selection div {
-	
-	float: left;
-	background: #444;
-	width: 200px;
-	margin-right: 20px;
-	text-align: center;
+
+  float: left;
+  background: #444;
+  width: 200px;
+  margin-right: 20px;
+  text-align: center;
   margin-top: 5px;
-	
+
 }
 
 #screen_viewer #view_selection div h3 {
@@ -473,17 +473,17 @@ font-family: 'Glyphicons Halflings';
 }
 
 #screen_viewer #view_selection #viewer_screen_instructions {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #screen_viewer #home_bar {
 
-	position: fixed;
-	height: 70px;
-	bottom: 0px;
-	text-align: center;
-	background: #A75928;
-	color: white;
+  position: fixed;
+  height: 70px;
+  bottom: 0px;
+  text-align: center;
+  background: #A75928;
+  color: white;
 
 }
 
@@ -497,13 +497,13 @@ font-family: 'Glyphicons Halflings';
 
 #screen_viewer #home_bar span {
 
-	font-size: 44px;
-	margin-top: 11px;
+  font-size: 44px;
+  margin-top: 11px;
 
 }
 
 #screen_viewer p {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 
@@ -541,7 +541,7 @@ font-family: 'Glyphicons Halflings';
   top: 200px;
   width: 350px;
   float: left;
-  
+
 }
 #photo_controls button:hover {
 

@@ -4,10 +4,10 @@
 
   "dependencies": {
 
-    "gsap": 			"latest",
-    "jquery": 			"latest",
-    "Zoomer":           "latest",
-    "requirejs": 		"latest"
+    "gsap": "latest",
+    "jquery": "latest",
+    "Zoomer": "latest",
+    "requirejs": "latest"
 
   }
 
