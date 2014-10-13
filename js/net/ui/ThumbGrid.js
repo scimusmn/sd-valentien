@@ -23,7 +23,7 @@ define(['net/Language', 'tween'], function( Language ){
 
                 var newThumb = $( this.thumbCloneDiv ).clone().appendTo( $( this.containerDiv ) );
 
-                //add positioning styles to new thumb
+                //Add positioning styles to new thumb
                 newThumb.addClass('row_'+r+' col_'+c);
 
                 $(newThumb).show();
@@ -32,7 +32,7 @@ define(['net/Language', 'tween'], function( Language ){
                 var numConfigs = $(this.configList).length;
                 var thumbConfig = $(this.configList).eq(thumbIndex%numConfigs); //TEMP ( %numConfigs for prototype )
 
-                // Set id, image and text
+                //Set id, image and text
                 var thumbId = 'thumb_'+$(thumbConfig).attr('id');
                 var thumbTxt = Language.getTranslation( 'common_name', $(thumbConfig) );
                 var imgSrc = $(thumbConfig).find('images image[id="thumb"]').text();

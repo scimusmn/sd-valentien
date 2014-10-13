@@ -104,7 +104,6 @@ textarea {
  * Global
  */
 body {
-  background: #000;
 
   /* disable text highlighting */
   -webkit-touch-callout: none;
@@ -119,7 +118,8 @@ body {
 
   width: 1080px;
   height: 1920px;
-  overflow: hidden; /* uncomment for production */
+  overflow: hidden;
+  background: #000;
 
 }
 
@@ -154,24 +154,43 @@ body {
   margin: 5px 0px;
 }
 
+.h-bar {
+  width: 100%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.65);
+}
+
+.h-shadow-overlay{
+
+  position: absolute;
+  background: url("../img/h_shadow_bar.png") repeat-y ;
+  height: 1372px;
+  width:100%;
+  pointer-events: none;
+
+}
+
+/* Buttons */
+[data-role="button"] {
+  cursor: pointer;
+}
+
 
 /*Fonts*/
-
 p, h3, h2, h1, span {
   color: #fffdf3;
   font-weight: 200;
   font-family: 'futurats-lightregular', Helvetica, sans-serif;
 }
-
 h1 {
   font-size:  57px;
 }
-h2 {
-
-}
 h3 {
   font-size:  25px;
-
 }
 p {
   font-size:  28px;
@@ -179,11 +198,9 @@ p {
 }
 
 
-
 /*Glyphs*/
 @font-face {
-font-family: 'Glyphicons Halflings';
-
+  font-family: 'Glyphicons Halflings';
   src: url('../css/fonts/glyphicons-halflings-regular.eot');
   src: url('../css/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../css/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../css/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
@@ -195,7 +212,6 @@ font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -246,32 +262,7 @@ font-family: 'Glyphicons Halflings';
 }
 
 
-/*Other*/
-[data-role="button"] {
-  cursor: pointer;
-}
-
-.h-bar {
-  width: 100%;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.65);
-}
-
-.h-shadow-overlay{
-
-  position: absolute;
-  background: url("../img/h_shadow_bar.png") repeat-y ;
-  height: 1372px;
-  width:100%;
-  pointer-events: none;
-
-}
-
-/* Language */
+/* Language Toggle */
 #language_btn {
 
   position: fixed;
@@ -287,12 +278,10 @@ font-family: 'Glyphicons Halflings';
 
 }
 
-
 /* Main Screen */
 #screen_main {
   position: absolute;
 }
-
 #main_nav_grid {
   position:absolute;
   top: 7px;
@@ -310,19 +299,16 @@ font-family: 'Glyphicons Halflings';
 .thumb div {
   position: absolute;
 }
-
 .thumb {
   width: 200px;
   height: 215px;
   background: gray;
 }
-
 .thumb p {
   text-align: center;
   bottom: -20px;
   width: 100%;
 }
-
 .thumb.row_1 {
   top: 0px;
 }
@@ -341,7 +327,6 @@ font-family: 'Glyphicons Halflings';
 .thumb.row_6 {
   top: 1150px;
 }
-
 .thumb.col_1 {
   left: 0px;
 }
@@ -357,7 +342,6 @@ font-family: 'Glyphicons Halflings';
 .thumb.col_5 {
   left: 880px;
 }
-
 
 #screen_main .content-left{
   position: absolute;
@@ -487,14 +471,6 @@ font-family: 'Glyphicons Halflings';
 
 }
 
-#screen_viewer #loader {
-
-  position: absolute;
-  top: 600px;
-  left: 456px;
-
-}
-
 #screen_viewer #home_bar span {
 
   font-size: 44px;
@@ -508,16 +484,15 @@ font-family: 'Glyphicons Halflings';
 
 
 /* Zoom/Pan Controls */
-
 #photo_controls{
 
   position: absolute;
 
-  /* - On Control bar - */
+  /* - Control bar placement - */
   left: 928px;
   top: 20px;
 
-  /* - On Photo - */
+  /* - Photo placement - */
   /*
   left: 930px;
   top: -186px;
@@ -549,50 +524,50 @@ font-family: 'Glyphicons Halflings';
 
 }
 
- /* - On Photo - */
+ /* - Photo placement - */
 /*
 #pan_zoom {
   width: 100px;
 }
-#pan_zoom g {
+#controls_svg g {
   fill: rgba(48,48,48,0.7);
   transition: .3s fill;
 }
-#pan_zoom .icon{
+#controls_svg .icon{
   fill: #fffdf3;
 }
-#pan_zoom g:hover {
+#controls_svg g:hover {
   fill: rgba(0,0,0,0.65);
 }
-#pan_zoom g:active {
+#controls_svg g:active {
   fill: rgba(0,0,0,.9);
 }
-#pan_zoom button {
+#controls_svg button {
   margin: 5px
 }
  */
 
-/* - On Control Bar - */
+/* - Control Bar placement - */
 #pan_zoom {
   width: 79px;
 }
-#pan_zoom g {
+#controls_svg g {
   fill: #444;
   transition: .3s fill;
 }
-#pan_zoom .icon{
+#controls_svg .icon{
   fill: #dfded9;
 }
-#pan_zoom g.off .icon{
+#controls_svg g.off .icon{
   fill: #333;
 }
-#pan_zoom g:hover {
+#controls_svg g:hover {
   fill: #4a4a4a;
 }
-#pan_zoom g:active {
+#controls_svg g:active {
   fill: #555;
 }
-#pan_zoom button {
+#controls_svg button {
   margin: 5px
 }
 

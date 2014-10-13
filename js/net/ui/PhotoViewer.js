@@ -39,7 +39,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
         marginMax: 0 // Max bounds // (Setting to 0 allows larger side of image butt up to edge)
       });
 
-      //grab instance of zoomer data
+      //Grab instance of zoomer data
       this.zoomerData = $( this.containerDiv ).data("zoomer");
 
       //Listen for enabling/disabling zoom buttons
@@ -71,7 +71,7 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
     };
 
-    // checkControlsNecessity() | Disable various controls based on current state
+    // checkControlsNecessity() | Disable various controls based on current zoom/pan state
     PhotoViewer.prototype.checkControlsNecessity = function( ) {
 
       var curScale = this.getCurrentScale();
@@ -218,7 +218,6 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
 
     // - ZOOM CONTROL - //
-
     // snapZoom() |
     PhotoViewer.prototype.snapZoom = function( top, left ) {
 
@@ -235,7 +234,6 @@ define(['Zoomer', 'tween'], function( zoomer ){
 
 
     // - PAN CONTROL - //
-
     // panLeft() |
     PhotoViewer.prototype.panLeft = function(  ) {
 
@@ -298,16 +296,6 @@ define(['Zoomer', 'tween'], function( zoomer ){
       this.allowPan = false;
 
     };
-
-    // snapToView() | Provide zoom and pan levels (0-100%) to jump to a predetermined view
-    PhotoViewer.prototype.snapToView = function( zoom, panLeft, panTop) {
-
-        //TODO - also set zoom value
-
-        $( this.containerDiv ).zoomer("pan", panLeft, panTop);
-
-    };
-
 
     return PhotoViewer;
 

@@ -12,14 +12,33 @@ define(['net/AppData'], function(AppData){
 
     }
 
+    /* setupToggle() | Set up a button for language toggling */
+    Language.setupToggle = function( uniqueId ){
+
+        this.toggleBtn = $(uniqueId);
+        this.toggleTxt = $(this.toggleBtn).find("h3");
+
+        //use language button to switch between english and spandish
+        $( this.toggleBtn ).on( "click", function(){
+
+            if ( Language.getCurrentLanguage() == Language.ENGLISH ) {
+                $(this.toggleTxt).html("English");
+                Language.setLanguage( Language.SPANISH );
+            } else {
+                $(this.toggleTxt).html("Español");
+                Language.setLanguage( Language.ENGLISH );
+            }
+
+        });
+
+    };
+
     /* setupTranslations() | Accepts xml to be searched. */
     Language.setupTranslations = function( xml ){
 
         Language.translationXML = xml;
 
-        //TODO - Could run through all html text on init to create filtered list of text that actually requires translation
-
-        //default to english
+        //Default to english
         Language.setLanguage(Language.ENGLISH);
 
     };
@@ -40,12 +59,12 @@ define(['net/AppData'], function(AppData){
             //Retrieve translation text from translation xml
             if (filterId != undefined && filterId != '') {
 
-                //filtered
+                //Filtered
                 translationText = Language.getTranslation( $(this).attr('id'), $(Language.translationXML).find("[id='"+filterId+"']") );
 
             } else {
 
-                //unfiltered (search entire xml)
+                //Unfiltered (search entire xml)
                 translationText = Language.getTranslation( $(this).attr('id'), Language.translationXML );
 
             }

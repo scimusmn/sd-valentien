@@ -6,9 +6,9 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
 
         this.init();
 
-        //must be after init so mouse listeners aren't removed.
+        //After init so mouse listeners aren't removed.
         this.photoViewer = new PhotoViewer ( $(containerDiv).find('.viewer').first() );
-        this.photoViewer.setPanControls( $(this.containerDiv).find("#photo_controls").first() );
+        this.photoViewer.setPanControls( $(this.containerDiv).find("#controls_svg").first() );
         this.photoSources = [];
 
     }
@@ -129,14 +129,14 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
     // transitionIn() | Tween in display elements
     ViewerScreen.prototype.transitionIn = function( ){
 
-        //screen
+        //Screen container
         TweenLite.to( $( this.containerDiv ), 1, { css: { left:0 }, delay:0, ease:Power2.easeIn } );
 
-        //controls bar
+        //Controls bar
         TweenLite.set( $("#controls_bar"), { css: { bottom: -170, opacity:0 } } );
         TweenLite.to( $("#controls_bar"), 1, { css: { bottom:0, opacity:1 }, delay:1.1, ease:Power2.easeOut } );
 
-        //home bar
+        //Home bar
         TweenLite.set( $("#home_bar"), { css: { bottom: -70 } } );
         TweenLite.to( $("#home_bar"), 1, { css: { bottom:0 }, delay:1.2, ease:Power2.easeOut } );
 
@@ -234,18 +234,6 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
 
         //other btns...
         switch (btnId) {
-            case "snap_to_1":
-                this.photoViewer.snapToView(50, 70, 15);//zoom,x,y
-            break;
-            case "snap_to_2":
-                this.photoViewer.snapToView(77, 44, 32);
-            break;
-            case "snap_to_3":
-                this.photoViewer.snapToView(50, 10, 88);//zoom,x,y
-            break;
-            case "snap_to_4":
-                this.photoViewer.snapToView(77, 88, 88);
-            break;
             case "home_bar":
                 ScreenManager.showScreen( ScreenManager.SCREEN_MAIN );
             break;
@@ -257,19 +245,18 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
             break;
             case "btn_view_painting":
                 this.photoViewer.updateSourceImage( this.photoSources[0] );
-            this.photoViewer.enableInitialControlStates();
+                this.photoViewer.enableInitialControlStates();
             break;
             case "btn_view_collections":
                 this.photoViewer.updateSourceImage( this.photoSources[1] );
-            this.photoViewer.enableInitialControlStates();
+                this.photoViewer.enableInitialControlStates();
             break;
             case "btn_view_nature":
                 this.photoViewer.updateSourceImage( this.photoSources[2] );
-            this.photoViewer.toggleControls( false );
-            this.photoViewer.toggleDoubleClickZoom( false );
+                this.photoViewer.toggleControls( false );
+                this.photoViewer.toggleDoubleClickZoom( false );
             break;
             default:
-
                 break;
         }
 

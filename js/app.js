@@ -41,29 +41,10 @@ require(['jquery', 'net/AppData', 'net/Language', 'net/ui/ScreenManager', 'net/u
         ScreenManager.init();
         ScreenManager.addScreen( new MainScreen( $('#screen_main') ) ); // Add Main Screen
         ScreenManager.addScreen( new ViewerScreen( $('#screen_viewer') ) ); // Add Viewer Screen
-
         ScreenManager.showScreen( ScreenManager.SCREEN_MAIN );
 
-        setupLanguage();
-
-    }
-
-    function setupLanguage() {
-
+        Language.setupToggle("#language_btn");
         Language.setupTranslations( $(AppData.configXML).find("component").first() );
-
-        //use language button to switch between english and spandish
-        $( "#language_btn" ).on( "click", function(){
-
-            if ( Language.getCurrentLanguage() == Language.ENGLISH ) {
-                $("#language_btn h3").html("English");
-                Language.setLanguage( Language.SPANISH );
-            } else {
-                $("#language_btn h3").html("Español");
-                Language.setLanguage( Language.ENGLISH );
-            }
-
-        });
 
     }
 

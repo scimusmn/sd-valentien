@@ -13,8 +13,7 @@ define([], function(){
         this.developerMode = ($(this.configXML).find('setting[id=developerMode]').attr('value') == "true");
         this.infoHideTimeout = parseFloat( $(this.configXML).find('setting[id=infoHideTimeout]').attr('value') );
 
-        //how to set string setting
-        //      this.EXAMPLE_SETTING = $(this.configXML).find('setting[id=EXAMPLE_SETTING_ID]').attr('value');
+        //this.EXAMPLE_SETTING = $(this.configXML).find('setting[id=EXAMPLE_SETTING_ID]').attr('value');
 
     };
 

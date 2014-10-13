@@ -1,6 +1,5 @@
 define([ 'net/AppData'], function( AppData ){
 
-
     function ScreenManager(){
 
     }
@@ -11,7 +10,6 @@ define([ 'net/AppData'], function( AppData ){
 
     ScreenManager.init = function(){
 
-        //Init screens
         this.screens = [];
 
     };
@@ -22,11 +20,9 @@ define([ 'net/AppData'], function( AppData ){
 
     ScreenManager.showScreen = function( screenContainerId ) {
 
-        // console.log("ScreenManager.showScreen: " + screenContainerId);
-
         if (screenContainerId == AppData.currentScreenId) return;
 
-        //transition out current screen
+        //Transition out current screen
         var isFirstScreen = false;
         if(this.currentScreen) {
             this.currentScreen.transitionOut();
@@ -46,16 +42,16 @@ define([ 'net/AppData'], function( AppData ){
 
         }
 
-        //update app data
+        //Update app data
         AppData.setCurrentScreen( screenContainerId );
 
-        //Do any preparation before transition
+        //Prep screen before transition
         this.currentScreen.refresh();
 
-        //show new screen
+        //Show new screen
         $(this.currentScreen.containerDiv).show();
 
-        //transition new current screen
+        //Transition to current screen
         $(this.currentScreen.containerDiv).css("z-index", "1");
         if (isFirstScreen==false) this.currentScreen.transitionIn();
 

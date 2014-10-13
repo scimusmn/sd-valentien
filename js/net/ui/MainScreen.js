@@ -107,7 +107,7 @@ define([ 'net/AppData', 'net/ui/ThumbGrid', 'net/ui/ScreenManager', 'tween' ], f
 
         }
 
-        //other btns...
+        //Other btns...
         switch (btnId) {
             case "btn_id_1":
 
