@@ -40,16 +40,22 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
         //Set info text for this plant
         var common = Language.getTranslation( 'common_name', $(plantConfig) );
         var scientific = Language.getTranslation( 'scientific_name', $(plantConfig) );
-        var description = Language.getTranslation( 'description', $(plantConfig) );
+        var p_description = Language.getTranslation( 'painting', $(plantConfig) );
+        var c_description = Language.getTranslation( 'collections', $(plantConfig) );
+        var n_description = Language.getTranslation( 'nature', $(plantConfig) );
 
         $("#info_container #common_name").html( common );
         $("#info_container #scientific_name").html( scientific );
-        $("#info_container #description").html( description );
+        $("#info_container #painting").html( p_description );
+        $("#info_container #collections").html( c_description );
+        $("#info_container #nature").html( n_description );
 
         //Add filter attribute to text so translations are specific to this plant
         $("#info_container #common_name").attr("data-filter-id", plantId);
         $("#info_container #scientific_name").attr("data-filter-id", plantId);
-        $("#info_container #description").attr("data-filter-id", plantId);
+        $("#info_container #painting").attr("data-filter-id", plantId);
+        $("#info_container #collections").attr("data-filter-id", plantId);
+        $("#info_container #nature").attr("data-filter-id", plantId);
 
         this.photoSources = [paintingSrc, collectionsSrc, natureSrc];
         this.photoViewer.updateSourceImage( this.photoSources[0] );
@@ -60,6 +66,10 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
         //reset view btns
         $("#btn_view_painting").parent().children("[data-role='button']").removeClass('onView');
         $("#btn_view_painting").addClass('onView');
+
+        //reset description text
+        $("#info_container #collections, #info_container #nature").hide();
+        $("#info_container #painting").show();
 
         this.toggleInfoContainer(true);
 
@@ -230,6 +240,11 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
         if (btnId.substring(0, 8) == "btn_view") {
             $(btnRef).parent().children("[data-role='button']").removeClass('onView');
             $(btnRef).addClass('onView');
+
+            var viewType  = btnId.substring(9);
+            $("#info_container #painting, #info_container #collections, #info_container #nature").hide();
+            $("#info_container #"+viewType).show();
+
         }
 
         //other btns...

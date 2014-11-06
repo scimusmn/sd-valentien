@@ -7,13 +7,14 @@ require.config({
     paths: {
         'jquery' : 'vendor/jquery/dist/jquery.min',
         'tween'  : 'vendor/gsap/src/minified/TweenMax.min',
-        'Zoomer' : 'vendor/Zoomer/jquery.fs.zoomer.min'
+        'Zoomer' : 'vendor/Zoomer/jquery.fs.zoomer.min',
+        'videojs': 'vendor/video-js/dist/video-js/video'
     }
 
 });
 
 
-require(['jquery', 'net/AppData', 'net/Language', 'net/ui/ScreenManager', 'net/ui/MainScreen', 'net/ui/ViewerScreen' ], function( $, AppData, Language, ScreenManager, MainScreen, ViewerScreen ) {
+require(['jquery', 'net/AppData', 'net/Screensaver', 'net/Language', 'net/ui/ScreenManager', 'net/ui/MainScreen', 'net/ui/ViewerScreen' ], function( $, AppData, Screensaver, Language, ScreenManager, MainScreen, ViewerScreen ) {
 
     /*--------------*/
     /* Initial Load */
@@ -45,6 +46,14 @@ require(['jquery', 'net/AppData', 'net/Language', 'net/ui/ScreenManager', 'net/u
 
         Language.setupToggle("#language_btn");
         Language.setupTranslations( $(AppData.configXML).find("component").first() );
+
+        var ss = new Screensaver(AppData.screensaverTimeout, 'img/ss.mp4', function() {
+
+            //On sleep
+            Language.setLanguage(Language.ENGLISH);
+            ScreenManager.showScreen(ScreenManager.SCREEN_MAIN);
+
+        });
 
     }
 

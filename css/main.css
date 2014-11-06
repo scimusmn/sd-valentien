@@ -380,6 +380,10 @@ p {
 
 }
 
+#screen_viewer #scientific_name {
+  font-style: italic;
+}
+
 #screen_viewer #info_container #hide_btn,
 #screen_viewer #info_container #show_btn {
   position: absolute;

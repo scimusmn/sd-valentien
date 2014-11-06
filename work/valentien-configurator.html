@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Valentien | CSV to XML</title>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+    VALENTIEN LANGUAGE GENERATOR<br/><br/>
+    Path: <input id="pathTxt" style="width:450px" type="text" name="pathTxt" value="ValentienManifest - Sheet1.csv">
+    <br/><br/>
+    Flora id:<input id="floraId" style="width:150px" type="text" name="floraId" value="1">
+    <br/><br/><br/>
+    <button type="button" onclick="generateTagsForId()">Generate Language</button>
+    <button type="button" onclick="clearXML()">Clear</button>
+    <br/><br/><br/>
+    <textarea id="output" class="auto-select-all" style='width:70%; height:470px'></textarea><br/><br/><br/>
+    <a href="http://www.freeformatter.com/xml-formatter.html" target="_blank">XML Formatter</a>
+
+    <br/>
+
+  </body>
+
+  <script type="text/javascript">
+
+    var clearXML = function(){
+      //Clear text area of anything previous
+      document.getElementById("txtoutput").value='';
+    }
+
+
+
+    var generateTagsForId = function(){
+
+    var _xml_ = $.parseHTML('<xxx><config><!-- ======== --><!-- SETTINGS --><!-- ======== --><settings><setting id="example_setting" value="example_value" /></settings><!-- ======== --><!-- LANGUAGE --><!-- ======== --><component id="valentien_manifest"><plants></plants></component></config></xxx>');
+
+    var commonTag = $.parseHTML('<xxx><text id="common_name"><en></en><es></es></text></xxx>');
+    var scienTag = $.parseHTML('<xxx><text id="scientific_name"><en></en><es></es></text></xxx>');
+    var descripTag = $.parseHTML('<xxx><text id="description"><en></en><es></es></text></xxx>');
+
+    //load html to parse
+    var indexPath = document.getElementById("pathTxt").value;
+
+    $.get(indexPath+'').success( function(data) {
+
+        //Hold extracted information
+        var master = [];
+        var names = [];
+        var pScrips = [];
+        var cScrips = [];
+        var nScrips = [];
+
+        //Names
+        var all_names = data.split('Painting');
+        all_names.pop();
+        all_names.forEach( function(n){
+
+          var nArr = n.split('\n').slice(-5);
+
+          var num = nArr[0].split(',')[0];
+          var cmEn = nArr[0].split(',"')[1];
+          var cmEs = nArr[2].trim();
+          var sci = nArr[4].split('",')[0].trim();
+
+          names.push([num, cmEn, cmEs, sci]);
+
+        });
+
+        //Painting descriptions
+        var all_painting_descriptions = data.split('Painting');
+        all_painting_descriptions.shift();
+        all_painting_descriptions.forEach(function(d){
+
+          var dArr = d.split('"')[1].split('\n');
+
+          var dEn = dArr[0].trim();
+          var dEs = dArr[2].trim();
+
+          pScrips.push([dEn, dEs]);
+
+        });
+
+        //Collections descriptions
+        var all_collections_descriptions = data.split('Herbarium sheet');
+        all_collections_descriptions.shift();
+        all_collections_descriptions.forEach(function(d){
+
+          var dArr = d.split('"')[1].split('\n');
+
+          var dEn = dArr[0].trim();
+          var dEs = dArr[2].trim();
+
+          cScrips.push([dEn, dEs]);
+
+        });
+
+        //Nature descriptions
+        var all_nature_descriptions = data.split('Living plant');
+        all_nature_descriptions.shift();
+        all_nature_descriptions.forEach(function(d){
+
+          var dArr = d.split('"')[1].split('\n');
+
+          var dEn = dArr[0].trim();
+          var dEs = dArr[2].trim();
+
+          nScrips.push([dEn, dEs]);
+
+        });
+
+
+        //Create master array
+        for (var i = 0; i < names.length; i++) {
+
+          var flora = {};
+
+          flora.idNum = names[i][0];
+          flora.commonEN = names[i][1];
+          flora.commonES = names[i][2];
+          flora.scientific = names[i][3];
+          flora.paintingEN = pScrips[i][0];
+          flora.paintingES = pScrips[i][1];
+          flora.collectionsEN = cScrips[i][0];
+          flora.collectionsES = cScrips[i][1];
+          flora.natureEN = nScrips[i][0];
+          flora.natureES = nScrips[i][1];
+
+          master.push(flora);
+          console.log(flora);
+
+        };
+
+        //Create XML
+        for (var i = 0; i < master.length; i++) {
+
+          var f = master[i];
+
+          var _common = $.parseHTML( '<text id="common_name"><en>'+f.commonEN+'</en><es>'+f.commonES+'</es></text>\n' );
+          var _scien = $.parseHTML( '<text id="scientific_name"><en>'+f.scientific+'</en><es>'+f.scientific+'</es></text>\n' );
+
+          var _p_descrip = $.parseHTML( '<text id="painting"><en>'+f.paintingEN+'</en><es>'+f.paintingES+'</es></text>\n' );
+          var _c_descrip = $.parseHTML( '<text id="collections"><en>'+f.collectionsEN+'</en><es>'+f.collectionsES+'</es></text>\n' );
+          var _n_descrip = $.parseHTML( '<text id="nature"><en>'+f.natureEN+'</en><es>'+f.natureES+'</es></text>\n' );
+
+          var s = $.parseHTML( '<!-- '+f.idNum+' - '+f.commonEN+' --><plant></plant>' );
+
+          $(s).append(_common);
+          $(s).append(_scien);
+          $(s).append(_p_descrip);
+          $(s).append(_c_descrip);
+          $(s).append(_n_descrip);
+
+          //add slide config
+          $(_xml_).find('plants').append(s);
+
+        };
+
+
+        //Send to text area
+        document.getElementById("output").value = $(_xml_).html();
+
+
+
+    });
+
+  }
+
+  //auto on refresh
+  generateTagsForId();
+
+
+  //Auto-select-all textareas on focus
+  $('textarea.auto-select-all').focus(function() {
+    $this = $(this);
+
+    $this.select();
+
+    window.setTimeout(function() {
+        $this.select();
+    }, 1);
+
+    // Work around WebKit's little problem
+    $this.mouseup(function() {
+        // Prevent further mouseup intervention
+        $this.unbind("mouseup");
+        return false;
+    });
+});
+
+  </script>
+
+</html>

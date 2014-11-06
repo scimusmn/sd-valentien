@@ -1,14 +1,10 @@
 {
-
   "name": "valentien_paintings",
-
   "dependencies": {
-
-    "gsap": "latest",
-    "jquery": "latest",
-    "Zoomer": "latest",
-    "requirejs": "latest"
-
+    "gsap": "~1.14.2",
+    "jquery": "~2.1.1",
+    "Zoomer": "~3.0.13",
+    "requirejs": "~2.1.15",
+    "video-js": "~4.10.2"
   }
-
 }

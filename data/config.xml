@@ -6,7 +6,7 @@
   <!-- ======== -->
   <settings>
     <setting id="developerMode" value="true" />
-    <setting id="timeout_delay" value="30" />
+    <setting id="screensaverTimeout" value="60" />
     <setting id="infoHideTimeout" value="20" />
     <setting id="example_setting" value="example_value" />
   </settings>
@@ -58,33 +58,6 @@
     <!-- ============== -->
     <plants>
 
-      <!-- 22-Our_Lords_Candle -->
-      <plant id="22-Our_Lords_Candle">
-
-        <images>
-          <image id="thumb">img/22-Our_Lords_Candle/22-Our_Lords_Candle_thumb.png</image>
-          <image id="painting">img/22-Our_Lords_Candle/22-Our_Lords_Candle_painting.png</image>
-          <image id="collections">img/22-Our_Lords_Candle/22-Our_Lords_Candle_collections.png</image>
-          <image id="nature">img/22-Our_Lords_Candle/22-Our_Lords_Candle_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Chaparral Candle</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Hesperoyucca whipplei</en>
-          <es>Hesperoyucca whipplei</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 22-Our_Lords_Candle here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
       <!-- 12-Lemonadeberry -->
       <plant id="12-Lemonadeberry">
 
@@ -97,557 +70,23 @@
 
         <text id="common_name">
           <en>Lemonadeberry</en>
-          <es>Lorem</es>
+          <es>Saladito</es>
         </text>
-
         <text id="scientific_name">
           <en>Rhus integrifolia</en>
           <es>Rhus integrifolia</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 12-Lemonadeberry here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>Clusters of flowers turn into tiny reddish fruits coated with a sticky, lemon-flavored residue. Earlier generations of southern California’s native people soaked the fruits in water to make a tart drink.</en>
+          <es>Racimos de flores se convierten en pequeños frutos rojizos cubiertos de un residuo pegajoso con sabor a limón. Anteriores generaciones de los nativos del sur de California remojaban los frutos en agua para hacer una bebida agria.</es>
         </text>
-
-      </plant>
-
-      <!-- 28-Western_Poison_Oak -->
-      <plant id="28-Western_Poison_Oak">
-
-        <images>
-          <image id="thumb">img/28-Western_Poison_Oak/28-Western_Poison_Oak_thumb.png</image>
-          <image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.png</image>
-          <image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.png</image>
-          <image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Western Poison Oak</en>
-          <es>Lorem</es>
+        <text id="collections">
+          <en>Collecting a plant when it is in bloom, like this specimen, helps scientists understand when different species flower. Unlike many plants, Lemonadeberry flowers in winter, not spring. This specimen was collected in January.</en>
+          <es>Recolectar una planta cuando está en flor, como este espécimen, les ayuda a entender a los científicos cuándo florecen las diferentes especies. A diferencia de muchas plantas, el saladito florece en invierno, no en primavera. Este espécimen fue recolectado en enero.</es>
         </text>
-
-        <text id="scientific_name">
-          <en>Toxicodendron diversilobum</en>
-          <es>Toxicodendron diversilobum</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 28-Western_Poison_Oak here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 08-Wild_Pea -->
-      <plant id="08-Wild_Pea">
-
-        <images>
-          <image id="thumb">img/08-Wild_Pea/08-Wild_Pea_thumb.png</image>
-          <image id="painting">img/08-Wild_Pea/08-Wild_Pea_painting.png</image>
-          <image id="collections">img/08-Wild_Pea/08-Wild_Pea_collections.png</image>
-          <image id="nature">img/08-Wild_Pea/08-Wild_Pea_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>San Diego Sweet Pea</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Lathyrus vestitus var. alefeldii</en>
-          <es>Lathyrus vestitus var. alefeldii</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 08-Wild_Pea here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 30-Woolly_Indian_Paintbrush -->
-      <plant id="30-Woolly_Indian_Paintbrush">
-
-        <images>
-          <image id="thumb">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_thumb.png</image>
-          <image id="painting">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_painting.png</image>
-          <image id="collections">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_collections.png</image>
-          <image id="nature">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Woolly Indian Paintbrush</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Castilleja foliolosa</en>
-          <es>Castilleja foliolosa</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 30-Woolly_Indian_Paintbrush here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 07-Christmas_Berry_Toyon -->
-      <plant id="07-Christmas_Berry_Toyon">
-
-        <images>
-          <image id="thumb">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_thumb.png</image>
-          <image id="painting">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_painting.png</image>
-          <image id="collections">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_collections.png</image>
-          <image id="nature">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Toyon</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Heteromeles arbutifolia</en>
-          <es>Heteromeles arbutifolia</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 07-Christmas_Berry_Toyon here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 10-Coast_Prickly_Pear -->
-      <plant id="10-Coast_Prickly_Pear">
-
-        <images>
-          <image id="thumb">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_thumb.png</image>
-          <image id="painting">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_painting.png</image>
-          <image id="collections">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_collections.png</image>
-          <image id="nature">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Coast Prickly Pear</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Opuntia littoralis</en>
-          <es>Opuntia littoralis</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 10-Coast_Prickly_Pear here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 05-Sea_Dahlia -->
-      <plant id="05-Sea_Dahlia">
-
-        <images>
-          <image id="thumb">img/05-Sea_Dahlia/05-Sea_Dahlia_thumb.png</image>
-          <image id="painting">img/05-Sea_Dahlia/05-Sea_Dahlia_painting.png</image>
-          <image id="collections">img/05-Sea_Dahlia/05-Sea_Dahlia_collections.png</image>
-          <image id="nature">img/05-Sea_Dahlia/05-Sea_Dahlia_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>San Diego Sea Dahlia</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Leptosyne maritima</en>
-          <es>Leptosyne maritima</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 05-Sea_Dahlia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 11-Large-flowered_Phacelia -->
-      <plant id="11-Large-flowered_Phacelia">
-
-        <images>
-          <image id="thumb">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_thumb.png</image>
-          <image id="painting">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_painting.png</image>
-          <image id="collections">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_collections.png</image>
-          <image id="nature">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Large-flowered Phacelia</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Phacelia grandiflora</en>
-          <es>Phacelia grandiflora</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 11-Large-flowered_Phacelia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 03-Ramona-Lilac -->
-      <plant id="03-Ramona-Lilac">
-
-        <images>
-          <image id="thumb">img/03-Ramona-Lilac/03-Ramona-Lilac_thumb.png</image>
-          <image id="painting">img/03-Ramona-Lilac/03-Ramona-Lilac_painting.png</image>
-          <image id="collections">img/03-Ramona-Lilac/03-Ramona-Lilac_collections.png</image>
-          <image id="nature">img/03-Ramona-Lilac/03-Ramona-Lilac_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Ramona Lilac</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Ceanothus tomentosus</en>
-          <es>Ceanothus tomentosus</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 03-Ramona-Lilac here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 13-Blue_Elderberry -->
-      <plant id="13-Blue_Elderberry">
-
-        <images>
-          <image id="thumb">img/13-Blue_Elderberry/13-Blue_Elderberry_thumb.png</image>
-          <image id="painting">img/13-Blue_Elderberry/13-Blue_Elderberry_painting.png</image>
-          <image id="collections">img/13-Blue_Elderberry/13-Blue_Elderberry_collections.png</image>
-          <image id="nature">img/13-Blue_Elderberry/13-Blue_Elderberry_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Blue Elderberry</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Sambucus nigra ssp. caerulea</en>
-          <es>Sambucus nigra ssp. caerulea</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 13-Blue_Elderberry here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 21-Coast_Manzanita_Mission_Manzanita -->
-      <plant id="21-Coast_Manzanita_Mission_Manzanita">
-
-        <images>
-          <image id="thumb">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_thumb.png</image>
-          <image id="painting">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_painting.png</image>
-          <image id="collections">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_collections.png</image>
-          <image id="nature">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Mission Manzanita</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Xylococcus bicolor</en>
-          <es>Xylococcus bicolor</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 21-Coast_Manzanita_Mission_Manzanita here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 17-Black_Sage -->
-      <plant id="17-Black_Sage">
-
-        <images>
-          <image id="thumb">img/17-Black_Sage/17-Black_Sage_thumb.png</image>
-          <image id="painting">img/17-Black_Sage/17-Black_Sage_painting.png</image>
-          <image id="collections">img/17-Black_Sage/17-Black_Sage_collections.png</image>
-          <image id="nature">img/17-Black_Sage/17-Black_Sage_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Black Sage</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Salvia mellifera</en>
-          <es>Salvia mellifera</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 17-Black_Sage here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 19-Cleveland_Sage_Fragrant_Sage -->
-      <plant id="19-Cleveland_Sage_Fragrant_Sage">
-
-        <images>
-          <image id="thumb">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_thumb.png</image>
-          <image id="painting">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_painting.png</image>
-          <image id="collections">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_collections.png</image>
-          <image id="nature">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Cleveland Sage</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Salvia clevelandii</en>
-          <es>Salvia clevelandii</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 19-Cleveland_Sage_Fragrant_Sage here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 01-Chamise -->
-      <plant id="01-Chamise">
-
-        <images>
-          <image id="thumb">img/01-Chamise/01-Chamise_thumb.png</image>
-          <image id="painting">img/01-Chamise/01-Chamise_painting.png</image>
-          <image id="collections">img/01-Chamise/01-Chamise_collections.png</image>
-          <image id="nature">img/01-Chamise/01-Chamise_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Chamise</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Adenostoma fasciculatum</en>
-          <es>Adenostoma fasciculatum</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 01-Chamise here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 20-Miniature_Lupine -->
-      <plant id="20-Miniature_Lupine">
-
-        <images>
-          <image id="thumb">img/20-Miniature_Lupine/20-Miniature_Lupine_thumb.png</image>
-          <image id="painting">img/20-Miniature_Lupine/20-Miniature_Lupine_painting.png</image>
-          <image id="collections">img/20-Miniature_Lupine/20-Miniature_Lupine_collections.png</image>
-          <image id="nature">img/20-Miniature_Lupine/20-Miniature_Lupine_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Miniature Lupine</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Lupinus bicolor</en>
-          <es>Lupinus bicolor</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 20-Miniature_Lupine here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 26-Climbing_Bush_Penstemon -->
-      <plant id="26-Climbing_Bush_Penstemon">
-
-        <images>
-          <image id="thumb">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_thumb.png</image>
-          <image id="painting">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_painting.png</image>
-          <image id="collections">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_collections.png</image>
-          <image id="nature">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Climbing Bush Penstemon</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Keckiella cordifolia</en>
-          <es>Keckiella cordifolia</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 26-Climbing_Bush_Penstemon here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 18-Chia -->
-      <plant id="18-Chia">
-
-        <images>
-          <image id="thumb">img/18-Chia/18-Chia_thumb.png</image>
-          <image id="painting">img/18-Chia/18-Chia_painting.png</image>
-          <image id="collections">img/18-Chia/18-Chia_collections.png</image>
-          <image id="nature">img/18-Chia/18-Chia_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Chia</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Salvia columbariae</en>
-          <es>Salvia columbariae</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 18-Chia here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 15-Chalk_Dudleya_Live_Forever -->
-      <plant id="15-Chalk_Dudleya_Live_Forever">
-
-        <images>
-          <image id="thumb">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_thumb.png</image>
-          <image id="painting">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_painting.png</image>
-          <image id="collections">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_collections.png</image>
-          <image id="nature">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Chalk Dudleya</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Dudleya pulverulenta</en>
-          <es>Dudleya pulverulenta</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 15-Chalk_Dudleya_Live_Forever here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 16-Purple_Needlegrass -->
-      <plant id="16-Purple_Needlegrass">
-
-        <images>
-          <image id="thumb">img/16-Purple_Needlegrass/16-Purple_Needlegrass_thumb.png</image>
-          <image id="painting">img/16-Purple_Needlegrass/16-Purple_Needlegrass_painting.png</image>
-          <image id="collections">img/16-Purple_Needlegrass/16-Purple_Needlegrass_collections.png</image>
-          <image id="nature">img/16-Purple_Needlegrass/16-Purple_Needlegrass_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Purple Needlegrass</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Stipa pulchra</en>
-          <es>Stipa pulchra</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 16-Purple_Needlegrass here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 24-California_Buckwheat -->
-      <plant id="24-California_Buckwheat">
-
-        <images>
-          <image id="thumb">img/24-California_Buckwheat/24-California_Buckwheat_thumb.png</image>
-          <image id="painting">img/24-California_Buckwheat/24-California_Buckwheat_painting.png</image>
-          <image id="collections">img/24-California_Buckwheat/24-California_Buckwheat_collections.png</image>
-          <image id="nature">img/24-California_Buckwheat/24-California_Buckwheat_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>California Buckwheat</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Eriogonum fasciculatum var. foliolosum</en>
-          <es>Eriogonum fasciculatum var. foliolosum</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 24-California_Buckwheat here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
-        </text>
-
-      </plant>
-
-      <!-- 25-Coast_Monkey_Flower -->
-      <plant id="25-Coast_Monkey_Flower">
-
-        <images>
-          <image id="thumb">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_thumb.png</image>
-          <image id="painting">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_painting.png</image>
-          <image id="collections">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_collections.png</image>
-          <image id="nature">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_nature.png</image>
-        </images>
-
-        <text id="common_name">
-          <en>Bush Monkey Flower</en>
-          <es>Lorem</es>
-        </text>
-
-        <text id="scientific_name">
-          <en>Diplacus longiflorus</en>
-          <es>Diplacus longiflorus</es>
-        </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 25-Coast_Monkey_Flower here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="nature">
+          <en>The glossy finish on this plant’s thick leaves comes from a waxy coating that holds in moisture, protecting the leaves from withering during a dry spell.</en>
+          <es>La superficie lustrosa de las gruesas hojas de esta planta proviene de una capa cerosa que retiene la humedad, protegiendo así a las hojas para que no se marchiten durante un período seco.</es>
         </text>
 
       </plant>
@@ -664,125 +103,188 @@
 
         <text id="common_name">
           <en>Ropevine Clematis</en>
-          <es>Lorem</es>
+          <es>Barba de chivo</es>
         </text>
-
         <text id="scientific_name">
           <en>Clematis pauciflora</en>
           <es>Clematis pauciflora</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 04-Ropevine here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>This vine extends delicate stems to climb up neighboring shrubs and into trees, sometimes reaching lengths of 20 feet or more.</en>
+          <es>Esta enredadera extiende sus delicadas ramas trepándose a los arbustos y los árboles cercanos, alcanzando a veces alturas de veinte pies o más.</es>
+        </text>
+        <text id="collections">
+          <en>The long, feathery structures you can see on this specimen are called “styles.” Styles help the plant reproduce by transferring pollen down to the plant’s ovary, where fertilization happens.</en>
+          <es>Las largas y plumosas estructuras que puedes ver en este espécimen son llamadas</es>
+        </text>
+        <text id="nature">
+          <en>This plant’s flowers look like little powder puffs because each one has a cluster of up to 50 stamens, which produce the plant’s pollen. This increases a plant’s chances of reproducing.</en>
+          <es>Las flores de esta planta parecen pequeñas nubecillas de polvo porque cada una tiene un grupo de hasta cincuenta estambres que producen el polen de la planta. Esto aumenta las probabilidades de reproducción de una planta.</es>
         </text>
 
       </plant>
 
-      <!-- 27-Bladderpod -->
-      <plant id="27-Bladderpod">
+      <!-- 13-Blue_Elderberry -->
+      <plant id="13-Blue_Elderberry">
 
         <images>
-          <image id="thumb">img/27-Bladderpod/27-Bladderpod_thumb.png</image>
-          <image id="painting">img/27-Bladderpod/27-Bladderpod_painting.png</image>
-          <image id="collections">img/27-Bladderpod/27-Bladderpod_collections.png</image>
-          <image id="nature">img/27-Bladderpod/27-Bladderpod_nature.png</image>
+          <image id="thumb">img/13-Blue_Elderberry/13-Blue_Elderberry_thumb.png</image>
+          <image id="painting">img/13-Blue_Elderberry/13-Blue_Elderberry_painting.png</image>
+          <image id="collections">img/13-Blue_Elderberry/13-Blue_Elderberry_collections.png</image>
+          <image id="nature">img/13-Blue_Elderberry/13-Blue_Elderberry_nature.png</image>
         </images>
 
         <text id="common_name">
-          <en>Bladderpod</en>
-          <es>Lorem</es>
+          <en>Blue Elderberry</en>
+          <es>Saúco mexicano</es>
         </text>
-
         <text id="scientific_name">
-          <en>Peritoma arborea var. arborea</en>
-          <es>Peritoma arborea var. arborea</es>
+          <en>Sambucus nigra ssp. caerulea</en>
+          <es>Sambucus nigra ssp. caerulea</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 27-Bladderpod here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>Summer’s frothy white flowers produce blue-black berries that are food for birds and squirrels.</en>
+          <es>Las espumosas flores blancas del verano producen bayas azul-negruzcas que son alimento para los pájaros y las ardillas.</es>
+        </text>
+        <text id="collections">
+          <en>On the specimen label, this plant is identified with a different name, Sambucus mexicana. Scientists might change a plant’s name if they learn new information about how it is related to other plants.</en>
+          <es>En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, Sambucus mexicana. Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación que una planta tiene con otras.</es>
+        </text>
+        <text id="nature">
+          <en>Blue Elderberry loses its leaves during southern California’s dry summers. Winter rains bring new leaves, and spring brings flowers.</en>
+          <es>El saúco pierde sus hojas durante los secos veranos del sur de California. Las lluvias de invierno traen hojas nuevas, y la primavera trae flores.</es>
         </text>
 
       </plant>
 
-      <!-- 14-Blue_Dicks_Wild_Hyacinth -->
-      <plant id="14-Blue_Dicks_Wild_Hyacinth">
+      <!-- 16-Purple_Needlegrass -->
+      <plant id="16-Purple_Needlegrass">
 
         <images>
-          <image id="thumb">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_thumb.png</image>
-          <image id="painting">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_painting.png</image>
-          <image id="collections">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_collections.png</image>
-          <image id="nature">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_nature.png</image>
+          <image id="thumb">img/16-Purple_Needlegrass/16-Purple_Needlegrass_thumb.png</image>
+          <image id="painting">img/16-Purple_Needlegrass/16-Purple_Needlegrass_painting.png</image>
+          <image id="collections">img/16-Purple_Needlegrass/16-Purple_Needlegrass_collections.png</image>
+          <image id="nature">img/16-Purple_Needlegrass/16-Purple_Needlegrass_nature.png</image>
         </images>
 
         <text id="common_name">
-          <en>Wild Hyacinth</en>
-          <es>Lorem</es>
+          <en>Purple Needlegrass</en>
+          <es>Hierba aguja</es>
         </text>
-
         <text id="scientific_name">
-          <en>Dichelostemma capitatum ssp. capitatum</en>
-          <es>Dichelostemma capitatum ssp. capitatum</es>
+          <en>Stipa pulchra</en>
+          <es>Stipa pulchra</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 14-Blue_Dicks_Wild_Hyacinth here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>Did you know that California has an official state grass? It’s Purple Needlegrass. Tolerant of drought and heat, this native species grows from the Oregon border all the way to northern Baja California.</en>
+          <es>¿Sabías que California tiene un pasto estatal oficial? Es la hierba aguja. Esta especie nativa tolera las sequías y el calor y crece desde el límite de Oregon hasta el norte de Baja California.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen was collected from an area where non-native, invasive grasses have replaced much of the original habitat. Specimens such as this one are evidence that a native plant once grew in an area even if that place has been altered.</en>
+          <es>Este espécimen fue recogido en un área donde pastos no-nativos e invasivos han desplazado a gran parte del hábitat original. Especímenes tales como éste son prueba de que una planta nativa alguna vez creció en una zona, aun si ese lugar ha sido alterado.</es>
+        </text>
+        <text id="nature">
+          <en>Purple Needlegrass was once one of California’s most common grassland plants. Non-native, invasive grasses have now replaced much of its habitat.</en>
+          <es>La hierba aguja alguna vez fue una de las plantas de pastizales más comunes de California. Los pastos no-nativos e invasivos ya han sustituido gran parte de su hábitat.</es>
         </text>
 
       </plant>
 
-      <!-- 06-California_Poppy -->
-      <plant id="06-California_Poppy">
+      <!-- 30-Woolly_Indian_Paintbrush -->
+      <plant id="30-Woolly_Indian_Paintbrush">
 
         <images>
-          <image id="thumb">img/06-California_Poppy/06-California_Poppy_thumb.png</image>
-          <image id="painting">img/06-California_Poppy/06-California_Poppy_painting.png</image>
-          <image id="collections">img/06-California_Poppy/06-California_Poppy_collections.png</image>
-          <image id="nature">img/06-California_Poppy/06-California_Poppy_nature.png</image>
+          <image id="thumb">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_thumb.png</image>
+          <image id="painting">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_painting.png</image>
+          <image id="collections">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_collections.png</image>
+          <image id="nature">img/30-Woolly_Indian_Paintbrush/30-Woolly_Indian_Paintbrush_nature.png</image>
         </images>
 
         <text id="common_name">
-          <en>California Poppy</en>
-          <es>Lorem</es>
+          <en>Woolly Paintbrush</en>
+          <es>Garañona</es>
         </text>
-
         <text id="scientific_name">
-          <en>Eschscholzia californica</en>
-          <es>Eschscholzia californica</es>
+          <en>Castilleja foliolosa</en>
+          <es>Castilleja foliolosa</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 06-California_Poppy here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>There are around 200 species of “paintbrushes,” a group of plants that resemble brushes dipped in paint. Woolly Paintbrush is distinct for its fuzzy stems and leaves.</en>
+          <es>Hay alrededor de doscientas especies de garañonas, un grupo de plantas que se asemejan a pinceles remojados en pintura. La garañona se distingue por sus tallos y hojas velludas.</es>
+        </text>
+        <text id="collections">
+          <en>Woolly Paintbrush grows almost exclusively in California. When scientists collect a plant specimen, they document exactly where it was found. Plant collections deepen our understanding of which species grow where.</en>
+          <es>La garañona crece casi exclusivamente en California. Cuando los científicos recolectan un espécimen de planta, documentan exactamente dónde fue encontrado. Las colecciones de plantas profundizan nuestra comprensión acerca de cuáles especies crecen en determinados lugares.</es>
+        </text>
+        <text id="nature">
+          <en>When you see Woolly Paintbrush, you almost always see other plants growing close by. Indian Paintbrush is partially parasitic: it taps into the roots of other plants for extra water and nutrients.</en>
+          <es>Cuando veas a una garañona, casi siempre se pueden ver otras plantas que crecen cerca. La garañona es parcialmente parasitaria: se aprovecha de las raíces de otras plantas para obtener agua y nutrientes adicionales.</es>
         </text>
 
       </plant>
 
-      <!-- 29-California_Thistle -->
-      <plant id="29-California_Thistle">
+      <!-- 15-Chalk_Dudleya_Live_Forever -->
+      <plant id="15-Chalk_Dudleya_Live_Forever">
 
         <images>
-          <image id="thumb">img/29-California_Thistle/29-California_Thistle_thumb.png</image>
-          <image id="painting">img/29-California_Thistle/29-California_Thistle_painting.png</image>
-          <image id="collections">img/29-California_Thistle/29-California_Thistle_collections.png</image>
-          <image id="nature">img/29-California_Thistle/29-California_Thistle_nature.png</image>
+          <image id="thumb">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_thumb.png</image>
+          <image id="painting">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_painting.png</image>
+          <image id="collections">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_collections.png</image>
+          <image id="nature">img/15-Chalk_Dudleya_Live_Forever/15-Chalk_Dudleya_Live_Forever_nature.png</image>
         </images>
 
         <text id="common_name">
-          <en>California Thistle</en>
-          <es>Lorem</es>
+          <en>Chalk Dudleya</en>
+          <es>Siempreviva</es>
         </text>
-
         <text id="scientific_name">
-          <en>Cirsium occidentale var. californicum</en>
-          <es>Cirsium occidentale var. californicum</es>
+          <en>Dudleya pulverulenta</en>
+          <es>Dudleya pulverulenta</es>
+        </text>
+        <text id="painting">
+          <en>This plant grows on southern California’s coastal slopes and rocky cliffs, where hummingbirds sip nectar from its tubular red flowers in spring.</en>
+          <es>Esta planta crece sobre las laderas y acantilados rocosos del sur de California, donde los colibríes sorben el néctar de sus cilíndricas flores rojas en primavera.</es>
+        </text>
+        <text id="collections">
+          <en>A cabbage-sized rosette of thick, succulent leaves allows this plant to store water for the dry season.</en>
+          <es>Una roseta del tamaño de un repollo de hojas gruesas y suculentas le permite a esta planta almacenar agua para la temporada seca.</es>
+        </text>
+        <text id="nature">
+          <en>Chalk Dudleya gets its name from a chalky “wax” that coats its leaves and flower stalks, helping prevent water evaporation.</en>
+          <es>La siempreviva recibe su nombre botánico en inglés de una “cera” como polvo de gis que cubre sus hojas y los tallos de sus flores, lo cual ayuda a evitar la evaporación del agua.</es>
         </text>
 
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 29-California_Thistle here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+      </plant>
+
+      <!-- 28-Western_Poison_Oak -->
+      <plant id="28-Western_Poison_Oak">
+
+        <images>
+          <image id="thumb">img/28-Western_Poison_Oak/28-Western_Poison_Oak_thumb.png</image>
+          <image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.png</image>
+          <image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.png</image>
+          <image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Western Poison-oak</en>
+          <es>Hiedra</es>
+        </text>
+        <text id="scientific_name">
+          <en>Toxicodendron diversilobum</en>
+          <es>Toxicodendron diversilobum</es>
+        </text>
+        <text id="painting">
+          <en>This notorious plant grows near streams and rivers across California. Its leaves—which turn red in fall—contain oils that can cause a very unpleasant rash if you touch them.</en>
+          <es>Esta tristemente célebre planta crece cerca de los arroyos y ríos a lo largo de California. Sus hojas, las cuales se tornan rojas en el otoño, contienen aceites que pueden producir una irritación muy incómoda en la piel si las tocas.</es>
+        </text>
+        <text id="collections">
+          <en>Poison-oak is not related to oaks, but its leaves resemble oak leaves in shape. One way to recognize and avoid Poison-oak in summer: look for small greenish or whitish berries.</en>
+          <es>La hiedra no está relacionada a los robles como lo indica su nombre en inglés, pero la forma de sus hojas se parece a las hojas de un roble. Una forma de reconocerlas y evitarlas en verano: fíjate si tienen bayas verdosas o blanquecinas.</es>
+        </text>
+        <text id="nature">
+          <en>“Leaflets of three; let it be.” Learning to identify Poison-oak by its leaf shape can save you from a painful, burning itch.</en>
+          <es>"Si ves tres hojas juntas, no toques ni las puntas". Aprender a identificar a la hiedra por la forma de sus hojas puede salvarte de una comezón dolorosa y quemante.</es>
         </text>
 
       </plant>
@@ -798,18 +300,387 @@
         </images>
 
         <text id="common_name">
-          <en>Salt Grass</en>
-          <es>Lorem</es>
+          <en>Saltgrass</en>
+          <es>Zacate salado</es>
         </text>
-
         <text id="scientific_name">
           <en>Distichlis spicata</en>
           <es>Distichlis spicata</es>
         </text>
+        <text id="painting">
+          <en>If you visit Torrey Pines State Natural Reserve and wander from the bluffs down to the shore, you might see Saltgrass growing near the salt marsh.</en>
+          <es>Si visitas la Reserva Natural Estatal Torrey Pines y caminas desde los acantilados hasta la orilla del mar, es posible que veas el zacate salado creciendo cerca de la marisma salada.</es>
+        </text>
+        <text id="collections">
+          <en>The Latin name spicata, meaning “arranged in spikes,” describes the way this plant’s flowers grow like clusters of tiny spikes on the ends of long stems.</en>
+          <es>El nombre spicata en latín significa “ordenado en espigas”, y describe cómo crecen las flores de esta planta en grupos de pequeñas espigas sobre largos tallos.</es>
+        </text>
+        <text id="nature">
+          <en>It isn’t easy for a plant to grow in sand, but Saltgrass does. Its roots form dense clumps that anchor the plant to unstable soil.</en>
+          <es>No es fácil para una planta crecer en la arena, pero el zacate salado puede. Sus raíces forman densos macizos que sujetan la planta al inestable suelo.</es>
+        </text>
 
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 23-Saltgrass here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+      </plant>
+
+      <!-- 11-Large-flowered_Phacelia -->
+      <plant id="11-Large-flowered_Phacelia">
+
+        <images>
+          <image id="thumb">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_thumb.png</image>
+          <image id="painting">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_painting.png</image>
+          <image id="collections">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_collections.png</image>
+          <image id="nature">img/11-Large-flowered_Phacelia/11-Large-flowered_Phacelia_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Large-flowered Phacelia</en>
+          <es>Phacelia de flores grandes</es>
+        </text>
+        <text id="scientific_name">
+          <en>Phacelia grandiflora</en>
+          <es>Phacelia grandiflora</es>
+        </text>
+        <text id="painting">
+          <en>Purple or lavender flowers with darker purple stripes cluster on sturdy stalks that can grow up to three feet tall.</en>
+          <es>Flores púrpuras o violetas con rayas púrpuras más oscuras se agrupan en tallos robustos que pueden crecer hasta una altura de tres pies.</es>
+        </text>
+        <text id="collections">
+          <en>Zoom in close to see the tiny hairs on the stem and leaves of this specimen. They can cause a rash if you handle them. So it’s best to enjoy this attractive plant by looking, not touching.</en>
+          <es>Acércate para ver los pequeños vellos sobre el tallo y las hojas de este espécimen. Pueden provocar sarpullidos si los tocas, así que es mejor que disfrutes de esta atractiva planta observándola sin tocarla.</es>
+        </text>
+        <text id="nature">
+          <en>This plant is a “fire-follower:” its seeds need a fire’s heat in order to sprout. The spring after a wildfire, southern California’s hillsides can be purple with flowers that haven’t bloomed in many years.</en>
+          <es>Esta planta es una “seguidora de incendios”: sus semillas necesitan el calor de un incendio para brotar. En la primavera después de un incendio natural, las laderas del sur de California pueden verse púrpuras con flores que no han brotado en muchos años.</es>
+        </text>
+
+      </plant>
+
+      <!-- 03-Ramona-Lilac -->
+      <plant id="03-Ramona-Lilac">
+
+        <images>
+          <image id="thumb">img/03-Ramona-Lilac/03-Ramona-Lilac_thumb.png</image>
+          <image id="painting">img/03-Ramona-Lilac/03-Ramona-Lilac_painting.png</image>
+          <image id="collections">img/03-Ramona-Lilac/03-Ramona-Lilac_collections.png</image>
+          <image id="nature">img/03-Ramona-Lilac/03-Ramona-Lilac_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Ramona-lilac</en>
+          <es>Lila de Ramona</es>
+        </text>
+        <text id="scientific_name">
+          <en>Ceanothus tomentosus</en>
+          <es>Ceanothus tomentosus</es>
+        </text>
+        <text id="painting">
+          <en>Many species of Ceanothus grow in southern California, bringing clouds of purple-blue to sunny coastal slopes in spring.</en>
+          <es>Muchas especies de Ceanothus crecen en el sur de California, trayendo nubes de azul-púrpura a las soleadas laderas de la costa en la primavera.</es>
+        </text>
+        <text id="collections">
+          <en>This species gets its name from its leaves, which have fuzzy undersides. (The Latin word tomentose means “fuzzy”).</en>
+          <es>Esta especie recibe su nombre por sus hojas, que tienen las partes inferiores velludas. (La palabra tomentosa que viene del latín significa “velluda”).</es>
+        </text>
+        <text id="nature">
+          <en>If you’ve ever seen Garden Lilacs, you know they look a lot like these flowers. But a “Ramona-lilac” is not really a Lilac—it just has lilac-colored blooms.</en>
+          <es>Si alguna vez viste a la lila común, sabes que se parece mucho a estas flores. Pero una “lila de Ramona” no es en realidad una lila—sólo tiene flores de color lila.</es>
+        </text>
+
+      </plant>
+
+      <!-- 21-Coast_Manzanita_Mission_Manzanita -->
+      <plant id="21-Coast_Manzanita_Mission_Manzanita">
+
+        <images>
+          <image id="thumb">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_thumb.png</image>
+          <image id="painting">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_painting.png</image>
+          <image id="collections">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_collections.png</image>
+          <image id="nature">img/21-Coast_Manzanita_Mission_Manzanita/21-Coast_Manzanita_Mission_Manzanita_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Mission Manzanita</en>
+          <es>Madroño</es>
+        </text>
+        <text id="scientific_name">
+          <en>Xylococcus bicolor</en>
+          <es>Xylococcus bicolor</es>
+        </text>
+        <text id="painting">
+          <en>With their small urn-shaped flowers and smooth, reddish bark, manzanitas are among the most distinctive plants of southern California’s coastal slopes.</en>
+          <es>Con sus pequeñas flores en forma de urna y corteza lisa y rojiza, el madroño se encuentra entre las plantas más distintivas de las laderas de la costa del sur de California.</es>
+        </text>
+        <text id="collections">
+          <en>Stiff, leathery leaves don’t wither during a drought the way softer leaves do. Manzanitas can survive for months without rain.</en>
+          <es>Las hojas rígidas y correosas no se marchitan durante una sequía como sucede con hojas más blandas. El madroño puede sobrevivir durante meses sin lluvia.</es>
+        </text>
+        <text id="nature">
+          <en>Small, hard, berry-like fruits are an important summer food source for wildlife.</en>
+          <es>Pequeños y duros frutos en forma de baya constituyen una importante fuente de alimento para la fauna salvaje en el verano.</es>
+        </text>
+
+      </plant>
+
+      <!-- 17-Black_Sage -->
+      <plant id="17-Black_Sage">
+
+        <images>
+          <image id="thumb">img/17-Black_Sage/17-Black_Sage_thumb.png</image>
+          <image id="painting">img/17-Black_Sage/17-Black_Sage_painting.png</image>
+          <image id="collections">img/17-Black_Sage/17-Black_Sage_collections.png</image>
+          <image id="nature">img/17-Black_Sage/17-Black_Sage_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Black Sage</en>
+          <es>Salvia negra</es>
+        </text>
+        <text id="scientific_name">
+          <en>Salvia mellifera</en>
+          <es>Salvia mellifera</es>
+        </text>
+        <text id="painting">
+          <en>Many different types of plants grow in California’s coastal sage scrub. But the habitat gets its name—and its delightful fragrance—from the various sages, such as Black Sage, that are found there.</en>
+          <es>Muchos tipos de plantas diferentes crecen en el matorral costero de salvia de California. Pero el hábitat recibe su nombre—y su deliciosa fragancia—de la variedad de salvias, tales como la salvia negra, que se encuentran allí.</es>
+        </text>
+        <text id="collections">
+          <en>There are many different California sages, but their flowers are one of the features that make them distinct. By collecting specimens when plants are in flower, scientists preserve important features that show differences among closely related plants.</en>
+          <es>Hay muchas salvias californianas, pero sus flores son uno de los rasgos que las hacen distintivas. Al recolectar los especímenes cuando las plantas están en flor, los científicos preservan características importantes que muestran las diferencias entre plantas estrechamente emparentadas.</es>
+        </text>
+        <text id="nature">
+          <en>Black Sage flowers are a big draw for bees, including honeybees. Black Sage honey is one of the most fragrant California honeys.</en>
+          <es>Las flores de la salvia negra ejercen una gran atracción sobre las abejas, incluyendo las abejas melíferas. La miel de la salvia negra es una de las mieles más fragantes de California.</es>
+        </text>
+
+      </plant>
+
+      <!-- 07-Christmas_Berry_Toyon -->
+      <plant id="07-Christmas_Berry_Toyon">
+
+        <images>
+          <image id="thumb">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_thumb.png</image>
+          <image id="painting">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_painting.png</image>
+          <image id="collections">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_collections.png</image>
+          <image id="nature">img/07-Christmas_Berry_Toyon/07-Christmas_Berry_Toyon_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Toyon</en>
+          <es>Tollón</es>
+        </text>
+        <text id="scientific_name">
+          <en>Heteromeles arbutifolia</en>
+          <es>Heteromeles arbutifolia</es>
+        </text>
+        <text id="painting">
+          <en>Late summer brings clusters of white or cream-colored flowers to this plant. In fall, bright red berries appear, providing food for wildlife through the winter.</en>
+          <es>El final del verano trae racimos de flores blancas o color crema a esta planta. En el otoño, aparecen bayas de color rojo brillante que proveen el alimento para la vida animal a lo largo del invierno.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen was collected in June, when the plant was in bloom. Its small flowers might not look like roses, but Toyon is a member of the rose family.</en>
+          <es>Este espécimen fue recolectado en junio cuando la planta estaba en flor. Aunque por sus pequeñas flores no lo parezca, el tollón es un miembro de la familia de las rosas.</es>
+        </text>
+        <text id="nature">
+          <en>Toyon is also known as “Christmas Berry.” Its red berries appear in winter, and many Californians use the plant in holiday decorations because it looks like traditional English Holly.</en>
+          <es>Al tollón también se lo conoce como “baya de Navidad”. Sus bayas rojas aparecen en invierno, y muchos californianos usan la planta en decoraciones durante las fiestas navideñas porque se parece al tradicional acebo.</es>
+        </text>
+
+      </plant>
+
+      <!-- 20-Miniature_Lupine -->
+      <plant id="20-Miniature_Lupine">
+
+        <images>
+          <image id="thumb">img/20-Miniature_Lupine/20-Miniature_Lupine_thumb.png</image>
+          <image id="painting">img/20-Miniature_Lupine/20-Miniature_Lupine_painting.png</image>
+          <image id="collections">img/20-Miniature_Lupine/20-Miniature_Lupine_collections.png</image>
+          <image id="nature">img/20-Miniature_Lupine/20-Miniature_Lupine_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Miniature Lupine</en>
+          <es>Altramuz miniatura</es>
+        </text>
+        <text id="scientific_name">
+          <en>Lupinus bicolor</en>
+          <es>Lupinus bicolor</es>
+        </text>
+        <text id="painting">
+          <en>Violet or blue below and white or pale purple above, these bi-colored blooms appear in spring from southern California’s coast to the mountains.</en>
+          <es>Violetas o azules abajo y blancas o púrpura pálido arriba, estas flores bi-color aparecen en la primavera desde la costa del sur de California hasta las montañas.</es>
+        </text>
+        <text id="collections">
+          <en>Lupine seeds are enclosed in pods. After the pods ripen, the seeds rattle inside when shaken.</en>
+          <es>Las semillas del altramuz están encapsuladas en vainas. Después que las vainas maduran, las semillas cascabelean adentro cuando se las sacude.</es>
+        </text>
+        <text id="nature">
+          <en>The tiny hairs covering this lupine’s leaves and seedpods reflect excess sunlight and hold moisture near the plant’s surface so that it doesn’t dry out.</en>
+          <es>Los pequeños vellos que cubren las hojas y las vainas de este altramuz reflejan la excesiva luz solar y retienen la humedad cerca de la superficie de la planta para que no se reseque.</es>
+        </text>
+
+      </plant>
+
+      <!-- 08-Wild_Pea -->
+      <plant id="08-Wild_Pea">
+
+        <images>
+          <image id="thumb">img/08-Wild_Pea/08-Wild_Pea_thumb.png</image>
+          <image id="painting">img/08-Wild_Pea/08-Wild_Pea_painting.png</image>
+          <image id="collections">img/08-Wild_Pea/08-Wild_Pea_collections.png</image>
+          <image id="nature">img/08-Wild_Pea/08-Wild_Pea_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>San Diego Sweet Pea</en>
+          <es>Chícharo</es>
+        </text>
+        <text id="scientific_name">
+          <en>Lathyrus vestitus var. alefeldii</en>
+          <es>Lathyrus vestitus var. alefeldii</es>
+        </text>
+        <text id="painting">
+          <en>Delicate coiling tendrils twine around supporting structures and other plants, helping the San Diego Sweet Pea vine to climb.</en>
+          <es>Delicados zarcillos enrollados se enroscan a las estructuras vecinas y otras plantas, ayudando así a trepar a la enredadera chícharo.</es>
+        </text>
+        <text id="collections">
+          <en>San Diego Sweet Pea is a legume: its fruit grows as a pod that holds its seeds. You can see the preserved pods on lower-left side of this specimen.</en>
+          <es>El chícharo es una planta leguminosa: su fruto crece como una vaina que aloja sus semillas. Puedes ver las vainas preservadas en el lado inferior-izquierdo de este espécimen.</es>
+        </text>
+        <text id="nature">
+          <en>San Diego Sweet Pea is a true southern California native. You’ll spot its deep pink blooms almost nowhere else in the world.</en>
+          <es>El chícharo es una planta genuinamente nativa al sur de California. No podrás detectar sus flores color rosa profundo en casi ninguna otra parte del mundo.</es>
+        </text>
+
+      </plant>
+
+      <!-- 19-Cleveland_Sage_Fragrant_Sage -->
+      <plant id="19-Cleveland_Sage_Fragrant_Sage">
+
+        <images>
+          <image id="thumb">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_thumb.png</image>
+          <image id="painting">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_painting.png</image>
+          <image id="collections">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_collections.png</image>
+          <image id="nature">img/19-Cleveland_Sage_Fragrant_Sage/19-Cleveland_Sage_Fragrant_Sage_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Cleveland Sage</en>
+          <es>Salvia de Cleveland</es>
+        </text>
+        <text id="scientific_name">
+          <en>Salvia clevelandii</en>
+          <es>Salvia clevelandii</es>
+        </text>
+        <text id="painting">
+          <en>Vivid blue blooms top stalks of aromatic, velvety leaves. Sage flowers are a favorite of southern California hummingbirds.</en>
+          <es>Vívidas flores azules coronan tallos de hojas aromáticas y aterciopeladas. Las flores de salvia son unas de las favoritas de los colibríes del sur de California.</es>
+        </text>
+        <text id="collections">
+          <en>This native local sage is named for Daniel Cleveland, a plant collector who was a founder of the San Diego Society of Natural History, which created the San Diego Natural History Museum.</en>
+          <es>Esta salvia local nativa está nombrada en honor a Daniel Cleveland, un coleccionista de plantas que fue uno de los fundadores de la Sociedad de Historia Natural de San Diego, la cual creó el Museo de Historia Natural de San Diego.</es>
+        </text>
+        <text id="nature">
+          <en>Not every sage is edible, but the fragrant, silvery leaves and purple-blue flowers of Cleveland Sage can be used, fresh or dried, in your kitchen.</en>
+          <es>No todas las salvias son comestibles, pero las fragantes, plateadas hojas y flores azul-púrpura de la salvia de Cleveland pueden usarse, frescas o secas, en tu cocina.</es>
+        </text>
+
+      </plant>
+
+      <!-- 05-Sea_Dahlia -->
+      <plant id="05-Sea_Dahlia">
+
+        <images>
+          <image id="thumb">img/05-Sea_Dahlia/05-Sea_Dahlia_thumb.png</image>
+          <image id="painting">img/05-Sea_Dahlia/05-Sea_Dahlia_painting.png</image>
+          <image id="collections">img/05-Sea_Dahlia/05-Sea_Dahlia_collections.png</image>
+          <image id="nature">img/05-Sea_Dahlia/05-Sea_Dahlia_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>San Diego Sea Dahlia</en>
+          <es>Dalia marítima de San Diego</es>
+        </text>
+        <text id="scientific_name">
+          <en>Leptosyne maritima</en>
+          <es>Leptosyne maritima</es>
+        </text>
+        <text id="painting">
+          <en>These bold yellow flowers that grace the coastal bluffs at Torrey Pines State Natural Reserve belong to a rare relative of daisies and sunflowers.</en>
+          <es>Estas llamativas flores amarillas que adornan los acantilados de la costa en la Reserva Natural Torrey Pines pertenecen a un pariente poco común de las margaritas y los girasoles.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen was collected at Torrey Pines State Natural Reserve. Documenting the location of a rare plant such as this one helps us to protect and conserve its habitat.</en>
+          <es>Este espécimen fue recolectado en la Reserva Natural Torrey Pines. Poder documentar la ubicación de una planta poco común como ésta nos ayuda a proteger y preservar su hábitat.</es>
+        </text>
+        <text id="nature">
+          <en>This plant is extremely rare. It grows along southern coastal areas of San Diego County and northern Baja California—but nowhere else in the world.</en>
+          <es>Esta planta es extremadamente poco común. Crece a lo largo de las zonas costeras del condado de San Diego y el norte de Baja California, pero en ninguna otra parte del mundo.</es>
+        </text>
+
+      </plant>
+
+       <!-- 26-Climbing_Bush_Penstemon -->
+      <plant id="26-Climbing_Bush_Penstemon">
+
+        <images>
+          <image id="thumb">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_thumb.png</image>
+          <image id="painting">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_painting.png</image>
+          <image id="collections">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_collections.png</image>
+          <image id="nature">img/26-Climbing_Bush_Penstemon/26-Climbing_Bush_Penstemon_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Climbing Bush Penstemon</en>
+          <es>Penstemon trepador</es>
+        </text>
+        <text id="scientific_name">
+          <en>Keckiella cordifolia</en>
+          <es>Keckiella cordifolia</es>
+        </text>
+        <text id="painting">
+          <en>Climbing Bush Penstemon climbs by putting out a delicate branch and twisting it around a neighboring shrub for support.</en>
+          <es>El penstemon trepador trepa mediante la proyección de una delicada rama que tuerce alrededor de un arbusto cercano para sostenerse.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen was collected in May, when the plant was flowering. Collecting specimens at different times of year helps scientists understand the life cycles of different plant species.</en>
+          <es>Este espécimen fue recolectado en mayo, cuando la planta estaba en flor. Recolectar especímenes en diferentes épocas del año ayuda a los científicos a entender los ciclos de vida de las diferentes especies de plantas.</es>
+        </text>
+        <text id="nature">
+          <en>These flowers are magnets for hummingbirds, which favor the color red. Hummingbirds also have long beaks that can access nectar deep inside long, tube-shaped blooms.</en>
+          <es>Estas flores son imanes para los colibríes ya que favorecen el color rojo. Los colibríes también tienen largos picos que pueden acceder al néctar que yace profundamente dentro de largas flores en forma de tubos.</es>
+        </text>
+
+      </plant>
+
+      <!-- 01-Chamise -->
+      <plant id="01-Chamise">
+
+        <images>
+          <image id="thumb">img/01-Chamise/01-Chamise_thumb.png</image>
+          <image id="painting">img/01-Chamise/01-Chamise_painting.png</image>
+          <image id="collections">img/01-Chamise/01-Chamise_collections.png</image>
+          <image id="nature">img/01-Chamise/01-Chamise_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Chamise</en>
+          <es>Chamizo</es>
+        </text>
+        <text id="scientific_name">
+          <en>Adenostoma fasciculatum</en>
+          <es>Adenostoma fasciculatum</es>
+        </text>
+        <text id="painting">
+          <en>Chamise flowers in May and June, its branches tipped with plumes of tiny white flowers.</en>
+          <es>Flores de chamizo en mayo y junio, sus ramas con pequeñas flores blancas como plumas en las puntas.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen was collected in summer, during the long dry season. After months without water, the shrub’s small white flowers dry to a rusty brown.</en>
+          <es>Este espécimen fue recolectado en verano durante la larga temporada seca. Después de meses sin agua, las pequeñas flores blancas del arbusto se resecan y se vuelven de un color marrón rojizo.</es>
+        </text>
+        <text id="nature">
+          <en>Chamise is a hardy plant. It can thrive in the rocky soils of California’s coastal slopes, and it recovers quickly from the wildfires that burn through these habitats.</en>
+          <es>El chamizo es una planta resistente. Puede prosperar en los suelos rocosos de las laderas de la costa de California y se recupera rápidamente de los incendios naturales que ocurren en estos hábitats.</es>
         </text>
 
       </plant>
@@ -826,17 +697,89 @@
 
         <text id="common_name">
           <en>Splendid Mariposa Lily</en>
-          <es>Lorem</es>
+          <es>Mariposa lirio de monte</es>
         </text>
-
         <text id="scientific_name">
           <en>Calochortus splendens</en>
           <es>Calochortus splendens</es>
         </text>
+        <text id="painting">
+          <en>Delicate pink or lavender flowers seem to float like butterflies (mariposas in Spanish) on this lily’s thin stems.</en>
+          <es>Delicadas flores rosas o lavanda parecen flotar como mariposas en los delgados tallos de este lirio.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen was photographed before it was collected and preserved, documenting how its three petals form a bowl-shaped flower.</en>
+          <es>Este espécimen fue fotografiado antes de ser recolectado y preservado, documentando cómo sus tres pétalos forman una flor en forma de tazón.</es>
+        </text>
+        <text id="nature">
+          <en>Colorful blooms attract bees, which gather this lily’s purple pollen as food for their larvae.</en>
+          <es>Estas coloridas flores atraen a las abejas, las cuales recogen el polen violeta de este lirio para alimentar a sus larvas.</es>
+        </text>
 
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 02-Splendid_Mariposa_Lily here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+      </plant>
+
+      <!-- 24-California_Buckwheat -->
+      <plant id="24-California_Buckwheat">
+
+        <images>
+          <image id="thumb">img/24-California_Buckwheat/24-California_Buckwheat_thumb.png</image>
+          <image id="painting">img/24-California_Buckwheat/24-California_Buckwheat_painting.png</image>
+          <image id="collections">img/24-California_Buckwheat/24-California_Buckwheat_collections.png</image>
+          <image id="nature">img/24-California_Buckwheat/24-California_Buckwheat_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>California Buckwheat</en>
+          <es>Maderista</es>
+        </text>
+        <text id="scientific_name">
+          <en>Eriogonum fasciculatum var. foliolosum</en>
+          <es>Eriogonum fasciculatum var. foliolosum</es>
+        </text>
+        <text id="painting">
+          <en>California Buckwheat’s flowers change with the seasons. White when they appear in spring, they turn pink in summer and then rust-colored in fall as the fruits inside mature.</en>
+          <es>Las flores de la maderista cambian con las estaciones. Son blancas cuando aparecen en la primavera; se tornan rosadas en el verano y luego de color herrumbre en el otoño al madurar los frutos internos.</es>
+        </text>
+        <text id="collections">
+          <en>More than 125 species of wild buckwheat (Eriogonum) grow in California. Studying specimens such as this one helps scientists understand differences among closely related plants.</en>
+          <es>Crecen más de 125 especies de maderista (Eriogonum) en California. Estudiar especímenes como éste les ayuda a los científicos a entender las diferencias entre plantas estrechamente relacionadas.</es>
+        </text>
+        <text id="nature">
+          <en>Other plants might have more eye-catching flowers, but a single California Buckwheat shrub can have hundreds of blooms. This plant is a favorite of bees and butterflies.</en>
+          <es>Otras plantas podrán tener flores más vistosas, pero un solo arbusto de maderista puede tener cientos de flores. Esta planta es una de las favoritas de las abejas y las mariposas.</es>
+        </text>
+
+      </plant>
+
+      <!-- 25-Coast_Monkey_Flower -->
+      <plant id="25-Coast_Monkey_Flower">
+
+        <images>
+          <image id="thumb">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_thumb.png</image>
+          <image id="painting">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_painting.png</image>
+          <image id="collections">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_collections.png</image>
+          <image id="nature">img/25-Coast_Monkey_Flower/25-Coast_Monkey_Flower_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Bush Monkey Flower</en>
+          <es>Flor mono</es>
+        </text>
+        <text id="scientific_name">
+          <en>Diplacus longiflorus</en>
+          <es>Diplacus longiflorus</es>
+        </text>
+        <text id="painting">
+          <en>This plant belongs to a larger group of plants called Monkey Flowers. Some species in this group have flowers that resemble a monkey’s grinning face. This species does not, but that’s where its name comes from.</en>
+          <es>Esta planta pertenece a un grupo más grande de plantas llamadas flores mono. Algunas especies en este grupo tienen flores que se asemejan a la cara de un mono risueño. No es el caso de esta especie, pero es de ahí que recibe el nombre.</es>
+        </text>
+        <text id="collections">
+          <en>On the specimen label, this plant is identified with a different name, Mimulus aurantiacus. It’s the same plant. Scientists might change a plant’s name if they learn new information about how it is related to other plants.</en>
+          <es>En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, Mimulus aurantiacus. Es la misma planta. Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación de una planta con otras.</es>
+        </text>
+        <text id="nature">
+          <en>The white structures sticking out from the center of each flower are its stigmas, which receive the pollen that enables the plant to reproduce. Bush Monkey Flower has touch-sensitive stigmas—if you touch them, they close up.</en>
+          <es>Las estructuras blancas que sobresalen del centro de cada flor son sus estigmas, los cuales reciben el polen que le permite a la planta reproducirse. La flor mono tiene estigmas sensibles al tacto—si los tocas, se cierran.</es>
         </text>
 
       </plant>
@@ -853,50 +796,260 @@
 
         <text id="common_name">
           <en>Chaparral Mallow</en>
-          <es>Lorem</es>
+          <es>Malvia</es>
         </text>
-
         <text id="scientific_name">
           <en>Malacothamnus fasciculatus</en>
           <es>Malacothamnus fasciculatus</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of 09-Chaparral_Mallow here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>Delicate flowers on tall stalks appear in spring and can last for months, bringing welcome color to the dry landscape of a southern California summer.</en>
+          <es>Delicadas flores en altos tallos aparecen en la primavera y pueden durar meses, lo cual confiere un agradable color al paisaje árido de un verano en el sur de California.</es>
+        </text>
+        <text id="collections">
+          <en>Look closely to see fine hairs on this plant’s leaves and stems. The hairs hold moist air near the plant’s surface, preventing it from drying out. In southern California, drought is common—and so are hairy leaves on plants.</en>
+          <es>Mira con atención para ver los delicados vellos en las hojas y tallos de esta planta. Los vellos retienen el aire húmedo cerca de la superficie de la planta, evitando que se reseque. En el sur de California, la sequía es común—y también lo son las plantas con hojas velludas.</es>
+        </text>
+        <text id="nature">
+          <en>You might not see these mallow blooms for years. The plant’s seeds lie dormant in the soil for years, typically sprouting after a wildfire.</en>
+          <es>Es posible que no veas a estas flores de la malvia durante años. Las semillas de la planta yacen latentes en la tierra por años, brotando típicamente después de un incendio natural.</es>
         </text>
 
       </plant>
 
-
-      <!-- TEMPLATE -->
-      <!-- XXXX -->
-      <!-- <plant id="XXXX">
+       <!-- 10-Coast_Prickly_Pear -->
+      <plant id="10-Coast_Prickly_Pear">
 
         <images>
-          <image id="thumb">img/XXXX/XXXX_thumb.png</image>
-          <image id="painting">img/XXXX/XXXX_painting.png</image>
-          <image id="collections">img/XXXX/XXXX_collections.png</image>
-          <image id="nature">img/XXXX/XXXX_nature.png</image>
+          <image id="thumb">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_thumb.png</image>
+          <image id="painting">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_painting.png</image>
+          <image id="collections">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_collections.png</image>
+          <image id="nature">img/10-Coast_Prickly_Pear/10-Coast_Prickly_Pear_nature.png</image>
         </images>
 
         <text id="common_name">
-          <en>XXXX</en>
-          <es>Lorem</es>
+          <en>Coast Prickly-pear</en>
+          <es>Nopal</es>
         </text>
-
         <text id="scientific_name">
-          <en>Adenostoma fasciculatum</en>
-          <es>Spanish_Scientific</es>
+          <en>Opuntia littoralis</en>
+          <es>Opuntia littoralis</es>
         </text>
-
-        <text id="description">
-          <en>Often the dominant plant in large swaths of chaparral, chamise is a resinous plant that contributes to the fire hazard in these areas.  It is most appealing when its branches are tipped with plumes of tiny white flowers.</en>
-          <es>Spanish description of XXXX here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lorem sapien. Etiam laoreet vehicula quam non lobortis. Nullam dapibus sit amet massa non tincidunt. Vivamus nibh massa, facilisis a interdum ornare, tincidunt vitae augue. In lectus enim, efficitur vel risus vitae, facilisis pharetra purus.</es>
+        <text id="painting">
+          <en>This cactus’s orange or yellow flowers bloom in spring, producing juicy red fruits in summer. These fruits aren’t really “pears,” but they are prickly: remove the sharp spines before you eat one.</en>
+          <es>Las flores naranjas o amarillas de este cactus florecen en la primavera y producen jugosas frutas rojas en el verano. Estas frutas no son en realidad “peras” como lo indica su nombre en inglés, pero son espinosas: quítales las agudas espinas antes de comerlas.</es>
+        </text>
+        <text id="collections">
+          <en>You may have noticed nopale or nopalito on the menu in a Mexican restaurant. It’s the flat, fleshy, paddle-like stem of a prickly-pear cactus. It’s edible after the needle-sharp spines are removed and the plant has been boiled.</en>
+          <es>Posiblemente hayas visto “nopal” o “nopalito” en el menú de un restaurante mexicano. Es el tallo liso y carnoso de un nopal que se asemeja a una raqueta. Se puede comer después que se hayan quitado las espinas filosas como agujas y la planta haya sido hervida.</es>
+        </text>
+        <text id="nature">
+          <en>Dense clumps of this cactus grow on southern California’s coastal and inland hillsides, creating habitat for rodents, birds, and reptiles.</en>
+          <es>Las densas matas de este cactus crecen en las laderas de la costa y el interior del sur de California, creando un hábitat para los roedores, pájaros y reptiles.</es>
         </text>
 
       </plant>
- -->
+
+      <!-- 27-Bladderpod -->
+      <plant id="27-Bladderpod">
+
+        <images>
+          <image id="thumb">img/27-Bladderpod/27-Bladderpod_thumb.png</image>
+          <image id="painting">img/27-Bladderpod/27-Bladderpod_painting.png</image>
+          <image id="collections">img/27-Bladderpod/27-Bladderpod_collections.png</image>
+          <image id="nature">img/27-Bladderpod/27-Bladderpod_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Bladderpod</en>
+          <es>Ejotillo</es>
+        </text>
+        <text id="scientific_name">
+          <en>Peritoma arborea var. arborea</en>
+          <es>Peritoma arborea var. arborea</es>
+        </text>
+        <text id="painting">
+          <en>You might see Bladderpod clinging to the cliffs at Torrey Pines State Natural Reserve. This plant can tolerate salty sea spray that most other plants cannot.</en>
+          <es>Es posible que veas a un ejotillo aferrándose a los acantilados en la Reserva Natural Estatal de Torrey Pines. Esta planta puede tolerar la espuma salada del mar, a diferencia de la mayoría de otras plantas.</es>
+        </text>
+        <text id="collections">
+          <en>Bladderpod gets its name from its fruits that look like inflated pods. When the pods dry, they rattle: the plant’s seeds are inside.</en>
+          <es>El ejotillo recibe su nombre en inglés de sus frutos que asemejan vainas infladas. Cuando las vainas se secan, cascabelean: adentro están las semillas de la planta.</es>
+        </text>
+        <text id="nature">
+          <en>Bladderpod has another name: “Stinkweed.” Its leaves have a strong, unpleasant odor. Ants harvesting the flowers’ nectar don’t mind, but the scent may discourage plant-eating animals.</en>
+          <es>Las hojas del ejotillo tienen un olor fuerte y desagradable. A las hormigas que cosechan el polen de la planta no les molesta, pero el aroma puede llegar a desalentar a los animales herbívoros.</es>
+        </text>
+
+      </plant>
+
+      <!-- 14-Blue_Dicks_Wild_Hyacinth -->
+      <plant id="14-Blue_Dicks_Wild_Hyacinth">
+
+        <images>
+          <image id="thumb">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_thumb.png</image>
+          <image id="painting">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_painting.png</image>
+          <image id="collections">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_collections.png</image>
+          <image id="nature">img/14-Blue_Dicks_Wild_Hyacinth/14-Blue_Dicks_Wild_Hyacinth_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Wild Hyacinth</en>
+          <es>Coveria</es>
+        </text>
+        <text id="scientific_name">
+          <en>Dichelostemma capitatum ssp. capitatum</en>
+          <es>Dichelostemma capitatum ssp. capitatum</es>
+        </text>
+        <text id="painting">
+          <en>Clusters of bell-shaped purple or blue flowers top a Wild Hyacinth’s tall, bare stems above slender leaves.</en>
+          <es>Grupos de flores de color púrpura en forma de campana coronan los altos y desnudos tallos de una coveria que se alzan sobre delgadas hojas.</es>
+        </text>
+        <text id="collections">
+          <en>Wild Hyacinth stems can grow several feet tall. The stems of this preserved specimen are folded in order to fit on a sheet of paper.</en>
+          <es>Los tallos de la coveria pueden crecer hasta una altura de varios pies. Los tallos de este espécimen preservado están doblados para poder caber en una hoja de papel.</es>
+        </text>
+        <text id="nature">
+          <en>Wild Hyacinth thrives after a wildfire, when the landscape is open and sunny—and there are few other plants competing for nutrients.</en>
+          <es>La coveria prospera después de un incendio natural cuando el paisaje está abierto y soleado, y cuando hay pocas otras plantas que compiten por los nutrientes.</es>
+        </text>
+
+      </plant>
+
+      <!-- 06-California_Poppy -->
+      <plant id="06-California_Poppy">
+
+        <images>
+          <image id="thumb">img/06-California_Poppy/06-California_Poppy_thumb.png</image>
+          <image id="painting">img/06-California_Poppy/06-California_Poppy_painting.png</image>
+          <image id="collections">img/06-California_Poppy/06-California_Poppy_collections.png</image>
+          <image id="nature">img/06-California_Poppy/06-California_Poppy_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>California Poppy</en>
+          <es>Amapola amarilla</es>
+        </text>
+        <text id="scientific_name">
+          <en>Eschscholzia californica</en>
+          <es>Eschscholzia californica</es>
+        </text>
+        <text id="painting">
+          <en>Designated as the California state flower in 1903, these glorious yellow-to-orange blooms grow wild in nearly every county in the state.</en>
+          <es>Nombrada flor estatal de California en 1903, estas gloriosas flores con colores entre amarillo y naranja crecen naturalmente en casi todos los condados del estado.</es>
+        </text>
+        <text id="collections">
+          <en>One of the flowers on this specimen is open; the rest are closed. A California Poppy opens in the daylight and closes again at sunset.</en>
+          <es>Una de las flores de este espécimen está abierta; las demás estan cerradas. Una amapola amarilla se abre con la luz del día y se cierra otra vez al atardecer.</es>
+        </text>
+        <text id="nature">
+          <en>Long before this flower became a California state symbol, early Spanish settlers called it copa de oro (“cup of gold”).</en>
+          <es>Mucho antes de que esta flor llegara a ser un símbolo del estado de California, los colonizadores españoles la llamaban “copa de oro”.</es>
+        </text>
+
+      </plant>
+
+      <!-- 29-California_Thistle -->
+      <plant id="29-California_Thistle">
+
+        <images>
+          <image id="thumb">img/29-California_Thistle/29-California_Thistle_thumb.png</image>
+          <image id="painting">img/29-California_Thistle/29-California_Thistle_painting.png</image>
+          <image id="collections">img/29-California_Thistle/29-California_Thistle_collections.png</image>
+          <image id="nature">img/29-California_Thistle/29-California_Thistle_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>California Thistle</en>
+          <es>Cardo californiano</es>
+        </text>
+        <text id="scientific_name">
+          <en>Cirsium occidentale var. californicum</en>
+          <es>Cirsium occidentale var. californicum</es>
+        </text>
+        <text id="painting">
+          <en>Reaching heights of up to four feet with big clusters of pink or lavender flowers, this native thistle grows only in California.</en>
+          <es>Este cardo nativo crece sólo en California, con grandes grupos de flores color rosa o lavanda, y alcanza alturas de hasta cuatro pies.</es>
+        </text>
+        <text id="collections">
+          <en>Prickly leaves and stems discourage plant-eating animals from feeding on thistles.</en>
+          <es>Las hojas y los tallos espinosos desalientan a los animales herbívoros de alimentarse del cardo californiano.</es>
+        </text>
+        <text id="nature">
+          <en>Many people think of thistles as weeds, but the California Thistle is not invasive. It’s a California native whose flowers are a favorite of bees and hummingbirds.</en>
+          <es>Mucha gente piensa que los cardos son malezas, pero el cardo californiano no es invasivo. Es una planta nativa de California cuyas flores son unas de las preferidas de las abejas y los colibríes.</es>
+        </text>
+
+      </plant>
+
+      <!-- 22-Our_Lords_Candle -->
+      <plant id="22-Our_Lords_Candle">
+
+        <images>
+          <image id="thumb">img/22-Our_Lords_Candle/22-Our_Lords_Candle_thumb.png</image>
+          <image id="painting">img/22-Our_Lords_Candle/22-Our_Lords_Candle_painting.png</image>
+          <image id="collections">img/22-Our_Lords_Candle/22-Our_Lords_Candle_collections.png</image>
+          <image id="nature">img/22-Our_Lords_Candle/22-Our_Lords_Candle_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Chaparral Candle</en>
+          <es>Lechuguilla</es>
+        </text>
+        <text id="scientific_name">
+          <en>Hesperoyucca whipplei</en>
+          <es>Hesperoyucca whipplei</es>
+        </text>
+        <text id="painting">
+          <en>Eight-foot-tall stalks topped with dense clusters of flowers tower above southern California’s coastal slopes in spring, when Chaparral Candle blooms.</en>
+          <es>Tallos de ocho pies de altura coronados con grupos de flores se destacan sobre las laderas de la costa del sur de California en la primavera, cuando florece la lechuguilla.</es>
+        </text>
+        <text id="collections">
+          <en>This specimen shows the plant’s fruits (left), flowers, and one of its long, pointed leaves (folded to fit on the page). Earlier Californians used the tough leaf fibers to make cord for sewing and tying.</en>
+          <es>Este espécimen muestra los frutos de la planta (izquierda), flores, y una de sus largas y puntiagudas hojas (doblada para caber dentro de la página). Los primeros californianos usaban las resistentes fibras de las hojas para hacer cuerda que usaban para la costura y para atar.</es>
+        </text>
+        <text id="nature">
+          <en>When this plant reaches maturity, at about seven years of age, it sends up a giant stalk that produces hundreds of flowers. After blooming just once, the plant dies.</en>
+          <es>Cuando esta planta llega a la madurez, como a los siete años, se yergue un gigantesco tallo que produce cientos de flores. Después de florecer una sola vez, la planta muere.</es>
+        </text>
+
+      </plant>
+
+      <!-- 18-Chia -->
+      <plant id="18-Chia">
+
+        <images>
+          <image id="thumb">img/18-Chia/18-Chia_thumb.png</image>
+          <image id="painting">img/18-Chia/18-Chia_painting.png</image>
+          <image id="collections">img/18-Chia/18-Chia_collections.png</image>
+          <image id="nature">img/18-Chia/18-Chia_nature.png</image>
+        </images>
+
+        <text id="common_name">
+          <en>Chia</en>
+          <es>Chía</es>
+        </text>
+        <text id="scientific_name">
+          <en>Salvia columbariae</en>
+          <es>Salvia columbariae</es>
+        </text>
+        <text id="painting">
+          <en>Clusters of small flowers grow one above the other on long stems, bringing vivid flashes of purple and blue to California’s coastal slopes.</en>
+          <es>Grupos de pequeñas flores crecen uno encima de otro sobre largos tallos, produciendo destellos de púrpura y azul en las laderas de la costa de California.</es>
+        </text>
+        <text id="collections">
+          <en>Chia is a sage, related to the sage used in your kitchen. Chia belongs in the kitchen, too: its seeds are edible.</en>
+          <es>La chía es una salvia, emparentada con la salvia que se usa en tu cocina. La chía debiera estar también en la cocina, ya que sus semillas son comestibles.</es>
+        </text>
+        <text id="nature">
+          <en>Spiky purple structures called bracts hold a Chia plant’s nutritious seeds. If you grow Chia in your garden, harvest the seeds by drying and crushing the bracts.</en>
+          <es>Espinosas estructuras púrpuras llamadas brácteas sostienen las nutritivas semillas de una planta de chía. Si cultivas la chía en tu jardín, cosecha las semillas dejando secar y desmenuzando las brácteas.</es>
+        </text>
+
+      </plant>
+
+
+
 
     </plants>
 
