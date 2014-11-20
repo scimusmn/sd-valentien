@@ -1,24 +1,12 @@
-### Valentien Painting Viewer
+# Valentien Painting Viewer
 Explore the paintings of artist AR Valentien.
 
-### Installation
-#### 1. Install dependencies.
+## Installation
 
-From project's root directory:
-```bash
-$ bower update
-```
+### Install images
 
-#### 2. Open Chrome with local file access enabled.
+Pull the images down from the Exhibit Projects Server
 
-Ensure Chrome is closed, then:
-```bash
-$ open -a "Google Chrome" --args --allow-file-access-from-files
-```
+## Launching application
 
-#### 3. Open index.html from Chrome
-Enter fullscreen by selecting View > Enter Presentation Mode.
-
-
-# Status
-This project will eventually become a node-webkit application. Installation instructions may change.
+This program uses node-webkit to deliver the HTML/JS application. Simply double click the c2c.app
