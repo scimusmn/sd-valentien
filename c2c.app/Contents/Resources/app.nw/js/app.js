@@ -47,7 +47,7 @@ require(['jquery', 'net/AppData', 'net/Screensaver', 'net/Language', 'net/ui/Scr
         Language.setupToggle("#language_btn");
         Language.setupTranslations( $(AppData.configXML).find("component").first() );
 
-        var ss = new Screensaver(AppData.screensaverTimeout, 'img/ss.mp4', function() {
+        var ss = new Screensaver(AppData.screensaverTimeout, 'videos/screensaver.webm', function() {
 
             //On sleep
             Language.setLanguage(Language.ENGLISH);
