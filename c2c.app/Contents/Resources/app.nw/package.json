@@ -1,0 +1,8 @@
+{
+  "name": "C2C",
+  "main": "index.html",
+  "window": {
+      "fullscreen": true,
+      "toolbar": false
+  }
+}
