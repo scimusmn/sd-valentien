@@ -77,7 +77,8 @@
           <es>Rhus integrifolia</es>
         </text>
         <text id="painting">
-          <en>Clusters of flowers turn into tiny reddish fruits coated with a sticky, lemon-flavored residue. Earlier generations of southern California’s native people soaked the fruits in water to make a tart drink.</en>
+          <en><![CDATA[Clusters of flowers turn into tiny reddish fruits coated with a sticky, lemon-flavored residue. Earlier generations of southern California’s<br>native people soaked the fruits in water<br>to make a tart drink.]]></en>
+          <en></en>
           <es>Racimos de flores se convierten en pequeños frutos rojizos cubiertos de un residuo pegajoso con sabor a limón. Anteriores generaciones de los nativos del sur de California remojaban los frutos en agua para hacer una bebida agria.</es>
         </text>
         <text id="collections">
