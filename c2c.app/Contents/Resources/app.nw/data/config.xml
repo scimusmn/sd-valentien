@@ -312,11 +312,11 @@
           <es>Si visitas la Reserva Natural Estatal Torrey Pines y caminas desde los acantilados hasta la orilla del mar, es posible que veas el zacate salado creciendo cerca de la marisma salada.</es>
         </text>
         <text id="collections">
-          <en>The Latin name spicata, meaning “arranged in spikes,” describes the way this plant’s flowers grow like clusters of tiny spikes on the ends of long stems.</en>
+          <en><![CDATA[The Latin name spicata, meaning “arranged<br>in spikes,” describes the way this plant’s flowers grow like clusters of tiny spikes on the ends of long stems.]]></en>
           <es>El nombre spicata en latín significa “ordenado en espigas”, y describe cómo crecen las flores de esta planta en grupos de pequeñas espigas sobre largos tallos.</es>
         </text>
         <text id="nature">
-          <en>It isn’t easy for a plant to grow in sand, but Saltgrass does. Its roots form dense clumps that anchor the plant to unstable soil.</en>
+          <en><![CDATA[It isn’t easy for a plant to grow in sand,<br>but Saltgrass does. Its roots form dense clumps<br>that anchor the plant to unstable soil.]]></en>
           <es>No es fácil para una planta crecer en la arena, pero el zacate salado puede. Sus raíces forman densos macizos que sujetan la planta al inestable suelo.</es>
         </text>
 
@@ -374,15 +374,16 @@
           <es>Ceanothus tomentosus</es>
         </text>
         <text id="painting">
-          <en>Many species of Ceanothus grow in southern California, bringing clouds of purple-blue to sunny coastal slopes in spring.</en>
+          <en><![CDATA[Many species of Ceanothus grow in southern California, bringing clouds of purple-blue<br>to sunny coastal slopes in spring.]]></en>
           <es>Muchas especies de Ceanothus crecen en el sur de California, trayendo nubes de azul-púrpura a las soleadas laderas de la costa en la primavera.</es>
         </text>
         <text id="collections">
-          <en>This species gets its name from its leaves, which have fuzzy undersides. (The Latin word tomentose means “fuzzy”).</en>
+          <en><![CDATA[This species gets its name from its leaves,<br>which have fuzzy undersides.<br>(The Latin word tomentose means “fuzzy”).]]></en>
+          <en></en>
           <es>Esta especie recibe su nombre por sus hojas, que tienen las partes inferiores velludas. (La palabra tomentosa que viene del latín significa “velluda”).</es>
         </text>
         <text id="nature">
-          <en>If you’ve ever seen Garden Lilacs, you know they look a lot like these flowers. But a “Ramona-lilac” is not really a Lilac—it just has lilac-colored blooms.</en>
+          <en><![CDATA[If you’ve ever seen Garden Lilacs, you know<br>they look a lot like these flowers. But a<br>“Ramona-lilac” is not really a Lilac—<br>it just has lilac-colored blooms.]]></en>
           <es>Si alguna vez viste a la lila común, sabes que se parece mucho a estas flores. Pero una “lila de Ramona” no es en realidad una lila—sólo tiene flores de color lila.</es>
         </text>
 
@@ -407,7 +408,8 @@
           <es>Xylococcus bicolor</es>
         </text>
         <text id="painting">
-          <en>With their small urn-shaped flowers and smooth, reddish bark, manzanitas are among the most distinctive plants of southern California’s coastal slopes.</en>
+          <en><![CDATA[With their small urn-shaped flowers and<br>smooth, reddish bark, manzanitas are among<br>the most distinctive plants of southern California’s coastal slopes.]]></en>
+          <en></en>
           <es>Con sus pequeñas flores en forma de urna y corteza lisa y rojiza, el madroño se encuentra entre las plantas más distintivas de las laderas de la costa del sur de California.</es>
         </text>
         <text id="collections">
@@ -539,11 +541,12 @@
           <es>Lathyrus vestitus var. alefeldii</es>
         </text>
         <text id="painting">
-          <en>Delicate coiling tendrils twine around supporting structures and other plants, helping the San Diego Sweet Pea vine to climb.</en>
+          <en><![CDATA[Delicate coiling tendrils twine around supporting structures and other plants, helping the<br>San Diego Sweet Pea vine to climb.]]></en>
+          <en></en>
           <es>Delicados zarcillos enrollados se enroscan a las estructuras vecinas y otras plantas, ayudando así a trepar a la enredadera chícharo.</es>
         </text>
         <text id="collections">
-          <en>San Diego Sweet Pea is a legume: its fruit grows as a pod that holds its seeds. You can see the preserved pods on lower-left side of this specimen.</en>
+          <en><![CDATA[San Diego Sweet Pea is a legume: its fruit<br>grows as a pod that holds its seeds. You<br>can see the preserved pods on lower-left side of this specimen.]]></en>
           <es>El chícharo es una planta leguminosa: su fruto crece como una vaina que aloja sus semillas. Puedes ver las vainas preservadas en el lado inferior-izquierdo de este espécimen.</es>
         </text>
         <text id="nature">
@@ -597,7 +600,7 @@
         </images>
 
         <text id="common_name">
-          <en>San Diego Sea Dahlia</en>
+          <en><![CDATA[San Diego<br>Sea Dahlia]]></en>
           <es>Dalia marítima de San Diego</es>
         </text>
         <text id="scientific_name">
@@ -613,7 +616,8 @@
           <es>Este espécimen fue recolectado en la Reserva Natural Torrey Pines. Poder documentar la ubicación de una planta poco común como ésta nos ayuda a proteger y preservar su hábitat.</es>
         </text>
         <text id="nature">
-          <en>This plant is extremely rare. It grows along southern coastal areas of San Diego County and northern Baja California—but nowhere else in the world.</en>
+          <en><![CDATA[This plant is extremely rare. It grows along southern coastal areas of San Diego County and northern Baja California—but nowhere else<br>in the world.]]></en>
+          <en></en>
           <es>Esta planta es extremadamente poco común. Crece a lo largo de las zonas costeras del condado de San Diego y el norte de Baja California, pero en ninguna otra parte del mundo.</es>
         </text>
 
@@ -696,7 +700,7 @@
         </images>
 
         <text id="common_name">
-          <en>Splendid Mariposa Lily</en>
+          <en><![CDATA[Splendid<br>Mariposa Lily]]></en>
           <es>Mariposa lirio de monte</es>
         </text>
         <text id="scientific_name">
@@ -807,7 +811,8 @@
           <es>Delicadas flores en altos tallos aparecen en la primavera y pueden durar meses, lo cual confiere un agradable color al paisaje árido de un verano en el sur de California.</es>
         </text>
         <text id="collections">
-          <en>Look closely to see fine hairs on this plant’s leaves and stems. The hairs hold moist air near the plant’s surface, preventing it from drying out. In southern California, drought is common—and so are hairy leaves on plants.</en>
+          <en><![CDATA[Look closely to see fine hairs on this plant’s leaves and stems. The hairs hold moist air near the plant’s surface, preventing it from drying out. In southern California, drought is common—<br>and so are hairy leaves on plants.]]></en>
+          <en></en>
           <es>Mira con atención para ver los delicados vellos en las hojas y tallos de esta planta. Los vellos retienen el aire húmedo cerca de la superficie de la planta, evitando que se reseque. En el sur de California, la sequía es común—y también lo son las plantas con hojas velludas.</es>
         </text>
         <text id="nature">
@@ -828,7 +833,7 @@
         </images>
 
         <text id="common_name">
-          <en>Coast Prickly-pear</en>
+          <en><![CDATA[Coast<br>Prickly-pear]]></en>
           <es>Nopal</es>
         </text>
         <text id="scientific_name">
@@ -836,7 +841,8 @@
           <es>Opuntia littoralis</es>
         </text>
         <text id="painting">
-          <en>This cactus’s orange or yellow flowers bloom in spring, producing juicy red fruits in summer. These fruits aren’t really “pears,” but they are prickly: remove the sharp spines before you eat one.</en>
+          <en><![CDATA[This cactus’s orange or yellow flowers bloom<br>in spring, producing juicy red fruits in summer. These fruits aren’t really “pears,” but they are prickly: remove the sharp spines before<br>you eat one.]]></en>
+          <en></en>
           <es>Las flores naranjas o amarillas de este cactus florecen en la primavera y producen jugosas frutas rojas en el verano. Estas frutas no son en realidad “peras” como lo indica su nombre en inglés, pero son espinosas: quítales las agudas espinas antes de comerlas.</es>
         </text>
         <text id="collections">
@@ -939,11 +945,12 @@
           <es>Nombrada flor estatal de California en 1903, estas gloriosas flores con colores entre amarillo y naranja crecen naturalmente en casi todos los condados del estado.</es>
         </text>
         <text id="collections">
-          <en>One of the flowers on this specimen is open; the rest are closed. A California Poppy opens in the daylight and closes again at sunset.</en>
+          <en><![CDATA[One of the flowers on this specimen is open;<br>the rest are closed. A California Poppy opens<br>in the daylight and closes again at sunset.]]></en>
           <es>Una de las flores de este espécimen está abierta; las demás estan cerradas. Una amapola amarilla se abre con la luz del día y se cierra otra vez al atardecer.</es>
         </text>
         <text id="nature">
-          <en>Long before this flower became a California state symbol, early Spanish settlers called it copa de oro (“cup of gold”).</en>
+          <en><![CDATA[Long before this flower became a California state symbol, early Spanish settlers called it<br>copa de oro (“cup of gold”).]]></en>
+          <en></en>
           <es>Mucho antes de que esta flor llegara a ser un símbolo del estado de California, los colonizadores españoles la llamaban “copa de oro”.</es>
         </text>
 
@@ -1001,7 +1008,8 @@
           <es>Hesperoyucca whipplei</es>
         </text>
         <text id="painting">
-          <en>Eight-foot-tall stalks topped with dense clusters of flowers tower above southern California’s coastal slopes in spring, when Chaparral Candle blooms.</en>
+          <en><![CDATA[Eight-foot-tall stalks topped with dense clusters<br>of flowers tower above southern California’s coastal slopes in spring, when<br>Chaparral Candle blooms.]]></en>
+          <en></en>
           <es>Tallos de ocho pies de altura coronados con grupos de flores se destacan sobre las laderas de la costa del sur de California en la primavera, cuando florece la lechuguilla.</es>
         </text>
         <text id="collections">
@@ -1035,10 +1043,11 @@
         </text>
         <text id="painting">
           <en>Clusters of small flowers grow one above the other on long stems, bringing vivid flashes of purple and blue to California’s coastal slopes.</en>
-          <es>Grupos de pequeñas flores crecen uno encima de otro sobre largos tallos, produciendo destellos de púrpura y azul en las laderas de la costa de California.</es>
+          <es><![CDATA[Grupos de pequeñas flores crecen uno encima de otro sobre largos tallos, produciendo destellos de púrpura y azul en las laderas<br>de la costa de California.]]></es>
+          <es></es>
         </text>
         <text id="collections">
-          <en>Chia is a sage, related to the sage used in your kitchen. Chia belongs in the kitchen, too: its seeds are edible.</en>
+          <en><![CDATA[Chia is a sage, related to the sage used in<br>your kitchen. Chia belongs in the kitchen, too:<br>its seeds are edible.]]></en>
           <es>La chía es una salvia, emparentada con la salvia que se usa en tu cocina. La chía debiera estar también en la cocina, ya que sus semillas son comestibles.</es>
         </text>
         <text id="nature">
