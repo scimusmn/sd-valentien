@@ -192,9 +192,11 @@ h1 {
 h3 {
   font-size:  25px;
 }
+
 p {
   font-size:  28px;
   line-height: 32px;
+  letter-spacing: 1.2px;
 }
 
 
