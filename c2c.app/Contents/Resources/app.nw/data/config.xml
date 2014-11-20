@@ -81,7 +81,7 @@
           <es>Racimos de flores se convierten en pequeños frutos rojizos cubiertos de un residuo pegajoso con sabor a limón. Anteriores generaciones de los nativos del sur de California remojaban los frutos en agua para hacer una bebida agria.</es>
         </text>
         <text id="collections">
-          <en>Collecting a plant when it is in bloom, like this specimen, helps scientists understand when different species flower. Unlike many plants, Lemonadeberry flowers in winter, not spring. This specimen was collected in January.</en>
+          <en><![CDATA[Collecting a plant when it is in bloom, like<br>this specimen, helps scientists understand when different species flower. Unlike many plants, Lemonadeberry flowers in winter, not spring.<br>This specimen was collected in January.]]></en>
           <es>Recolectar una planta cuando está en flor, como este espécimen, les ayuda a entender a los científicos cuándo florecen las diferentes especies. A diferencia de muchas plantas, el saladito florece en invierno, no en primavera. Este espécimen fue recolectado en enero.</es>
         </text>
         <text id="nature">
@@ -110,7 +110,7 @@
           <es>Clematis pauciflora</es>
         </text>
         <text id="painting">
-          <en>This vine extends delicate stems to climb up neighboring shrubs and into trees, sometimes reaching lengths of 20 feet or more.</en>
+          <en><![CDATA[This vine extends delicate stems to climb<br>up neighboring shrubs and into trees,<br>sometimes reaching lengths of 20 feet or more.]]></en>
           <es>Esta enredadera extiende sus delicadas ramas trepándose a los arbustos y los árboles cercanos, alcanzando a veces alturas de veinte pies o más.</es>
         </text>
         <text id="collections">
@@ -143,11 +143,11 @@
           <es>Sambucus nigra ssp. caerulea</es>
         </text>
         <text id="painting">
-          <en>Summer’s frothy white flowers produce blue-black berries that are food for birds and squirrels.</en>
+          <en><![CDATA[Summer’s frothy white flowers produce<br>blue-black berries that are food for<br>birds and squirrels.]]></en>
           <es>Las espumosas flores blancas del verano producen bayas azul-negruzcas que son alimento para los pájaros y las ardillas.</es>
         </text>
         <text id="collections">
-          <en>On the specimen label, this plant is identified with a different name, Sambucus mexicana. Scientists might change a plant’s name if they learn new information about how it is related to other plants.</en>
+          <en><![CDATA[On the specimen label, this plant is identified with a different name, Sambucus mexicana. Scientists might change a plant’s name if they learn new information about how it is related<br>to other plants.]]></en>
           <es>En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, Sambucus mexicana. Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación que una planta tiene con otras.</es>
         </text>
         <text id="nature">
@@ -213,11 +213,11 @@
           <es>Hay alrededor de doscientas especies de garañonas, un grupo de plantas que se asemejan a pinceles remojados en pintura. La garañona se distingue por sus tallos y hojas velludas.</es>
         </text>
         <text id="collections">
-          <en>Woolly Paintbrush grows almost exclusively in California. When scientists collect a plant specimen, they document exactly where it was found. Plant collections deepen our understanding of which species grow where.</en>
+          <en><![CDATA[Woolly Paintbrush grows almost exclusively<br>in California. When scientists collect a plant specimen, they document exactly where it<br>was found. Plant collections deepen our understanding of which species grow where.]]></en>
           <es>La garañona crece casi exclusivamente en California. Cuando los científicos recolectan un espécimen de planta, documentan exactamente dónde fue encontrado. Las colecciones de plantas profundizan nuestra comprensión acerca de cuáles especies crecen en determinados lugares.</es>
         </text>
         <text id="nature">
-          <en>When you see Woolly Paintbrush, you almost always see other plants growing close by. Indian Paintbrush is partially parasitic: it taps into the roots of other plants for extra water and nutrients.</en>
+          <en><![CDATA[When you see Woolly Paintbrush, you almost always see other plants growing close by.<br>Indian Paintbrush is partially parasitic: it taps<br>into the roots of other plants for extra water<br>and nutrients.]]></en>
           <es>Cuando veas a una garañona, casi siempre se pueden ver otras plantas que crecen cerca. La garañona es parcialmente parasitaria: se aprovecha de las raíces de otras plantas para obtener agua y nutrientes adicionales.</es>
         </text>
 
@@ -246,7 +246,7 @@
           <es>Esta planta crece sobre las laderas y acantilados rocosos del sur de California, donde los colibríes sorben el néctar de sus cilíndricas flores rojas en primavera.</es>
         </text>
         <text id="collections">
-          <en>A cabbage-sized rosette of thick, succulent leaves allows this plant to store water for the dry season.</en>
+          <en><![CDATA[A cabbage-sized rosette of thick, succulent leaves allows this plant to store water<br>for the dry season.]]></en>
           <es>Una roseta del tamaño de un repollo de hojas gruesas y suculentas le permite a esta planta almacenar agua para la temporada seca.</es>
         </text>
         <text id="nature">
@@ -262,12 +262,12 @@
         <images>
           <image id="thumb">img/28-Western_Poison_Oak/28-Western_Poison_Oak_thumb.png</image>
           <image id="painting">img/28-Western_Poison_Oak/28-Western_Poison_Oak_painting.png</image>
-          <image id="collections">img/28-Western_Poison_Oak/28-Western_Poison_Oak_collections.png</image>
+          <image id="collections">img/_recropped/28-collections-s.png</image>
           <image id="nature">img/28-Western_Poison_Oak/28-Western_Poison_Oak_nature.png</image>
         </images>
 
         <text id="common_name">
-          <en>Western Poison-oak</en>
+          <en><![CDATA[Western<br>Poison-oak]]></en>
           <es>Hiedra</es>
         </text>
         <text id="scientific_name">
@@ -279,7 +279,7 @@
           <es>Esta tristemente célebre planta crece cerca de los arroyos y ríos a lo largo de California. Sus hojas, las cuales se tornan rojas en el otoño, contienen aceites que pueden producir una irritación muy incómoda en la piel si las tocas.</es>
         </text>
         <text id="collections">
-          <en>Poison-oak is not related to oaks, but its leaves resemble oak leaves in shape. One way to recognize and avoid Poison-oak in summer: look for small greenish or whitish berries.</en>
+          <en><![CDATA[Poison-oak is not related to oaks, but its leaves resemble oak leaves in shape. One way to recognize and avoid Poison-oak in summer:<br>look for small greenish or whitish berries.]]></en>
           <es>La hiedra no está relacionada a los robles como lo indica su nombre en inglés, pero la forma de sus hojas se parece a las hojas de un roble. Una forma de reconocerlas y evitarlas en verano: fíjate si tienen bayas verdosas o blanquecinas.</es>
         </text>
         <text id="nature">
