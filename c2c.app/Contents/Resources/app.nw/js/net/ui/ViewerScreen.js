@@ -117,7 +117,6 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
 
     // resetInfoContainer() | Reset info container after delay
     ViewerScreen.prototype.resetInfoContainer = function(  ){
-        console.log( " dd "+this.isInfoContainerShowing() );
         if (this.isInfoContainerShowing()==false) this.toggleInfoContainer(true);
     };
 
@@ -244,6 +243,9 @@ define([ 'net/AppData', 'net/ui/ScreenManager', 'net/Language', 'net/ui/PhotoVie
             var viewType  = btnId.substring(9);
             $("#info_container #painting, #info_container #collections, #info_container #nature").hide();
             $("#info_container #"+viewType).show();
+
+            //if info window is closed, re-open
+            TweenLite.delayedCall(0.5, this.resetInfoContainer, [], this );
 
         }
 
