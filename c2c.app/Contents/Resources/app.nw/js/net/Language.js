@@ -19,13 +19,13 @@ define(['net/AppData'], function(AppData){
         this.toggleTxt = $(this.toggleBtn).find("h3");
 
         //use language button to switch between english and spandish
+        var thisRef = this;
         $( this.toggleBtn ).on( "click", function(){
-
             if ( Language.getCurrentLanguage() == Language.ENGLISH ) {
-                $(this.toggleTxt).html("English");
+                $(thisRef.toggleTxt).html("English");
                 Language.setLanguage( Language.SPANISH );
             } else {
-                $(this.toggleTxt).html("Español");
+                $(thisRef.toggleTxt).html("Español");
                 Language.setLanguage( Language.ENGLISH );
             }
 

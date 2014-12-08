@@ -116,7 +116,7 @@
         </text>
         <text id="collections">
           <en>The long, feathery structures you can see on this specimen are called “styles.” Styles help the plant reproduce by transferring pollen down to the plant’s ovary, where fertilization happens.</en>
-          <es>Las largas y plumosas estructuras que puedes ver en este espécimen son llamadas</es>
+          <es>Las largas y plumosas estructuras que puedes ver en este espécimen son llamadas "estilos". Los estilos ayudan a la planta a reproducirse al transferir el polen al ovario de la planta donde ocurre la fertilización.</es>
         </text>
         <text id="nature">
           <en>This plant’s flowers look like little powder puffs because each one has a cluster of up to 50 stamens, which produce the plant’s pollen. This increases a plant’s chances of reproducing.</en>
@@ -140,16 +140,16 @@
           <es>Saúco mexicano</es>
         </text>
         <text id="scientific_name">
-          <en>Sambucus nigra ssp. caerulea</en>
-          <es>Sambucus nigra ssp. caerulea</es>
+          <en><![CDATA[Sambucus nigra <span style="font-style: normal;">ssp.</span> caerulea]]></en>
+          <es><![CDATA[Sambucus nigra <span style="font-style: normal;">ssp.</span> caerulea]]></es>
         </text>
         <text id="painting">
           <en><![CDATA[Summer’s frothy white flowers produce<br>blue-black berries that are food for<br>birds and squirrels.]]></en>
           <es>Las espumosas flores blancas del verano producen bayas azul-negruzcas que son alimento para los pájaros y las ardillas.</es>
         </text>
         <text id="collections">
-          <en><![CDATA[On the specimen label, this plant is identified with a different name, Sambucus mexicana. Scientists might change a plant’s name if they learn new information about how it is related<br>to other plants.]]></en>
-          <es>En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, Sambucus mexicana. Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación que una planta tiene con otras.</es>
+          <en><![CDATA[On the specimen label, this plant is identified with a different name, <em>Sambucus mexicana.</em> Scientists might change a plant’s name if they learn new information about how it is related<br>to other plants.]]></en>
+          <es><![CDATA[En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, <em>Sambucus mexicana.</em> Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación que una planta tiene con otras.]]></es>
         </text>
         <text id="nature">
           <en>Blue Elderberry loses its leaves during southern California’s dry summers. Winter rains bring new leaves, and spring brings flowers.</en>
@@ -218,7 +218,7 @@
           <es>La garañona crece casi exclusivamente en California. Cuando los científicos recolectan un espécimen de planta, documentan exactamente dónde fue encontrado. Las colecciones de plantas profundizan nuestra comprensión acerca de cuáles especies crecen en determinados lugares.</es>
         </text>
         <text id="nature">
-          <en><![CDATA[When you see Woolly Paintbrush, you almost always see other plants growing close by.<br>Indian Paintbrush is partially parasitic: it taps<br>into the roots of other plants for extra water<br>and nutrients.]]></en>
+          <en><![CDATA[When you see Woolly Paintbrush, you almost always see other plants growing close by.<br>This plant is partially parasitic: it taps<br>into the roots of other plants for extra water<br>and nutrients.]]></en>
           <es>Cuando veas a una garañona, casi siempre se pueden ver otras plantas que crecen cerca. La garañona es parcialmente parasitaria: se aprovecha de las raíces de otras plantas para obtener agua y nutrientes adicionales.</es>
         </text>
 
@@ -313,8 +313,8 @@
           <es>Si visitas la Reserva Natural Estatal Torrey Pines y caminas desde los acantilados hasta la orilla del mar, es posible que veas el zacate salado creciendo cerca de la marisma salada.</es>
         </text>
         <text id="collections">
-          <en><![CDATA[The Latin name spicata, meaning “arranged<br>in spikes,” describes the way this plant’s flowers grow like clusters of tiny spikes on the ends of long stems.]]></en>
-          <es>El nombre spicata en latín significa “ordenado en espigas”, y describe cómo crecen las flores de esta planta en grupos de pequeñas espigas sobre largos tallos.</es>
+          <en><![CDATA[The Latin name <em>spicata,</em> meaning “arranged<br>in spikes,” describes the way this plant’s flowers grow like clusters of tiny spikes on the ends of long stems.]]></en>
+          <es><![CDATA[El nombre <em>spicata</em> en latín significa “ordenado en espigas”, y describe cómo crecen las flores de esta planta en grupos de pequeñas espigas sobre largos tallos.]]></es>
         </text>
         <text id="nature">
           <en><![CDATA[It isn’t easy for a plant to grow in sand,<br>but Saltgrass does. Its roots form dense clumps<br>that anchor the plant to unstable soil.]]></en>
@@ -375,13 +375,12 @@
           <es>Ceanothus tomentosus</es>
         </text>
         <text id="painting">
-          <en><![CDATA[Many species of Ceanothus grow in southern California, bringing clouds of purple-blue<br>to sunny coastal slopes in spring.]]></en>
-          <es>Muchas especies de Ceanothus crecen en el sur de California, trayendo nubes de azul-púrpura a las soleadas laderas de la costa en la primavera.</es>
+          <en><![CDATA[Many species of <em>Ceanothus</em> grow in southern California, bringing clouds of purple-blue<br>to sunny coastal slopes in spring.]]></en>
+          <es><![CDATA[Muchas especies de Ceanothus crecen en el sur de California, trayendo nubes de azul-púrpura a las soleadas laderas de la costa en la primavera.]]></es>
         </text>
         <text id="collections">
-          <en><![CDATA[This species gets its name from its leaves,<br>which have fuzzy undersides.<br>(The Latin word tomentose means “fuzzy”).]]></en>
-          <en></en>
-          <es>Esta especie recibe su nombre por sus hojas, que tienen las partes inferiores velludas. (La palabra tomentosa que viene del latín significa “velluda”).</es>
+          <en><![CDATA[This species gets its name from its leaves,<br>which have fuzzy undersides.<br>(The Latin word <em>tomentose</em> means “fuzzy”.)]]></en>
+          <es><![CDATA[Esta especie recibe su nombre por sus hojas, que tienen las partes inferiores velludas. (La palabra <em>tomentosa</em> que viene del latín significa “velluda”).]]></es>
         </text>
         <text id="nature">
           <en><![CDATA[If you’ve ever seen Garden Lilacs, you know<br>they look a lot like these flowers. But a<br>“Ramona-lilac” is not really a Lilac—<br>it just has lilac-colored blooms.]]></en>
@@ -538,12 +537,11 @@
           <es>Chícharo</es>
         </text>
         <text id="scientific_name">
-          <en>Lathyrus vestitus var. alefeldii</en>
-          <es>Lathyrus vestitus var. alefeldii</es>
+          <en><![CDATA[Lathyrus vestitus <span style="font-style: normal;">var.</span> alefeldii]]></en>
+          <es><![CDATA[Lathyrus vestitus <span style="font-style: normal;">var.</span> alefeldii]]></es>
         </text>
         <text id="painting">
           <en><![CDATA[Delicate coiling tendrils twine around supporting structures and other plants, helping the<br>San Diego Sweet Pea vine to climb.]]></en>
-          <en></en>
           <es>Delicados zarcillos enrollados se enroscan a las estructuras vecinas y otras plantas, ayudando así a trepar a la enredadera chícharo.</es>
         </text>
         <text id="collections">
@@ -709,8 +707,8 @@
           <es>Calochortus splendens</es>
         </text>
         <text id="painting">
-          <en>Delicate pink or lavender flowers seem to float like butterflies (mariposas in Spanish) on this lily’s thin stems.</en>
-          <es>Delicadas flores rosas o lavanda parecen flotar como mariposas en los delgados tallos de este lirio.</es>
+          <en><![CDATA[Delicate pink or lavender flowers seem to float like butterflies (<em>mariposas</em> in Spanish) on this lily’s thin stems.]]></en>
+          <es><![CDATA[Delicadas flores rosas o lavanda parecen flotar como mariposas en los delgados tallos de este lirio.]]></es>
         </text>
         <text id="collections">
           <en>This specimen was photographed before it was collected and preserved, documenting how its three petals form a bowl-shaped flower.</en>
@@ -738,16 +736,16 @@
           <es>Maderista</es>
         </text>
         <text id="scientific_name">
-          <en>Eriogonum fasciculatum var. foliolosum</en>
-          <es>Eriogonum fasciculatum var. foliolosum</es>
+          <en><![CDATA[Eriogonum fasciculatum <span style="font-style: normal;">var.</span> foliolosum]]></en>
+          <es><![CDATA[Eriogonum fasciculatum <span style="font-style: normal;">var.</span> foliolosum]]></es>
         </text>
         <text id="painting">
           <en>California Buckwheat’s flowers change with the seasons. White when they appear in spring, they turn pink in summer and then rust-colored in fall as the fruits inside mature.</en>
           <es>Las flores de la maderista cambian con las estaciones. Son blancas cuando aparecen en la primavera; se tornan rosadas en el verano y luego de color herrumbre en el otoño al madurar los frutos internos.</es>
         </text>
         <text id="collections">
-          <en>More than 125 species of wild buckwheat (Eriogonum) grow in California. Studying specimens such as this one helps scientists understand differences among closely related plants.</en>
-          <es>Crecen más de 125 especies de maderista (Eriogonum) en California. Estudiar especímenes como éste les ayuda a los científicos a entender las diferencias entre plantas estrechamente relacionadas.</es>
+          <en><![CDATA[More than 125 species of wild buckwheat <em>(Eriogonum)</em> grow in California. Studying specimens such as this one helps scientists understand differences among closely related plants.]]></en>
+          <es><![CDATA[Crecen más de 125 especies de maderista <em>(Eriogonum)</em> en California. Estudiar especímenes como éste les ayuda a los científicos a entender las diferencias entre plantas estrechamente relacionadas.]]></es>
         </text>
         <text id="nature">
           <en>Other plants might have more eye-catching flowers, but a single California Buckwheat shrub can have hundreds of blooms. This plant is a favorite of bees and butterflies.</en>
@@ -779,8 +777,8 @@
           <es>Esta planta pertenece a un grupo más grande de plantas llamadas flores mono. Algunas especies en este grupo tienen flores que se asemejan a la cara de un mono risueño. No es el caso de esta especie, pero es de ahí que recibe el nombre.</es>
         </text>
         <text id="collections">
-          <en>On the specimen label, this plant is identified with a different name, Mimulus aurantiacus. It’s the same plant. Scientists might change a plant’s name if they learn new information about how it is related to other plants.</en>
-          <es>En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, Mimulus aurantiacus. Es la misma planta. Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación de una planta con otras.</es>
+          <en><![CDATA[On the specimen label, this plant is identified with a different name, <em>Mimulus aurantiacus.</em> It’s the same plant. Scientists might change a plant’s name if they learn new information about how it is related to other plants.]]></en>
+          <es><![CDATA[En el rótulo de especímenes, a esta planta se la identifica con un nombre diferente, <em>Mimulus aurantiacus.</em> Es la misma planta. Los científicos pueden cambiar el nombre de una planta si descubren nueva información acerca de la relación de una planta con otras.]]></es>
         </text>
         <text id="nature">
           <en>The white structures sticking out from the center of each flower are its stigmas, which receive the pollen that enables the plant to reproduce. Bush Monkey Flower has touch-sensitive stigmas—if you touch them, they close up.</en>
@@ -817,8 +815,8 @@
           <es>Mira con atención para ver los delicados vellos en las hojas y tallos de esta planta. Los vellos retienen el aire húmedo cerca de la superficie de la planta, evitando que se reseque. En el sur de California, la sequía es común—y también lo son las plantas con hojas velludas.</es>
         </text>
         <text id="nature">
-          <en>You might not see these mallow blooms for years. The plant’s seeds lie dormant in the soil for years, typically sprouting after a wildfire.</en>
-          <es>Es posible que no veas a estas flores de la malvia durante años. Las semillas de la planta yacen latentes en la tierra por años, brotando típicamente después de un incendio natural.</es>
+          <en><![CDATA[You might not see these mallow blooms for years. The plant’s seeds lie dormant in the soil, typically sprouting after a wildfire.]]></en>
+          <es>Es posible que no veas a estas flores de la malvia durante años. Las semillas de la planta yacen latentes en la tierra, brotando típicamente después de un incendio natural.</es>
         </text>
 
       </plant>
@@ -847,7 +845,7 @@
           <es>Las flores naranjas o amarillas de este cactus florecen en la primavera y producen jugosas frutas rojas en el verano. Estas frutas no son en realidad “peras” como lo indica su nombre en inglés, pero son espinosas: quítales las agudas espinas antes de comerlas.</es>
         </text>
         <text id="collections">
-          <en>You may have noticed nopale or nopalito on the menu in a Mexican restaurant. It’s the flat, fleshy, paddle-like stem of a prickly-pear cactus. It’s edible after the needle-sharp spines are removed and the plant has been boiled.</en>
+          <en><![CDATA[You may have noticed <em>nopal</em> or <em>nopalito</em> on the menu in a Mexican restaurant. It’s the flat, fleshy, paddle-like stem of a prickly-pear cactus. It’s edible after the needle-sharp spines are removed and the plant has been boiled.]]></en>
           <es>Posiblemente hayas visto “nopal” o “nopalito” en el menú de un restaurante mexicano. Es el tallo liso y carnoso de un nopal que se asemeja a una raqueta. Se puede comer después que se hayan quitado las espinas filosas como agujas y la planta haya sido hervida.</es>
         </text>
         <text id="nature">
@@ -872,8 +870,8 @@
           <es>Ejotillo</es>
         </text>
         <text id="scientific_name">
-          <en>Peritoma arborea var. arborea</en>
-          <es>Peritoma arborea var. arborea</es>
+          <en><![CDATA[Peritoma arborea <span style="font-style: normal;">var.</span> arborea]]></en>
+          <es><![CDATA[Peritoma arborea <span style="font-style: normal;">var.</span> arborea]]></es>
         </text>
         <text id="painting">
           <en>You might see Bladderpod clinging to the cliffs at Torrey Pines State Natural Reserve. This plant can tolerate salty sea spray that most other plants cannot.</en>
@@ -905,8 +903,8 @@
           <es>Coveria</es>
         </text>
         <text id="scientific_name">
-          <en>Dichelostemma capitatum ssp. capitatum</en>
-          <es>Dichelostemma capitatum ssp. capitatum</es>
+          <en><![CDATA[Dichelostemma capitatum <span style="font-style: normal;">ssp.</span> capitatum]]></en>
+          <es><![CDATA[Dichelostemma capitatum <span style="font-style: normal;">ssp.</span> capitatum]]></es>
         </text>
         <text id="painting">
           <en>Clusters of bell-shaped purple or blue flowers top a Wild Hyacinth’s tall, bare stems above slender leaves.</en>
@@ -950,7 +948,7 @@
           <es>Una de las flores de este espécimen está abierta; las demás estan cerradas. Una amapola amarilla se abre con la luz del día y se cierra otra vez al atardecer.</es>
         </text>
         <text id="nature">
-          <en><![CDATA[Long before this flower became a California state symbol, early Spanish settlers called it<br>copa de oro (“cup of gold”).]]></en>
+          <en><![CDATA[Long before this flower became a California state symbol, early Spanish settlers called it<br><em>copa de oro</em> (“cup of gold”).]]></en>
           <en></en>
           <es>Mucho antes de que esta flor llegara a ser un símbolo del estado de California, los colonizadores españoles la llamaban “copa de oro”.</es>
         </text>
@@ -972,8 +970,8 @@
           <es>Cardo californiano</es>
         </text>
         <text id="scientific_name">
-          <en>Cirsium occidentale var. californicum</en>
-          <es>Cirsium occidentale var. californicum</es>
+          <en><![CDATA[Cirsium occidentale <span style="font-style: normal;">var.</span> californicum]]></en>
+          <es><![CDATA[Cirsium occidentale <span style="font-style: normal;">var.</span> californicum]]></es>
         </text>
         <text id="painting">
           <en>Reaching heights of up to four feet with big clusters of pink or lavender flowers, this native thistle grows only in California.</en>
