@@ -15,8 +15,21 @@
     <link rel="stylesheet" href="css/fonts/stylesheet.css">
 
     <script type="text/javascript">
+        // Dealing with Node Webkit bug
+        //
+        // This allows us to truely go full screen. Without it, the Apple menu
+        // is available when you mouse to the top of the screen.
+        var gui = require('nw.gui');
+        gui.Window.get().enterKioskMode();
+        gui.Window.get().enterKioskMode();
+
+        // Deal with Node Webkit name space issues.
+        // Without this the Node Webkit 'require' function colides with the
+        // require.js 'require' function. This changes Node Webkit's require
+        // to a function called 'requireNode'
         window.requireNode = window.require;
         window.require = undefined;
+
     </script>
     <script src="js/vendor/requirejs/require.js" data-main="js/app.js"></script>
 
