@@ -1,3 +1,6 @@
+# OLD version
+This was the Node Webkit version. We've since abandoned this approach for a HTML only application that builds into an Electron app.
+
 # A.R. Valentien Painting Viewer
 Zoomable painting viewer for the San Diego Natural History Museum's [Coast to 
 Cactus exhibit](http://www.sdnhm.org/exhibitions/current-exhibitions/coast-to-cactus-in-southern-california/).
