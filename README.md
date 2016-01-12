@@ -1,5 +1,5 @@
 # OLD version
-This was the Node Webkit version. We've since abandoned this approach for a HTML [only application that builds into an Electron app.](https://github.com/scimusmn/sd-valentien-old) 
+This was the Node Webkit version. We've since abandoned this approach for a HTML [only application that builds into an Electron app.](https://github.com/scimusmn/sd-0452-valentien) 
 
 # A.R. Valentien Painting Viewer
 Zoomable painting viewer for the San Diego Natural History Museum's [Coast to 
